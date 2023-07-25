@@ -1,0 +1,168 @@
+*****************************
+***********SYSTEM************
+*****************************
+Unity Version:2021.3.8f1
+OS:Windows 11  (10.0.22621) 64bit
+System Time: 7/20/2023 3:52:17 PM
+
+*****************************
+***********PROJECT***********
+*****************************
+Scripting Define Symbols: C3D_PICOXR
+Packages:
+  com.cognitive3d.c3d-sdk 1.1.0
+  com.tobii.xr.sdk 3.0.1
+  com.unity.collab-proxy 1.17.1
+  com.unity.ide.rider 3.0.15
+  com.unity.ide.visualstudio 2.0.16
+  com.unity.ide.vscode 1.2.5
+  com.unity.test-framework 1.1.31
+  com.unity.textmeshpro 3.0.6
+  com.unity.timeline 1.6.4
+  com.unity.ugui 1.0.0
+  com.unity.xr.interaction.toolkit 2.3.0-pre.1
+  com.unity.xr.interactionsubsystems 1.0.1
+  com.unity.xr.legacyinputhelpers 2.1.10
+  com.unity.xr.management 4.2.1
+  com.unity.xr.mock-hmd 1.3.1-preview.1
+  com.unity.xr.picoxr 2.1.4
+  com.unity.modules.ai 1.0.0
+  com.unity.modules.androidjni 1.0.0
+  com.unity.modules.animation 1.0.0
+  com.unity.modules.assetbundle 1.0.0
+  com.unity.modules.audio 1.0.0
+  com.unity.modules.cloth 1.0.0
+  com.unity.modules.director 1.0.0
+  com.unity.modules.imageconversion 1.0.0
+  com.unity.modules.imgui 1.0.0
+  com.unity.modules.jsonserialize 1.0.0
+  com.unity.modules.particlesystem 1.0.0
+  com.unity.modules.physics 1.0.0
+  com.unity.modules.physics2d 1.0.0
+  com.unity.modules.screencapture 1.0.0
+  com.unity.modules.terrain 1.0.0
+  com.unity.modules.terrainphysics 1.0.0
+  com.unity.modules.tilemap 1.0.0
+  com.unity.modules.ui 1.0.0
+  com.unity.modules.uielements 1.0.0
+  com.unity.modules.umbra 1.0.0
+  com.unity.modules.unityanalytics 1.0.0
+  com.unity.modules.unitywebrequest 1.0.0
+  com.unity.modules.unitywebrequestassetbundle 1.0.0
+  com.unity.modules.unitywebrequestaudio 1.0.0
+  com.unity.modules.unitywebrequesttexture 1.0.0
+  com.unity.modules.unitywebrequestwww 1.0.0
+  com.unity.modules.vehicles 1.0.0
+  com.unity.modules.video 1.0.0
+  com.unity.modules.vr 1.0.0
+  com.unity.modules.wind 1.0.0
+  com.unity.modules.xr 1.0.0
+SDK Version: 1.1.0
+Api Key: ****QU8P
+Developer Key: ****IHNX
+Enable Logging: True
+Enable Development Logging: False
+Gaze Type: Physics
+Snapshot Interval: 0.1
+Dynamic Object Search in Parent: True
+Dynamic Object Layer Mask: -1
+Track GPS Location: False
+GPS Accuracy: 2
+Record Floor Position: True
+Automatic Send Timer: 10
+Gaze Snapshot Batch Size: 64
+Event Snapshot Batch Size: 64
+Dynamic Snapshot Batch Size: 128
+Sensor Snapshot Batch Size: 128
+Fixation Snapshot Batch Size: 64
+Save Data to Local Cache if no internet connection: True
+Cache Size (bytes): 104857600
+Cache Size (mb): 100.0 MB
+Custom Protocol: https
+Custom Gateway: data.cognitive3d.com
+Custom Viewer: viewer.cognitive3d.com/scene/
+Custom Dashboard: app.cognitive3d.com
+Texture Export Quality: 1
+Export Lowest LOD from LODGroup Components: True
+Scene Settings:
+  ├─PicoScene
+  │  ├─Scene Id: f3674c5a-e09f-47ae-b1bd-abdd3f8bc220
+  │  ├─Scene Path: Assets/Scenes/PicoScene.unity
+  │  ├─Last Revision: 04/24/2023 11:55:58
+  │  ├─Version Number: 1
+  │  └─Version Id: 4034
+  └─Pico_modalities
+     ├─Scene Id: 9a4e19ad-aa45-46a4-a076-147754b828bf
+     ├─Scene Path: Assets/Scenes/Pico_modalities.unity
+     ├─Last Revision: 07/20/2023 11:38:04
+     ├─Version Number: 1
+     └─Version Id: 4461
+
+*****************************
+********CURRENT SCENE********
+*****************************
+Scene Name: Pico_modalities
+Scene Id: 9a4e19ad-aa45-46a4-a076-147754b828bf
+Scene Path: Assets/Scenes/Pico_modalities.unity
+Last Revision: 07/20/2023 11:38:04
+Version Number: 1
+Version Id: 4461
+Scene Size (mb): 0.21
+Main Camera GameObject: Main Camera
+Manager Initialize On Start: True
+Manager Startup Delay Time (s): 0
+
+*****************************
+****CURRENT SCENE OBJECTS****
+*****************************
+Dynamic Object Count: 4
+  ├─HandRight
+  │  ├─Mesh Name: handright
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─HandLeft
+  │  ├─Mesh Name: handleft
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─RightHand (Teleport Locomotion)
+  │  ├─Mesh Name: righthand_(teleport_locomotion)
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  └─LeftHand (Smooth locomotion)
+     ├─Mesh Name: lefthand_(smooth_locomotion)
+     ├─Has Collider: false
+     ├─Has Children: true
+     └─Has Child Colliders: true
+
+*****************************
+********EXPORT FOLDER********
+*****************************
+/Cognitive3D_SceneExplorerExport (0mb)
+   /Dynamic (0.00mb)
+   /PicoScene (0.21mb)
+      371857150CanvasMain.png (0.00mb)
+      371857150Gaze_Interactable_InfoMain.png (0.02mb)
+      371857150Grab_Interactable_InfoMain.png (0.02mb)
+      371857150ModalSingleButtonMain.png (0.00mb)
+      371857150TextButtonMain.png (0.00mb)
+      371857150UI_SampleMain.png (0.02mb)
+      debug.log (0.00mb)
+      scene.bin (0.07mb)
+      scene.gltf (0.04mb)
+      settings.json (0.00mb)
+      /screenshot (0.02mb)
+         screenshot.png (0.02mb)
+   /Pico_modalities (0.21mb)
+      1918918961RedTargetMain.png (0.02mb)
+      371857150Grab_Interactable_InfoMain.png (0.02mb)
+      371857150Grab_Interactable_Info_(1)Main.png (0.02mb)
+      371857150Grab_Interactable_Info_(2)Main.png (0.02mb)
+      debug.log (0.01mb)
+      scene.bin (0.07mb)
+      scene.gltf (0.05mb)
+      settings.json (0.00mb)
+      /screenshot (0.00mb)
+         screenshot.png (0.00mb)

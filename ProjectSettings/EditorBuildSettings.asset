@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/ReadyRoom.unity
+    guid: 50bf13f1cd4c7684fabf377a831029bf
+  - enabled: 0
+    path: Assets/Scenes/PicoScene.unity
+    guid: 6b7097bb3f062204593c9235011d10e4
+  - enabled: 0
+    path: Assets/Samples/Tobii XR SDK/3.0.1/Hand-Eye Coordination/Example_HandEyeCoordination.unity
+    guid: a1afc59b71668494f993a9b2a118ca97
+  - enabled: 0
+    path: Assets/Samples/Tobii XR SDK/3.0.1/Getting Started/Example_GettingStarted.unity
+    guid: 221a337531f80eb4eb510b1cd2874c53
+  - enabled: 0
+    path: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Demo Scene/DemoScene.unity
+    guid: c55ebd06f3ddbc142a4bbfd69bf7c95e
+  - enabled: 1
+    path: Assets/Scenes/Pico_modalities.unity
+    guid: fcfcd83ac8b408c4a88b847a292c1cf0
+  m_configObjects:
+    Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 50f6fdd51683b704cb6f970b62b4fcf6, type: 2}
+    Unity.XR.PXR.Settings: {fileID: 11400000, guid: c318218c4ccc9fa4b9417ec7da4443fb, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b2c379e0ee6cb6945977b9c1c450f976, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 6716a9522ba1f6049a40dc31a1c146e2, type: 2}

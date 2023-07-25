@@ -1,0 +1,2993 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        350.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -350.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.71428573131561279
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        350.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -350.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.71428573131561279
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        1.0,
+        0.50000005960464478
+      ],
+      "min": [
+        -0.50000011920928955,
+        -1.0,
+        -0.5000002384185791
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99974912405014038,
+        0.99954628944396973
+      ],
+      "min": [
+        0.00069368560798466206,
+        0.00056922435760498047
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99716836214065552,
+        0.99739980697631836
+      ],
+      "min": [
+        0.0043606190010905266,
+        0.0021193623542785645
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5121,
+      "count": 240,
+      "type": "SCALAR",
+      "max": [
+        87.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.19999998807907104,
+        0.49999985098838806
+      ],
+      "min": [
+        -0.49999964237213135,
+        0.0,
+        -0.4999995231628418
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC2",
+      "max": [
+        0.65625,
+        0.99999988079071045
+      ],
+      "min": [
+        0.34375011920928955,
+        5.9604644775390625E-08
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC2",
+      "max": [
+        0.9558684229850769,
+        0.94929689168930054
+      ],
+      "min": [
+        0.050703123211860657,
+        0.1123773455619812
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5121,
+      "count": 372,
+      "type": "SCALAR",
+      "max": [
+        137.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC3",
+      "max": [
+        0.59999996423721313,
+        0.59999942779541016,
+        0.099999994039535522
+      ],
+      "min": [
+        -0.59999960660934448,
+        -0.59999978542327881,
+        -0.099999994039535522
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        0.99956566095352173
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.99956566095352173
+      ]
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        0.043655335903167725,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.043655343353748322,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.99999994039535522
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        428.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        350.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -350.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.71428573131561279
+      ]
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ]
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ]
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ]
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 73698
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 422,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 710,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1094,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1286,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1478,
+      "byteLength": 36
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1514,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1562,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1610,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1642,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1648,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2704,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3760,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5168,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5872,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6576,
+      "byteLength": 240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6816,
+      "byteLength": 1656
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8472,
+      "byteLength": 1656
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10128,
+      "byteLength": 2208
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12336,
+      "byteLength": 1104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13440,
+      "byteLength": 1104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14544,
+      "byteLength": 372
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14916,
+      "byteLength": 5148
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20064,
+      "byteLength": 5148
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25212,
+      "byteLength": 6864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32076,
+      "byteLength": 3432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35508,
+      "byteLength": 4608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40116,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40164,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40212,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40244,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40250,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46430,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52610,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 60850,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64970,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69090,
+      "byteLength": 4608
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.856880784034729,
+        "yfov": 1.0471975803375244,
+        "zfar": 998.65380859375,
+        "znear": 0.0099999997764825821
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "uri": "371857150Grab_Interactable_Info_(1)Main.png",
+      "name": "Grab_Interactable_Info_(1)"
+    },
+    {
+      "uri": "371857150Grab_Interactable_Info_(2)Main.png",
+      "name": "Grab_Interactable_Info_(2)"
+    },
+    {
+      "uri": "1918918961RedTargetMain.png",
+      "name": "RedTarget"
+    },
+    {
+      "uri": "371857150Grab_Interactable_InfoMain.png",
+      "name": "Grab_Interactable_Info"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "name": "No Name"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "RedTarget 2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "name": "No Name"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.665185034,
+          0.665185034,
+          0.665185034,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "lambert1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05248642,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Blue"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Red"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.7603419,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Yellow"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09859862,
+          0.7169812,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Green"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Black"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.4799652,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Ball Gaze Assisted"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0662789345,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Ball Gaze Assisted 1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Default-Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "Grab Interactable Info (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Gaze Interactable Table"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Gaze Interactable Table (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12
+          },
+          "indices": 13,
+          "material": 2
+        }
+      ],
+      "name": "Grab Interactable Info (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "TargetCylinder (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Cylinder (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 4
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23,
+            "TEXCOORD_1": 24
+          },
+          "indices": 25,
+          "material": 4
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23,
+            "TEXCOORD_1": 24
+          },
+          "indices": 25,
+          "material": 4
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23,
+            "TEXCOORD_1": 24
+          },
+          "indices": 25,
+          "material": 4
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 5
+        }
+      ],
+      "name": "Non-Teleportable Ground"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 6
+        }
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 7
+        }
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 8
+        }
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 9
+        }
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 10
+        }
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 7
+        }
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 9
+        }
+      ],
+      "name": "Cube (4)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 8
+        }
+      ],
+      "name": "Cube (5)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 6
+        }
+      ],
+      "name": "Cube (6)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Grab Interactable Table"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31,
+            "NORMAL": 32,
+            "TEXCOORD_0": 33
+          },
+          "indices": 34,
+          "material": 11
+        }
+      ],
+      "name": "Grab Interactable Info"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TANGENT": 37,
+            "TEXCOORD_0": 38,
+            "TEXCOORD_1": 39
+          },
+          "indices": 40,
+          "material": 12
+        }
+      ],
+      "name": "Ball"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 13
+        }
+      ],
+      "name": "Box"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 6
+        }
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 7
+        }
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 8
+        }
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 9
+        }
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 10
+        }
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TANGENT": 37,
+            "TEXCOORD_0": 38,
+            "TEXCOORD_1": 39
+          },
+          "indices": 40,
+          "material": 6
+        }
+      ],
+      "name": "Interactable Kinematic Torus (4)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 8
+        }
+      ],
+      "name": "Cube (5)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 9
+        }
+      ],
+      "name": "Cube (6)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 7
+        }
+      ],
+      "name": "Cube (8)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 14
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 6
+        }
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 7
+        }
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 8
+        }
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 9
+        }
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 10
+        }
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 7
+        }
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 9
+        }
+      ],
+      "name": "Cube (4)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 8
+        }
+      ],
+      "name": "Cube (5)"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ],
+      "name": "Demo Environment"
+    },
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Directional Light"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.00353800016,
+        0.00353800016,
+        0.00353800016
+      ],
+      "translation": [
+        -0.104,
+        2.403,
+        -4.473
+      ],
+      "name": "Grab Interactable Info (1)"
+    },
+    {
+      "children": [
+        4
+      ],
+      "translation": [
+        0.0,
+        51.5,
+        0.0
+      ],
+      "name": "Header Panel"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.6850014,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "children": [
+        6
+      ],
+      "translation": [
+        250.000031,
+        -65.0,
+        -2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        -9.15527344E-05,
+        0.0,
+        0.0
+      ],
+      "name": "Kinematic Text"
+    },
+    {
+      "children": [
+        8
+      ],
+      "translation": [
+        -250.000031,
+        -65.0,
+        2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0002746582,
+        0.0,
+        0.0
+      ],
+      "name": "Velocity-Tracked Text"
+    },
+    {
+      "mesh": 0,
+      "name": "Grab Interactable Info (1)"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.871911764,
+        1.0,
+        3.25156
+      ],
+      "translation": [
+        0.0,
+        0.625,
+        -4.5
+      ],
+      "name": "Gaze Interactable Table"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        -0.999872565,
+        0.0,
+        0.0159655027
+      ],
+      "scale": [
+        0.871911764,
+        1.0,
+        3.25156
+      ],
+      "translation": [
+        4.09,
+        0.625,
+        -2.73
+      ],
+      "name": "Gaze Interactable Table (1)"
+    },
+    {
+      "children": [
+        13,
+        15,
+        17,
+        19
+      ],
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        0.00353800016,
+        0.00353800016,
+        0.00353800016
+      ],
+      "translation": [
+        4.16,
+        2.403,
+        -2.729
+      ],
+      "name": "Grab Interactable Info (2)"
+    },
+    {
+      "children": [
+        14
+      ],
+      "translation": [
+        0.0,
+        51.5,
+        0.0
+      ],
+      "name": "Header Panel"
+    },
+    {
+      "translation": [
+        -20.2999878,
+        -0.6850014,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "children": [
+        16
+      ],
+      "translation": [
+        250.000031,
+        -65.0,
+        -2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        -9.15527344E-05,
+        0.0,
+        0.0
+      ],
+      "name": "Kinematic Text"
+    },
+    {
+      "children": [
+        18
+      ],
+      "translation": [
+        -250.000031,
+        -65.0,
+        2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0002746582,
+        0.0,
+        0.0
+      ],
+      "name": "Velocity-Tracked Text"
+    },
+    {
+      "mesh": 3,
+      "name": "Grab Interactable Info (2)"
+    },
+    {
+      "children": [
+        21
+      ],
+      "mesh": 4,
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.45,
+        0.015,
+        0.45
+      ],
+      "translation": [
+        -0.841,
+        1.752,
+        -4.78423738
+      ],
+      "name": "TargetCylinder (1)"
+    },
+    {
+      "mesh": 5,
+      "scale": [
+        1.02563989,
+        1.061007,
+        1.02563989
+      ],
+      "translation": [
+        0.004,
+        -0.29,
+        0.005
+      ],
+      "name": "Cylinder (1)"
+    },
+    {
+      "children": [
+        23,
+        25,
+        26,
+        27,
+        28
+      ],
+      "name": "Complete Teleport Area Set Up"
+    },
+    {
+      "children": [
+        24
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "name": "Teleport Area"
+    },
+    {
+      "mesh": 6,
+      "scale": [
+        10.0,
+        0.25,
+        5.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 7,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        3.0,
+        0.125,
+        -2.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 8,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        -3.0,
+        0.125,
+        -2.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 9,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.125,
+        -3.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 10,
+      "scale": [
+        10.0,
+        0.25,
+        5.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -2.5
+      ],
+      "name": "Non-Teleportable Ground"
+    },
+    {
+      "children": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.4,
+        2.93
+      ],
+      "name": "Complete XR Origin Set Up_HandTracking"
+    },
+    {
+      "name": "Input Action Manager"
+    },
+    {
+      "name": "InteractionManager"
+    },
+    {
+      "name": "EventSystem"
+    },
+    {
+      "children": [
+        34,
+        36
+      ],
+      "translation": [
+        0.0,
+        -0.411,
+        0.0
+      ],
+      "name": "XR Origin"
+    },
+    {
+      "children": [
+        35
+      ],
+      "translation": [
+        0.0,
+        1.36144,
+        0.0
+      ],
+      "name": "CameraOffset"
+    },
+    {
+      "camera": 0,
+      "name": "Main Camera"
+    },
+    {
+      "name": "hands_new"
+    },
+    {
+      "children": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        48,
+        49
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        -4.0,
+        0.663,
+        -2.5
+      ],
+      "name": "Controllers Interactables Sample"
+    },
+    {
+      "mesh": 11,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        -1.495,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "mesh": 12,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1594025,
+        0.1594025,
+        0.1594025
+      ],
+      "translation": [
+        -0.796,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "mesh": 13,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.205805,
+        0.205805,
+        0.205805
+      ],
+      "translation": [
+        -0.458,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1196275,
+        0.1196275,
+        0.1196275
+      ],
+      "translation": [
+        -1.104,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "mesh": 15,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        -0.0357969031,
+        0.1869892,
+        0.0444830135
+      ],
+      "translation": [
+        -0.975000143,
+        0.655,
+        0.0
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "children": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        5.12055826,
+        0.554859161,
+        3.1616106
+      ],
+      "name": "CubeTask2"
+    },
+    {
+      "mesh": 16,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.184564382
+      ],
+      "translation": [
+        -2.843,
+        -0.0608592033,
+        4.318
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "mesh": 17,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.8426,
+        -0.0608592033,
+        4.1245
+      ],
+      "name": "Cube (4)"
+    },
+    {
+      "mesh": 18,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.84260941,
+        -0.0608592033,
+        4.489558
+      ],
+      "name": "Cube (5)"
+    },
+    {
+      "mesh": 19,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.184564382
+      ],
+      "translation": [
+        -2.843,
+        -0.0608592033,
+        3.858
+      ],
+      "name": "Cube (6)"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.83875984,
+        1.0,
+        3.73774838
+      ],
+      "translation": [
+        0.0,
+        -0.0379999876,
+        0.007999898
+      ],
+      "name": "Grab Interactable Table"
+    },
+    {
+      "children": [
+        50,
+        52,
+        54,
+        56
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.00353800016,
+        0.00353800016,
+        0.00353800016
+      ],
+      "translation": [
+        0.0,
+        1.329,
+        -0.50000006
+      ],
+      "name": "Grab Interactable Info"
+    },
+    {
+      "children": [
+        51
+      ],
+      "translation": [
+        0.0,
+        51.5,
+        0.0
+      ],
+      "name": "Header Panel"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.6850014,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "children": [
+        53
+      ],
+      "translation": [
+        250.000031,
+        -65.0,
+        -2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        -9.15527344E-05,
+        0.0,
+        0.0
+      ],
+      "name": "Kinematic Text"
+    },
+    {
+      "children": [
+        55
+      ],
+      "translation": [
+        -250.000031,
+        -65.0,
+        2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0002746582,
+        0.0,
+        0.0
+      ],
+      "name": "Velocity-Tracked Text"
+    },
+    {
+      "mesh": 21,
+      "name": "Grab Interactable Info"
+    },
+    {
+      "translation": [
+        0.0,
+        0.663,
+        -4.5
+      ],
+      "name": "Gaze Interactables"
+    },
+    {
+      "name": "TobiiXR Initializer"
+    },
+    {
+      "translation": [
+        1.172396,
+        -0.7032702,
+        5.61399364
+      ],
+      "name": "PXR_EyeTracking"
+    },
+    {
+      "mesh": 22,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        0.179,
+        0.835,
+        1.51
+      ],
+      "name": "Ball"
+    },
+    {
+      "name": "TobiiXR"
+    },
+    {
+      "children": [
+        63
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.211871654,
+        0.211871654,
+        0.211871654
+      ],
+      "translation": [
+        0.0,
+        1.35043991,
+        -97.07
+      ],
+      "name": "Canvas"
+    },
+    {
+      "scale": [
+        0.132049039,
+        0.132049039,
+        0.132049039
+      ],
+      "translation": [
+        -8.0,
+        -1160.0,
+        -10.71
+      ],
+      "name": "Gaze_observation"
+    },
+    {
+      "mesh": 23,
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        -0.891,
+        0.78,
+        1.591
+      ],
+      "name": "Box"
+    },
+    {
+      "name": "Cognitive3D_Manager"
+    },
+    {
+      "children": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "rotation": [
+        0.0,
+        -0.0270928219,
+        0.0,
+        0.999633
+      ],
+      "translation": [
+        0.202,
+        0.655,
+        -4.516
+      ],
+      "name": "Interactables Sample (1)"
+    },
+    {
+      "mesh": 24,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        -1.461,
+        0.5,
+        0.291
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "mesh": 25,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1594025,
+        0.1594025,
+        0.1594025
+      ],
+      "translation": [
+        -0.796,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "mesh": 26,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.205805,
+        0.205805,
+        0.205805
+      ],
+      "translation": [
+        -0.458,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "mesh": 27,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1196275,
+        0.1196275,
+        0.1196275
+      ],
+      "translation": [
+        -1.104,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "mesh": 28,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        -0.0357969031,
+        0.1869892,
+        0.0444830135
+      ],
+      "translation": [
+        -0.967,
+        0.663,
+        0.151
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "mesh": 29,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.0710125,
+        0.0710125,
+        0.0710125
+      ],
+      "translation": [
+        -1.254,
+        0.5,
+        0.39
+      ],
+      "name": "Interactable Kinematic Torus (4)"
+    },
+    {
+      "children": [
+        74,
+        75,
+        76
+      ],
+      "rotation": [
+        0.0,
+        -0.725991845,
+        0.0,
+        0.6877034
+      ],
+      "translation": [
+        5.0,
+        1.21785915,
+        -1.21
+      ],
+      "name": "CubeTask2 (1)"
+    },
+    {
+      "mesh": 30,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.84260941,
+        -0.0608592033,
+        4.489558
+      ],
+      "name": "Cube (5)"
+    },
+    {
+      "mesh": 31,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.858,
+        -0.0608592033,
+        4.215
+      ],
+      "name": "Cube (6)"
+    },
+    {
+      "mesh": 32,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.85,
+        -0.0608592033,
+        4.355
+      ],
+      "name": "Cube (8)"
+    },
+    {
+      "children": [
+        78,
+        80,
+        81,
+        82,
+        83
+      ],
+      "rotation": [
+        0.0,
+        -0.674994767,
+        0.0,
+        0.7378226
+      ],
+      "translation": [
+        4.23,
+        0.655,
+        -2.497
+      ],
+      "name": "Interactables Sample (2)"
+    },
+    {
+      "children": [
+        79
+      ],
+      "mesh": 33,
+      "scale": [
+        -0.0148687642,
+        -0.0148687642,
+        -0.0148687642
+      ],
+      "translation": [
+        -1.37760091,
+        0.5135,
+        0.3187003
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 34,
+      "rotation": [
+        0.707106769,
+        0.0,
+        0.0,
+        0.707106769
+      ],
+      "scale": [
+        -16.81377,
+        -16.8137722,
+        -16.8137741
+      ],
+      "translation": [
+        7.895775,
+        0.907942057,
+        3.14082885
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "mesh": 35,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1594025,
+        0.1594025,
+        0.1594025
+      ],
+      "translation": [
+        -0.796,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (1)"
+    },
+    {
+      "mesh": 36,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.205805,
+        0.205805,
+        0.205805
+      ],
+      "translation": [
+        -0.458,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (2)"
+    },
+    {
+      "mesh": 37,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.1196275,
+        0.1196275,
+        0.1196275
+      ],
+      "translation": [
+        -1.104,
+        0.5,
+        0.272
+      ],
+      "name": "Interactable Kinematic Torus (3)"
+    },
+    {
+      "mesh": 38,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        -0.0357969031,
+        0.1869892,
+        0.0444830135
+      ],
+      "translation": [
+        -0.975000143,
+        0.655,
+        0.0
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "children": [
+        85,
+        86,
+        87
+      ],
+      "rotation": [
+        0.0,
+        -0.9999579,
+        0.0,
+        0.009176621
+      ],
+      "translation": [
+        1.3,
+        1.21785915,
+        2.63
+      ],
+      "name": "CubeTask2 (2)"
+    },
+    {
+      "mesh": 39,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.84260941,
+        -0.0608592033,
+        4.358581
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "mesh": 40,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.84260941,
+        -0.0608592033,
+        4.222558
+      ],
+      "name": "Cube (4)"
+    },
+    {
+      "mesh": 41,
+      "scale": [
+        0.063083,
+        0.063083,
+        0.063083
+      ],
+      "translation": [
+        -2.84260941,
+        -0.0608592033,
+        4.489558
+      ],
+      "name": "Cube (5)"
+    }
+  ],
+  "samplers": [
+    {},
+    {
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        20,
+        22,
+        29,
+        37,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        73,
+        77,
+        84
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "371857150Grab_Interactable_Info_(1)Main"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "371857150Grab_Interactable_Info_(2)Main"
+    },
+    {
+      "sampler": 1,
+      "source": 2,
+      "name": "1918918961RedTargetMain"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "371857150Grab_Interactable_InfoMain"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "color": [
+            1.0,
+            0.956862748,
+            0.8392157
+          ],
+          "name": "Directional Light"
+        }
+      ]
+    }
+  }
+}

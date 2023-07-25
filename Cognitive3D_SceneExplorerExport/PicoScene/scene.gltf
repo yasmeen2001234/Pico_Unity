@@ -1,0 +1,2634 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        350.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -350.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.71428573131561279
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        400.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -400.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.19999998807907104,
+        0.49999985098838806
+      ],
+      "min": [
+        -0.49999964237213135,
+        0.0,
+        -0.4999995231628418
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC2",
+      "max": [
+        0.65625,
+        0.99999988079071045
+      ],
+      "min": [
+        0.34375011920928955,
+        5.9604644775390625E-08
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 138,
+      "type": "VEC2",
+      "max": [
+        0.9558684229850769,
+        0.94929689168930054
+      ],
+      "min": [
+        0.050703123211860657,
+        0.1123773455619812
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5121,
+      "count": 372,
+      "type": "SCALAR",
+      "max": [
+        137.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC3",
+      "max": [
+        0.59999996423721313,
+        0.59999942779541016,
+        0.099999994039535522
+      ],
+      "min": [
+        -0.59999960660934448,
+        -0.59999978542327881,
+        -0.099999994039535522
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        0.99956566095352173
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.99956566095352173
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        0.043655335903167725,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.043655343353748322,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 429,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.99999994039535522
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        428.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC3",
+      "max": [
+        0.43469527363777161,
+        0.57984471321105957,
+        0.43469527363777161
+      ],
+      "min": [
+        -0.43469527363777161,
+        0.0,
+        -0.43469527363777161
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC3",
+      "max": [
+        0.62475442886352539,
+        0.46836304664611816,
+        0.62475442886352539
+      ],
+      "min": [
+        -0.62475442886352539,
+        -1.0,
+        -0.62475448846817017
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.70710676908493042,
+        1.0
+      ],
+      "min": [
+        -0.7071068286895752,
+        0.0,
+        -0.70710676908493042,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC2",
+      "max": [
+        0.75,
+        1.0
+      ],
+      "min": [
+        0.25,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5121,
+      "count": 18,
+      "type": "SCALAR",
+      "max": [
+        15.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        0.099999994039535522
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -0.099999994039535522
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        0.70710676908493042,
+        0.70710676908493042,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        -0.70687007904052734,
+        -0.035333264619112015,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC2",
+      "max": [
+        0.625,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5121,
+      "count": 24,
+      "type": "SCALAR",
+      "max": [
+        17.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        131.05000305175781,
+        24.0,
+        0.0
+      ],
+      "min": [
+        -131.05000305175781,
+        -24.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.8168637752532959
+      ]
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        147.05000305175781,
+        88.75,
+        0.0
+      ],
+      "min": [
+        -147.05000305175781,
+        -88.75,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.39646381139755249
+      ]
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        275.0,
+        100.0,
+        0.0
+      ],
+      "min": [
+        -275.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 44,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 45,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.63636362552642822
+      ]
+    },
+    {
+      "bufferView": 46,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 47,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        1.0,
+        0.50000005960464478
+      ],
+      "min": [
+        -0.50000011920928955,
+        -1.0,
+        -0.5000002384185791
+      ]
+    },
+    {
+      "bufferView": 48,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 49,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 50,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99974912405014038,
+        0.99954628944396973
+      ],
+      "min": [
+        0.00069368560798466206,
+        0.00056922435760498047
+      ]
+    },
+    {
+      "bufferView": 51,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99716836214065552,
+        0.99739980697631836
+      ],
+      "min": [
+        0.0043606190010905266,
+        0.0021193623542785645
+      ]
+    },
+    {
+      "bufferView": 52,
+      "componentType": 5121,
+      "count": 240,
+      "type": "SCALAR",
+      "max": [
+        87.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 53,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 54,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ]
+    },
+    {
+      "bufferView": 55,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 56,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ]
+    },
+    {
+      "bufferView": 57,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ]
+    },
+    {
+      "bufferView": 58,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 59,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        50.0,
+        50.0,
+        0.0
+      ],
+      "min": [
+        -50.0,
+        -50.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 60,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 61,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 62,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 75774
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 422,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 710,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1094,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1286,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1478,
+      "byteLength": 36
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1514,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1562,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1610,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1642,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1648,
+      "byteLength": 1656
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3304,
+      "byteLength": 1656
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4960,
+      "byteLength": 2208
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7168,
+      "byteLength": 1104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8272,
+      "byteLength": 1104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9376,
+      "byteLength": 372
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9748,
+      "byteLength": 5148
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14896,
+      "byteLength": 5148
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20044,
+      "byteLength": 6864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26908,
+      "byteLength": 3432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30340,
+      "byteLength": 4608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34948,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35140,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35332,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35588,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35716,
+      "byteLength": 18
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35734,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35950,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36166,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36454,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36598,
+      "byteLength": 24
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36622,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36670,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36718,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36750,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36756,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36804,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36852,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36884,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36890,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36938,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36986,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37018,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37024,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38080,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39136,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40544,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41248,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41952,
+      "byteLength": 240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 42192,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48372,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54552,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 62792,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 66912,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71032,
+      "byteLength": 4608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75640,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75688,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75736,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75768,
+      "byteLength": 6
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.8587156534194946,
+        "yfov": 1.0471975803375244,
+        "zfar": 998.65380859375,
+        "znear": 0.0099999997764825821
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "uri": "371857150Grab_Interactable_InfoMain.png",
+      "name": "Grab_Interactable_Info"
+    },
+    {
+      "uri": "371857150Gaze_Interactable_InfoMain.png",
+      "name": "Gaze_Interactable_Info"
+    },
+    {
+      "uri": "371857150TextButtonMain.png",
+      "name": "TextButton"
+    },
+    {
+      "uri": "371857150ModalSingleButtonMain.png",
+      "name": "ModalSingleButton"
+    },
+    {
+      "uri": "371857150UI_SampleMain.png",
+      "name": "UI_Sample"
+    },
+    {
+      "uri": "371857150CanvasMain.png",
+      "name": "Canvas"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "name": "No Name"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "name": "No Name"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.665185034,
+          0.665185034,
+          0.665185034,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "lambert1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.665185034,
+          0.665185034,
+          0.665185034,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "lambert1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.665185034,
+          0.665185034,
+          0.665185034,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "lambert1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.4799652,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Ball Gaze Assisted"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0662789345,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Ball Gaze Assisted 1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "Grab Interactable Info"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Grab Interactable Table"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12
+          },
+          "indices": 13,
+          "material": 2
+        }
+      ],
+      "name": "Gaze Interactable Info"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Gaze Interactable Table"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 3
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 4
+        }
+      ],
+      "name": "Non-Teleportable Ground"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 4
+        }
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TANGENT": 27,
+            "TEXCOORD_0": 28
+          },
+          "indices": 29,
+          "material": 5
+        }
+      ],
+      "name": "Interactable Instant Pyramid"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TANGENT": 32,
+            "TEXCOORD_0": 33
+          },
+          "indices": 34,
+          "material": 6
+        }
+      ],
+      "name": "Interactable Velocity Tracked Wedge"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TEXCOORD_0": 37
+          },
+          "indices": 38,
+          "material": 7
+        }
+      ],
+      "name": "TextButton"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 39,
+            "NORMAL": 40,
+            "TEXCOORD_0": 41
+          },
+          "indices": 42,
+          "material": 8
+        }
+      ],
+      "name": "ModalSingleButton"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 43,
+            "NORMAL": 44,
+            "TEXCOORD_0": 45
+          },
+          "indices": 46,
+          "material": 9
+        }
+      ],
+      "name": "UI Sample"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 5
+        }
+      ],
+      "name": "Gaze Hover Simple Interactable"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 47,
+            "NORMAL": 48,
+            "TANGENT": 49,
+            "TEXCOORD_0": 50,
+            "TEXCOORD_1": 51
+          },
+          "indices": 52,
+          "material": 5
+        }
+      ],
+      "name": "Gaze Assisted Simple Interactable"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 53,
+            "NORMAL": 54,
+            "TANGENT": 55,
+            "TEXCOORD_0": 56,
+            "TEXCOORD_1": 57
+          },
+          "indices": 58,
+          "material": 5
+        }
+      ],
+      "name": "Gaze Select/Deselect Simple Interactable"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 59,
+            "NORMAL": 60,
+            "TEXCOORD_0": 61
+          },
+          "indices": 62,
+          "material": 10
+        }
+      ],
+      "name": "Canvas"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 53,
+            "NORMAL": 54,
+            "TANGENT": 55,
+            "TEXCOORD_0": 56,
+            "TEXCOORD_1": 57
+          },
+          "indices": 58,
+          "material": 11
+        }
+      ],
+      "name": "Ball"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 12
+        }
+      ],
+      "name": "Box"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        12,
+        13,
+        23
+      ],
+      "name": "Demo Environment"
+    },
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Directional Light"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "translation": [
+        -4.5,
+        1.5,
+        -2.5
+      ],
+      "name": "Grab Interactable Info"
+    },
+    {
+      "children": [
+        4
+      ],
+      "translation": [
+        0.0,
+        51.5,
+        0.0
+      ],
+      "name": "Header Panel"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.6850014,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "children": [
+        6
+      ],
+      "translation": [
+        250.000031,
+        -65.0,
+        -2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        -9.15527344E-05,
+        0.0,
+        0.0
+      ],
+      "name": "Kinematic Text"
+    },
+    {
+      "children": [
+        8
+      ],
+      "translation": [
+        0.0,
+        -65.0,
+        0.0
+      ],
+      "name": "Panel"
+    },
+    {
+      "name": "Instananeous Text"
+    },
+    {
+      "children": [
+        10
+      ],
+      "translation": [
+        -250.000031,
+        -65.0,
+        2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0002746582,
+        0.0,
+        0.0
+      ],
+      "name": "Velocity-Tracked Text"
+    },
+    {
+      "mesh": 0,
+      "name": "Grab Interactable Info"
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        0.4,
+        1.0,
+        1.85
+      ],
+      "translation": [
+        -4.0,
+        0.625,
+        -2.5
+      ],
+      "name": "Grab Interactable Table"
+    },
+    {
+      "children": [
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "translation": [
+        0.0,
+        1.5,
+        -5.0
+      ],
+      "name": "Gaze Interactable Info"
+    },
+    {
+      "children": [
+        15
+      ],
+      "translation": [
+        0.0,
+        51.5,
+        0.0
+      ],
+      "name": "Header Panel"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.6850014,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "children": [
+        17
+      ],
+      "translation": [
+        275.0,
+        -50.0,
+        -2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        -9.15527344E-05,
+        0.0,
+        0.0
+      ],
+      "name": "Gaze Hover"
+    },
+    {
+      "children": [
+        19
+      ],
+      "translation": [
+        0.0,
+        -50.0,
+        0.0
+      ],
+      "name": "Panel"
+    },
+    {
+      "name": "Gaze Assisted"
+    },
+    {
+      "children": [
+        21
+      ],
+      "translation": [
+        -275.0,
+        -50.0,
+        2.98023224E-05
+      ],
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0002746582,
+        0.0,
+        0.0
+      ],
+      "name": "Gaze Select/Auto Deselect"
+    },
+    {
+      "mesh": 2,
+      "name": "Gaze Interactable Info"
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.4,
+        1.0,
+        1.85
+      ],
+      "translation": [
+        0.0,
+        0.625,
+        -4.5
+      ],
+      "name": "Gaze Interactable Table"
+    },
+    {
+      "children": [
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "name": "Complete Teleport Area Set Up"
+    },
+    {
+      "children": [
+        26
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "name": "Teleport Area"
+    },
+    {
+      "mesh": 4,
+      "scale": [
+        10.0,
+        0.25,
+        5.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        3.0,
+        0.125,
+        -2.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 6,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        -3.0,
+        0.125,
+        -2.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 7,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.25,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.125,
+        -3.5
+      ],
+      "name": "Teleport Anchor"
+    },
+    {
+      "mesh": 8,
+      "scale": [
+        10.0,
+        0.25,
+        5.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -2.5
+      ],
+      "name": "Non-Teleportable Ground"
+    },
+    {
+      "children": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.93
+      ],
+      "name": "Complete XR Origin Set Up"
+    },
+    {
+      "name": "Input Action Manager"
+    },
+    {
+      "name": "InteractionManager"
+    },
+    {
+      "name": "EventSystem"
+    },
+    {
+      "children": [
+        36
+      ],
+      "translation": [
+        0.0,
+        -0.411,
+        0.0
+      ],
+      "name": "XR Origin"
+    },
+    {
+      "children": [
+        37
+      ],
+      "translation": [
+        0.0,
+        1.36144,
+        0.0
+      ],
+      "name": "CameraOffset"
+    },
+    {
+      "camera": 0,
+      "name": "Main Camera"
+    },
+    {
+      "children": [
+        39,
+        40,
+        41
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        -4.0,
+        0.663,
+        -2.5
+      ],
+      "name": "Interactables Sample"
+    },
+    {
+      "mesh": 9,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        -0.5,
+        0.5,
+        0.0
+      ],
+      "name": "Interactable Kinematic Torus"
+    },
+    {
+      "mesh": 10,
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ],
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "Interactable Instant Pyramid"
+    },
+    {
+      "mesh": 11,
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        0.425,
+        0.5,
+        0.0
+      ],
+      "name": "Interactable Velocity Tracked Wedge"
+    },
+    {
+      "children": [
+        43,
+        51,
+        58
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "translation": [
+        4.0,
+        1.5,
+        -2.5
+      ],
+      "name": "UI Sample"
+    },
+    {
+      "children": [
+        44,
+        45,
+        46,
+        50
+      ],
+      "translation": [
+        127.95,
+        0.0,
+        0.0
+      ],
+      "name": "ModalSingleButton"
+    },
+    {
+      "translation": [
+        0.0,
+        60.0,
+        0.0
+      ],
+      "name": "Header Text"
+    },
+    {
+      "translation": [
+        0.0,
+        9.25,
+        0.0
+      ],
+      "name": "Modal Text"
+    },
+    {
+      "children": [
+        47,
+        48,
+        49
+      ],
+      "translation": [
+        0.0,
+        -48.75,
+        0.0
+      ],
+      "name": "TextButton"
+    },
+    {
+      "translation": [
+        5.19006348,
+        0.9911194,
+        0.0
+      ],
+      "name": "Text"
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.545891643,
+        0.0,
+        0.8378559
+      ],
+      "scale": [
+        0.5669,
+        0.5669,
+        0.5669
+      ],
+      "translation": [
+        -1967.0,
+        -209.19,
+        -2070.0
+      ],
+      "name": "Text (Legacy)"
+    },
+    {
+      "mesh": 12,
+      "name": "TextButton"
+    },
+    {
+      "mesh": 13,
+      "name": "ModalSingleButton"
+    },
+    {
+      "children": [
+        52,
+        54,
+        56,
+        57
+      ],
+      "translation": [
+        -175.000031,
+        0.0,
+        0.0
+      ],
+      "name": "MinMaxSlider"
+    },
+    {
+      "children": [
+        53
+      ],
+      "name": "Fill Area Background"
+    },
+    {
+      "translation": [
+        50.4999924,
+        0.0,
+        0.0
+      ],
+      "name": "Fill"
+    },
+    {
+      "children": [
+        55
+      ],
+      "name": "Handle Slide Area"
+    },
+    {
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "Handle"
+    },
+    {
+      "translation": [
+        89.9999847,
+        0.0,
+        0.0
+      ],
+      "name": "Value Text"
+    },
+    {
+      "translation": [
+        -89.9999847,
+        0.0,
+        0.0
+      ],
+      "name": "Type Text"
+    },
+    {
+      "mesh": 14,
+      "name": "UI Sample"
+    },
+    {
+      "children": [
+        60,
+        61,
+        62
+      ],
+      "translation": [
+        0.0,
+        0.663,
+        -4.5
+      ],
+      "name": "Gaze Interactables"
+    },
+    {
+      "mesh": 15,
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "translation": [
+        -0.5,
+        0.58,
+        0.0
+      ],
+      "name": "Gaze Hover Simple Interactable"
+    },
+    {
+      "mesh": 16,
+      "scale": [
+        0.2,
+        0.1,
+        0.2
+      ],
+      "translation": [
+        0.0,
+        0.58,
+        0.0
+      ],
+      "name": "Gaze Assisted Simple Interactable"
+    },
+    {
+      "mesh": 17,
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "translation": [
+        0.5,
+        0.58,
+        0.0
+      ],
+      "name": "Gaze Select/Deselect Simple Interactable"
+    },
+    {
+      "translation": [
+        1.172396,
+        -0.7032702,
+        5.61399364
+      ],
+      "name": "PXR_EyeTracking"
+    },
+    {
+      "name": "TobiiXR Initializer"
+    },
+    {
+      "children": [
+        66,
+        67
+      ],
+      "translation": [
+        -9.592685,
+        0.889729,
+        -0.08203001
+      ],
+      "name": "Canvas"
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.1000808,
+        0.1000808,
+        0.1000808
+      ],
+      "translation": [
+        10.05,
+        3.4742,
+        -10.71
+      ],
+      "name": "Gaze_observation"
+    },
+    {
+      "mesh": 18,
+      "name": "Canvas"
+    },
+    {
+      "mesh": 19,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        0.179,
+        0.835,
+        1.51
+      ],
+      "name": "Ball"
+    },
+    {
+      "name": "TobiiXR"
+    },
+    {
+      "mesh": 20,
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        -0.891,
+        0.78,
+        1.591
+      ],
+      "name": "Box"
+    },
+    {
+      "name": "Cognitive3D_Manager"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        24,
+        31,
+        38,
+        42,
+        59,
+        63,
+        64,
+        65,
+        68,
+        69,
+        70,
+        71
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "371857150Grab_Interactable_InfoMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "371857150Gaze_Interactable_InfoMain"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "371857150TextButtonMain"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "371857150ModalSingleButtonMain"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "371857150UI_SampleMain"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "371857150CanvasMain"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "color": [
+            1.0,
+            0.956862748,
+            0.8392157
+          ],
+          "name": "Directional Light"
+        }
+      ]
+    }
+  }
+}
