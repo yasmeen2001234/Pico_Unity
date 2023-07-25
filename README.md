@@ -11,7 +11,7 @@ We implemented three methods where user can engage with objects :
 Gaze select :
 
 
-https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/71338db6-f296-4aa4-ad0c-11417c63507c
+https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/71905aed-5e79-4bf3-91be-5d03681eb257
 
 
 
