@@ -1,5 +1,5 @@
 
-Pico Research 
+# Pico Research 
 
 The research focuses on studying the human-user interaction with Pico VR, a virtual reality platform that offers immersive experiences. 
 We aim to understand the ways in which users engage with the technology, their cognitive responses, and the overall user experience. 
