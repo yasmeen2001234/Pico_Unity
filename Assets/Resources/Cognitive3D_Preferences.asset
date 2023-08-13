@@ -17,9 +17,9 @@ MonoBehaviour:
   Dashboard: app.cognitive3d.com
   Viewer: viewer.cognitive3d.com/scene/
   Documentation: docs.cognitive3d.com
-  EditorHasDisplayedPopup: 0
+  EditorHasDisplayedPopup: 1
   GazeType: 0
-  ApplicationKey: 1CMYB2YLGHP2Y1BJ98CRY9IA2IEUQU8P
+  ApplicationKey: 6Q6UERQAJCE4DMYMM1K5NAV0R7715365
   AttributionKey: 
   EnableLogging: 1
   EnableDevLogging: 0
@@ -53,6 +53,6 @@ MonoBehaviour:
   - SceneName: Pico_modalities
     SceneId: 9a4e19ad-aa45-46a4-a076-147754b828bf
     ScenePath: Assets/Scenes/Pico_modalities.unity
-    LastRevision: 07/20/2023 11:38:04
-    VersionNumber: 1
-    VersionId: 4461
+    LastRevision: 08/12/2023 20:32:15
+    VersionNumber: 3
+    VersionId: 4560

@@ -12,9 +12,12 @@ namespace Tobii.XR.Examples
         // Action which will be triggered when the object is released from the controller.
         public UnityAction<GameObject> OnObjectReleased;
 
-        public GameObject LeftController; 
+       public Mod2_Task1_timer scriptTimerReference;
+        public Mod2_Task2_timer scriptTimerReference2;
+        public GameObject RightController; 
         public bool IsObjectGrabbing { get; private set; }
 
+        public static bool Finishtask1 = false;
         private enum GrabState
         {
             Idle,
@@ -61,6 +64,12 @@ namespace Tobii.XR.Examples
                 if (_focusedGameObject != null && ControllerManager.Instance.GetButtonPressDown(TriggerButton))
                 {
                     ChangeObjectState(GrabState.Grabbing);
+                   if(_focusedGameObject.CompareTag("Cube")) {
+                        scriptTimerReference2.StartTimer();
+                    } else
+                    {
+                        scriptTimerReference.StartTimer();
+                    }
                 }
             }
 
@@ -85,6 +94,7 @@ namespace Tobii.XR.Examples
                 else if (!ControllerManager.Instance.GetButtonPress(TriggerButton))
                 {
                     ChangeObjectState(GrabState.Idle);
+                   
                 }
             }
 
@@ -97,10 +107,11 @@ namespace Tobii.XR.Examples
                     _grabbedObjectRigidBody.rotation =
                         (ControllerManager.Instance.Rotation * Quaternion.Inverse(_startControllerRotation)) *
                         _startObjectRotation;
-                    _grabbedObjectRigidBody.position = LeftController.transform.position; 
+                    _grabbedObjectRigidBody.position = RightController.transform.position; 
                 }
                 else
                 {
+                    Finishtask1 = true;
                     _grabbedObjectRigidBody.angularVelocity =
                         ControllerManager.Instance.AngularVelocity * ObjectVelocityMultiplier;
                     _grabbedObjectRigidBody.velocity = ControllerManager.Instance.Velocity * ObjectVelocityMultiplier;
@@ -138,18 +149,22 @@ namespace Tobii.XR.Examples
                     _grabbedObject.ObjectGrabbing();
                     _grabbedObjectRigidBody = _focusedGameObject.GetComponent<Rigidbody>();
                     _grabbedObjectRigidBody.isKinematic = true;
-                    _grabbedObjectRigidBody.position = LeftController.transform.position;
+                    _grabbedObjectRigidBody.position = RightController.transform.position;
                     _startObjectRotation = _grabbedObject.transform.rotation;
                     _startControllerRotation = ControllerManager.Instance.Rotation;
-                  //  _startPosition = _grabbedObject.transform.position;
+                   // scriptTimerReference.StartTimer();
+                    //scriptTimerReference2.StartTimer();
+                    //  _startPosition = _grabbedObject.transform.position;
                     _grabAnimationProgress = 0f;
                     break;
                 // When the object becomes grabbed to the controller, call the grabbed method and set the object's position to the hand.
                 case GrabState.Grabbed:
                     ControllerManager.Instance.TriggerHapticPulse(0.25f);
                     _grabbedObject.ObjectGrabbed();
-                //     _grabbedObject.transform.position = ControllerManager.Instance.Position ;
-                 //   _grabbedObject.transform.position = LeftController.transform.position;
+                //    scriptTimerReference.StartTimer();
+                  //  scriptTimerReference2.StartTimer();
+                    //     _grabbedObject.transform.position = ControllerManager.Instance.Position ;
+                    //   _grabbedObject.transform.position = LeftController.transform.position;
                     break;
             }
         }

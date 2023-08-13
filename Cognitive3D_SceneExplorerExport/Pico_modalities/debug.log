@@ -3,14 +3,14 @@
 *****************************
 Unity Version:2021.3.8f1
 OS:Windows 11  (10.0.22621) 64bit
-System Time: 7/20/2023 3:52:17 PM
+System Time: 8/13/2023 12:32:10 AM
 
 *****************************
 ***********PROJECT***********
 *****************************
 Scripting Define Symbols: C3D_PICOXR
 Packages:
-  com.cognitive3d.c3d-sdk 1.1.0
+  com.cognitive3d.c3d-sdk 1.3.1
   com.tobii.xr.sdk 3.0.1
   com.unity.collab-proxy 1.17.1
   com.unity.ide.rider 3.0.15
@@ -57,9 +57,9 @@ Packages:
   com.unity.modules.vr 1.0.0
   com.unity.modules.wind 1.0.0
   com.unity.modules.xr 1.0.0
-SDK Version: 1.1.0
-Api Key: ****QU8P
-Developer Key: ****IHNX
+SDK Version: 1.3.1
+Api Key: ****5365
+Developer Key: ****1BCF
 Enable Logging: True
 Enable Development Logging: False
 Gaze Type: Physics
@@ -94,9 +94,9 @@ Scene Settings:
   └─Pico_modalities
      ├─Scene Id: 9a4e19ad-aa45-46a4-a076-147754b828bf
      ├─Scene Path: Assets/Scenes/Pico_modalities.unity
-     ├─Last Revision: 07/20/2023 11:38:04
-     ├─Version Number: 1
-     └─Version Id: 4461
+     ├─Last Revision: 08/12/2023 20:30:20
+     ├─Version Number: 2
+     └─Version Id: 4559
 
 *****************************
 ********CURRENT SCENE********
@@ -104,10 +104,10 @@ Scene Settings:
 Scene Name: Pico_modalities
 Scene Id: 9a4e19ad-aa45-46a4-a076-147754b828bf
 Scene Path: Assets/Scenes/Pico_modalities.unity
-Last Revision: 07/20/2023 11:38:04
-Version Number: 1
-Version Id: 4461
-Scene Size (mb): 0.21
+Last Revision: 08/12/2023 20:30:20
+Version Number: 2
+Version Id: 4559
+Scene Size (mb): 0.26
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 0
@@ -115,24 +115,14 @@ Manager Startup Delay Time (s): 0
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 4
-  ├─HandRight
-  │  ├─Mesh Name: handright
+Dynamic Object Count: 2
+  ├─LeftHand (Smooth locomotion)
+  │  ├─Mesh Name: lefthand_(smooth_locomotion)
   │  ├─Has Collider: false
   │  ├─Has Children: true
   │  └─Has Child Colliders: true
-  ├─HandLeft
-  │  ├─Mesh Name: handleft
-  │  ├─Has Collider: false
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
-  ├─RightHand (Teleport Locomotion)
-  │  ├─Mesh Name: righthand_(teleport_locomotion)
-  │  ├─Has Collider: false
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
-  └─LeftHand (Smooth locomotion)
-     ├─Mesh Name: lefthand_(smooth_locomotion)
+  └─RightHand (Teleport Locomotion)
+     ├─Mesh Name: righthand_(teleport_locomotion)
      ├─Has Collider: false
      ├─Has Children: true
      └─Has Child Colliders: true
@@ -155,14 +145,16 @@ Dynamic Object Count: 4
       settings.json (0.00mb)
       /screenshot (0.02mb)
          screenshot.png (0.02mb)
-   /Pico_modalities (0.21mb)
+   /Pico_modalities (0.26mb)
       1918918961RedTargetMain.png (0.02mb)
+      371857150Gaze_Interactable_Info_Main.png (0.02mb)
       371857150Grab_Interactable_InfoMain.png (0.02mb)
       371857150Grab_Interactable_Info_(1)Main.png (0.02mb)
       371857150Grab_Interactable_Info_(2)Main.png (0.02mb)
+      371857150Hand_Tracking_Interactable_InfoMain.png (0.02mb)
       debug.log (0.01mb)
       scene.bin (0.07mb)
       scene.gltf (0.05mb)
       settings.json (0.00mb)
-      /screenshot (0.00mb)
-         screenshot.png (0.00mb)
+      /screenshot (0.01mb)
+         screenshot.png (0.01mb)

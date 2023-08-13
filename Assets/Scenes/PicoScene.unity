@@ -3713,6 +3713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
 --- !u!1 &2009938239
@@ -4245,7 +4249,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5124795065193203293, guid: 67a346c3ec255144da08f0dd662bbbd1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879662541029367992, guid: 67a346c3ec255144da08f0dd662bbbd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879662542480482375, guid: 67a346c3ec255144da08f0dd662bbbd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67a346c3ec255144da08f0dd662bbbd1, type: 3}
