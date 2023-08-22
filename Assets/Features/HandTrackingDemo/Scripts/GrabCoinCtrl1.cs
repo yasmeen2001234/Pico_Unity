@@ -63,14 +63,19 @@ public class GrabCoinCtrl1 : MonoBehaviour
         }
 
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        objCollider.isTrigger = true;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-
-        
-           //Coin is waiting to be grabbed
-            //Check for fingers entering its trigger area to star the coin grabbed logic logic
-            if (other.CompareTag("Index") && !indexFinger)
+       // objCollider.isTrigger = true;
+        rb.useGravity = false;
+        rb.isKinematic = true;
+        //Coin is waiting to be grabbed
+        //Check for fingers entering its trigger area to star the coin grabbed logic logic
+        if (other.CompareTag("Index") && !indexFinger)
             {
                 indexFinger = true;
                 fingers++;
@@ -107,7 +112,10 @@ public class GrabCoinCtrl1 : MonoBehaviour
     //check for fingers leaving the trigger area
     private void OnTriggerExit(Collider other)
     {
-        if(currState == ObjGrabState.Waiting)
+        rb.useGravity = true;
+        objCollider.isTrigger = false;
+           rb.isKinematic = false;
+        if (currState == ObjGrabState.Waiting)
         {
             if (other.CompareTag("Index") && indexFinger)
             {
@@ -162,9 +170,10 @@ public class GrabCoinCtrl1 : MonoBehaviour
     //we have let go of the coin, turn the gravity on to allow the coin to drop and possibly score on a hat
     public void Fall()
     {
-    //    rb.useGravity = true;
-      //  rb.isKinematic = false;
-      currState = ObjGrabState.Falling; // cannot grab object again
+        //  rb.useGravity = true;
+        //   objCollider.isTrigger = false; object is sticked to the finger
+     //    rb.isKinematic = false;
+        currState = ObjGrabState.Falling; // cannot grab object again
     //    objCollider.isTrigger = false;
 
       //  currState = ObjGrabState.Waiting; object is sticked to the finger

@@ -78,6 +78,8 @@ struct Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638;
 struct Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45;
 // System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo>
 struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710;
 // System.Collections.Generic.Dictionary`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>
 struct Dictionary_2_tC7CA467D140FCE092D692F249C78224D553E0EB5;
 // System.Collections.Generic.IEnumerable`1<Cognitive3D.DynamicObjectManifestEntry>
@@ -90,6 +92,8 @@ struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Cognitive3D.ButtonState>
 struct KeyCollection_tB7A49D9379D2F1F9616703F1BB2EE382967D7301;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Object>
+struct KeyCollection_tE66790F09E854C19C7F612BEAD203AE626E90A36;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 struct List_1_t8A1639802238DEF3222B6CBBC0DEF0B4B5F350EB;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
@@ -134,8 +138,12 @@ struct Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5;
 struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Cognitive3D.ButtonState>
 struct ValueCollection_tE934D913EB7354401048DA68121C74B679F72098;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Object>
+struct ValueCollection_tC9D91E8A3198E40EA339059703AB10DFC9F5CC2E;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,Cognitive3D.ButtonState>[]
 struct EntryU5BU5D_t6E3FDC42550E8DAEFC417FCF8C4832B541060B78;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,System.Object>[]
+struct EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>[]
 struct KeyValuePair_2U5BU5D_t105762EC2DE353037ECAD13437FC19081314CE67;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[]
@@ -200,8 +208,6 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct BatteryLevel_t8E079BEEF1C5CEE9D71758391DE919DA2DFB62B6;
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
-// Cognitive3D.Components.BoundaryEvent
-struct BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B;
 // Cognitive3D.ButtonState
 struct ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554;
 // System.Globalization.Calendar
@@ -571,6 +577,7 @@ IL2CPP_EXTERN_C RuntimeClass* CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CF
 IL2CPP_EXTERN_C RuntimeClass* DataBatchCanvas_tD321FEF8BF5AA09459E20F9AE5BB3C12306F2AC2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DynamicManager_t72FAE8C77F771172D4B06FB4E2C54D77F3925696_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventFeedEntryU5BU5D_tB4D17DFD7E14BD08B3D5CF65C7160AFE551C4CF1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
@@ -638,6 +645,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral00C12D1F9F2D7F81C54033AE80B54806DCEC68E1
 IL2CPP_EXTERN_C String_t* _stringLiteral027A528112E9DD4DB93910CFCA5C8E8E8077F380;
 IL2CPP_EXTERN_C String_t* _stringLiteral040B409E9F35A004FF483BD6A616C5D741AC3BA2;
 IL2CPP_EXTERN_C String_t* _stringLiteral0994EFD379E9DB6EA560A528B9EBA0773794DF68;
+IL2CPP_EXTERN_C String_t* _stringLiteral09E72604F3A8F9D323C4EA1732C3B82897638D96;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B5ECFF84CE073C4971D637741C560F910E4D128;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A;
@@ -664,6 +672,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral33F16805830911B3AA7E2E76DA0B3F33BBF493D1
 IL2CPP_EXTERN_C String_t* _stringLiteral39DCACB3342601FA90CAB4B3C49C7E8DCAFB83CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B3D74F1663AAD63C86D54EE8C65776FD7506D0D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3D0A639AB34759EB210CF8DFE6B27543EC616A1D;
+IL2CPP_EXTERN_C String_t* _stringLiteral3D5CF742CC30C3646D38DD021EA8B0711B3BBB00;
 IL2CPP_EXTERN_C String_t* _stringLiteral3DCF6357353BD3EAD0146B89F3A3D84BC4D3D14F;
 IL2CPP_EXTERN_C String_t* _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1;
 IL2CPP_EXTERN_C String_t* _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9;
@@ -676,6 +685,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4B764F85DD15A5F4A16A492FB61975269BA132AF
 IL2CPP_EXTERN_C String_t* _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F04C1F9AF12CA35EB8821E722011AE93ED33844;
+IL2CPP_EXTERN_C String_t* _stringLiteral4F650B20E4F5F48195B60515822E0E95872A0F97;
 IL2CPP_EXTERN_C String_t* _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral52B74859E558381C996AACD64AC5E5E6AA41BD81;
 IL2CPP_EXTERN_C String_t* _stringLiteral52C18790685505D43EED91FF98FC7129D2CF0EBA;
@@ -693,10 +703,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral66F38CE4A520A369EB21DED3FE824DF98350D1FC
 IL2CPP_EXTERN_C String_t* _stringLiteral68ECCAF211A367A1603C91B575196E29B7F262EA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C988C9962958104806D1BBBB1B472BF2F01E1EA;
+IL2CPP_EXTERN_C String_t* _stringLiteral6C9FCB6C95636EB8C0CD868E6A13052F3F153A9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral6DD798540816CF95355537E350E0B22DB63ACF5E;
 IL2CPP_EXTERN_C String_t* _stringLiteral6FC4B503FC0768DFC062DF2DA0E59536D36F3BA0;
 IL2CPP_EXTERN_C String_t* _stringLiteral71CA04EC59FD4F9D48AFDE4B08FC3F87CD3E6A06;
-IL2CPP_EXTERN_C String_t* _stringLiteral71EFF37E13BE6A638D4B72AE72B471B242A55BB9;
 IL2CPP_EXTERN_C String_t* _stringLiteral742DD00B2FEEB4D32384477CE8109DAF089066F5;
 IL2CPP_EXTERN_C String_t* _stringLiteral777E8954CE51156B3F9EA3D69CCE3B3E60CA4FB6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D0E3AA8E1FB14366AD4D51BF4EDED0F61C4C13D;
@@ -777,13 +787,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1
 IL2CPP_EXTERN_C String_t* _stringLiteralEB534843932D1025EEE09575458F840C63DC1063;
 IL2CPP_EXTERN_C String_t* _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162;
 IL2CPP_EXTERN_C String_t* _stringLiteralF55366B8D9B056B539478A302E0E62BF7DF9C31D;
+IL2CPP_EXTERN_C String_t* _stringLiteralF6F4F98E09A01AFC300C2D176F358692D3D5434C;
 IL2CPP_EXTERN_C String_t* _stringLiteralF72497C017943908E29875A72C335546AE325198;
 IL2CPP_EXTERN_C String_t* _stringLiteralF8E30A32CE92793ED6449AE03206B3AE29FE8F83;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC2AEC4296DA0270AF4AFD72BCF954F29710415A;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD96E65D7BE1DAC3DA3DF38A7D81C2F6FE2CBFD9;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF068A73A1D433A01286ED6492172F48264BE091;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_get_HeadIndex_m980EBE78D54A73FAD024AD08EB3AA6F01A9B0CE0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_get_Item_mF16604774FF2FBACB707A971356B8815B129F44F_RuntimeMethod_var;
@@ -809,8 +819,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* DataBatchCanvas_FixationCore_OnFixationSend
 IL2CPP_EXTERN_C const RuntimeMethod* DataBatchCanvas_GazeCore_OnGazeSend_mAAFEBA65A6C82C4D744AA4981479DA45BDA0DCAD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DataBatchCanvas_SensorRecorder_OnSensorSend_m7F7A764BB010841BF2CA830DE1D7A8BB97D5FD1A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicCanvas_FixationCore_OnFixationRecord_m77D0B916649EBE4EA653BA47ED27DC0183AE1F45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicCanvas_GazeCore_OnDynamicGazeRecord_mC4EB5969C71B7810FA0F5C3D3FCC20217EEBB038_RuntimeMethod_var;
@@ -872,6 +884,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mE4DEA89E190AD150ECD59333
 IL2CPP_EXTERN_C const RuntimeMethod* RenderEyetracking_CalculateVectors_m8502A4819099285DAE39226C6FA071BA82E71C06_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderEyetracking_Core_InitEvent_mA91E3B5B0D952C9A5432DC8FE8A7CC7E261E5E9A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderEyetracking_FixationCore_OnFixationRecord_mCEC883DAAF4DC984974D551DF965B083092C3686_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StringBuilderExtensions_Concat_m601279DB0F84EBA1282C57397AF5F4029B3458AB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TeleportEvent_Cognitive3D_Manager_OnPostSessionEnd_m741B2A9276E1E7F9516EBC7DFF26846EFB5D897D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TeleportEvent_Cognitive3D_Manager_OnUpdate_m885B973F7AD7FE2457375AB4557729D3F941F448_RuntimeMethod_var;
@@ -961,6 +974,31 @@ struct Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45  : public RuntimeO
 	KeyCollection_tB7A49D9379D2F1F9616703F1BB2EE382967D7301* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
 	ValueCollection_tE934D913EB7354401048DA68121C74B679F72098* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tE66790F09E854C19C7F612BEAD203AE626E90A36* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tC9D91E8A3198E40EA339059703AB10DFC9F5CC2E* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
@@ -3384,19 +3422,19 @@ struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE  : public M
 	// UnityEngine.YieldInstruction Cognitive3D.Cognitive3D_Manager::automaticSendInterval
 	YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D* ___automaticSendInterval_7;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::BeginSessionAutomatically
-	bool ___BeginSessionAutomatically_9;
+	bool ___BeginSessionAutomatically_8;
 	// System.Single Cognitive3D.Cognitive3D_Manager::StartupDelayTime
-	float ___StartupDelayTime_10;
+	float ___StartupDelayTime_9;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::SendBatteryLevelOnStartAndEnd
-	bool ___SendBatteryLevelOnStartAndEnd_11;
+	bool ___SendBatteryLevelOnStartAndEnd_10;
 	// System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> Cognitive3D.Cognitive3D_Manager::sceneList
-	List_1_tD2999566789842105DF8EF481E4494088E70E6E8* ___sceneList_12;
+	List_1_tD2999566789842105DF8EF481E4494088E70E6E8* ___sceneList_11;
 	// Cognitive3D.GazeBase Cognitive3D.Cognitive3D_Manager::gazeBase
-	GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* ___gazeBase_13;
+	GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* ___gazeBase_12;
 	// Cognitive3D.FixationRecorder Cognitive3D.Cognitive3D_Manager::fixationRecorder
-	FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* ___fixationRecorder_14;
+	FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* ___fixationRecorder_13;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::hasCanceled
-	bool ___hasCanceled_15;
+	bool ___hasCanceled_14;
 };
 
 struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields
@@ -3405,46 +3443,44 @@ struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticField
 	String_t* ___SDK_VERSION_4;
 	// Cognitive3D.Cognitive3D_Manager Cognitive3D.Cognitive3D_Manager::instance
 	Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* ___instance_5;
-	// System.Boolean Cognitive3D.Cognitive3D_Manager::IsQuitting
-	bool ___IsQuitting_8;
 	// Cognitive3D.Cognitive3D_Manager/onSessionBegin Cognitive3D.Cognitive3D_Manager::OnSessionBegin
-	onSessionBegin_t0646E31062FF4162A5DFC8D80A6BD9F411629D2F* ___OnSessionBegin_16;
+	onSessionBegin_t0646E31062FF4162A5DFC8D80A6BD9F411629D2F* ___OnSessionBegin_15;
 	// Cognitive3D.Cognitive3D_Manager/onSessionEnd Cognitive3D.Cognitive3D_Manager::OnPreSessionEnd
-	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPreSessionEnd_17;
+	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPreSessionEnd_16;
 	// Cognitive3D.Cognitive3D_Manager/onSessionEnd Cognitive3D.Cognitive3D_Manager::OnPostSessionEnd
-	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPostSessionEnd_18;
+	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPostSessionEnd_17;
 	// Cognitive3D.Cognitive3D_Manager/onUpdate Cognitive3D.Cognitive3D_Manager::OnUpdate
-	onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___OnUpdate_19;
+	onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___OnUpdate_18;
 	// Cognitive3D.Cognitive3D_Manager/onTick Cognitive3D.Cognitive3D_Manager::OnTick
-	onTick_tD2B098AEA6A137CC3DB22DC8F33FFB894447281E* ___OnTick_20;
+	onTick_tD2B098AEA6A137CC3DB22DC8F33FFB894447281E* ___OnTick_19;
 	// Cognitive3D.Cognitive3D_Manager/onLevelLoaded Cognitive3D.Cognitive3D_Manager::OnLevelLoaded
-	onLevelLoaded_t374AE522FD2900BA1341086269ADAF045CF1FE28* ___OnLevelLoaded_21;
+	onLevelLoaded_t374AE522FD2900BA1341086269ADAF045CF1FE28* ___OnLevelLoaded_20;
 	// Cognitive3D.ILocalExitpoll Cognitive3D.Cognitive3D_Manager::ExitpollHandler
-	RuntimeObject* ___ExitpollHandler_22;
+	RuntimeObject* ___ExitpollHandler_21;
 	// Cognitive3D.ICache Cognitive3D.Cognitive3D_Manager::DataCache
-	RuntimeObject* ___DataCache_23;
+	RuntimeObject* ___DataCache_22;
 	// Cognitive3D.NetworkManager Cognitive3D.Cognitive3D_Manager::NetworkManager
-	NetworkManager_t0C9275F1055DDA110329D3889184ED48B64B58B2* ___NetworkManager_24;
+	NetworkManager_t0C9275F1055DDA110329D3889184ED48B64B58B2* ___NetworkManager_23;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::HasCustomSessionName
-	bool ___HasCustomSessionName_25;
+	bool ___HasCustomSessionName_24;
 	// System.String Cognitive3D.Cognitive3D_Manager::<ParticipantId>k__BackingField
-	String_t* ___U3CParticipantIdU3Ek__BackingField_26;
+	String_t* ___U3CParticipantIdU3Ek__BackingField_25;
 	// System.String Cognitive3D.Cognitive3D_Manager::<ParticipantName>k__BackingField
-	String_t* ___U3CParticipantNameU3Ek__BackingField_27;
+	String_t* ___U3CParticipantNameU3Ek__BackingField_26;
 	// System.String Cognitive3D.Cognitive3D_Manager::_deviceId
-	String_t* ____deviceId_28;
+	String_t* ____deviceId_27;
 	// System.Double Cognitive3D.Cognitive3D_Manager::_timestamp
-	double ____timestamp_29;
+	double ____timestamp_28;
 	// System.String Cognitive3D.Cognitive3D_Manager::_sessionId
-	String_t* ____sessionId_30;
+	String_t* ____sessionId_29;
 	// Cognitive3D.Cognitive3D_Preferences/SceneSettings Cognitive3D.Cognitive3D_Manager::<TrackingScene>k__BackingField
-	SceneSettings_t82090968952A9395A09FA25B89B9BFD7C4B87D0A* ___U3CTrackingSceneU3Ek__BackingField_31;
+	SceneSettings_t82090968952A9395A09FA25B89B9BFD7C4B87D0A* ___U3CTrackingSceneU3Ek__BackingField_30;
 	// System.Single Cognitive3D.Cognitive3D_Manager::SceneStartTime
-	float ___SceneStartTime_32;
+	float ___SceneStartTime_31;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::ForceWriteSessionMetadata
-	bool ___ForceWriteSessionMetadata_33;
+	bool ___ForceWriteSessionMetadata_32;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::<IsInitialized>k__BackingField
-	bool ___U3CIsInitializedU3Ek__BackingField_34;
+	bool ___U3CIsInitializedU3Ek__BackingField_33;
 };
 
 // Cognitive3D.ActiveSession.CopyVRViewToRenderTexture
@@ -3655,58 +3691,56 @@ struct FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286  : public Mono
 {
 	// System.Int32 Cognitive3D.FixationRecorder::lastProcessedFrame
 	int32_t ___lastProcessedFrame_5;
-	// System.Collections.Generic.List`1<UnityEngine.Vector3> Cognitive3D.FixationRecorder::CachedEyeCapturePositions
-	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___CachedEyeCapturePositions_6;
 	// System.Boolean Cognitive3D.FixationRecorder::hasDisplayedSceneIdWarning
-	bool ___hasDisplayedSceneIdWarning_7;
+	bool ___hasDisplayedSceneIdWarning_6;
 	// System.Boolean Cognitive3D.FixationRecorder::hasDisplayedHMDNullWarning
-	bool ___hasDisplayedHMDNullWarning_8;
+	bool ___hasDisplayedHMDNullWarning_7;
 	// System.Int32 Cognitive3D.FixationRecorder::index
-	int32_t ___index_9;
+	int32_t ___index_8;
 	// Cognitive3D.EyeCapture[] Cognitive3D.FixationRecorder::EyeCaptures
-	EyeCaptureU5BU5D_t855F7D035ED125694A7F12A488ACCE7E0C179BEA* ___EyeCaptures_10;
+	EyeCaptureU5BU5D_t855F7D035ED125694A7F12A488ACCE7E0C179BEA* ___EyeCaptures_9;
 	// System.Boolean Cognitive3D.FixationRecorder::<IsFixating>k__BackingField
-	bool ___U3CIsFixatingU3Ek__BackingField_11;
+	bool ___U3CIsFixatingU3Ek__BackingField_10;
 	// Cognitive3D.Fixation Cognitive3D.FixationRecorder::ActiveFixation
-	Fixation_tD555C2328E759240D209787EC00C1995D4D97CE7* ___ActiveFixation_12;
+	Fixation_tD555C2328E759240D209787EC00C1995D4D97CE7* ___ActiveFixation_11;
 	// System.Int32 Cognitive3D.FixationRecorder::MaxBlinkMs
-	int32_t ___MaxBlinkMs_13;
+	int32_t ___MaxBlinkMs_12;
 	// System.Int32 Cognitive3D.FixationRecorder::PreBlinkDiscardMs
-	int32_t ___PreBlinkDiscardMs_14;
+	int32_t ___PreBlinkDiscardMs_13;
 	// System.Int32 Cognitive3D.FixationRecorder::BlinkEndWarmupMs
-	int32_t ___BlinkEndWarmupMs_15;
+	int32_t ___BlinkEndWarmupMs_14;
 	// System.Int64 Cognitive3D.FixationRecorder::EyeUnblinkTime
-	int64_t ___EyeUnblinkTime_16;
+	int64_t ___EyeUnblinkTime_15;
 	// System.Boolean Cognitive3D.FixationRecorder::eyesClosed
-	bool ___eyesClosed_17;
+	bool ___eyesClosed_16;
 	// System.Int32 Cognitive3D.FixationRecorder::MinFixationMs
-	int32_t ___MinFixationMs_18;
+	int32_t ___MinFixationMs_17;
 	// System.Int32 Cognitive3D.FixationRecorder::MaxConsecutiveDiscardMs
-	int32_t ___MaxConsecutiveDiscardMs_19;
+	int32_t ___MaxConsecutiveDiscardMs_18;
 	// System.Single Cognitive3D.FixationRecorder::MaxFixationAngle
-	float ___MaxFixationAngle_20;
+	float ___MaxFixationAngle_19;
 	// System.Int32 Cognitive3D.FixationRecorder::MaxConsecutiveOffDynamicMs
-	int32_t ___MaxConsecutiveOffDynamicMs_21;
+	int32_t ___MaxConsecutiveOffDynamicMs_20;
 	// System.Single Cognitive3D.FixationRecorder::DynamicFixationSizeMultiplier
-	float ___DynamicFixationSizeMultiplier_22;
+	float ___DynamicFixationSizeMultiplier_21;
 	// UnityEngine.AnimationCurve Cognitive3D.FixationRecorder::FocusSizeFromCenter
-	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___FocusSizeFromCenter_23;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___FocusSizeFromCenter_22;
 	// System.Int32 Cognitive3D.FixationRecorder::SaccadeFixationEndMs
-	int32_t ___SaccadeFixationEndMs_24;
+	int32_t ___SaccadeFixationEndMs_23;
 	// Cognitive3D.CircularBuffer`1<Cognitive3D.ThreadGazePoint> Cognitive3D.FixationRecorder::DisplayGazePoints
-	CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* ___DisplayGazePoints_26;
+	CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* ___DisplayGazePoints_25;
 	// System.Collections.Generic.List`1<UnityEngine.Vector2> Cognitive3D.FixationRecorder::SaccadeScreenPoints
-	List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* ___SaccadeScreenPoints_27;
+	List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* ___SaccadeScreenPoints_26;
 	// System.Boolean Cognitive3D.FixationRecorder::IsInitialized
-	bool ___IsInitialized_28;
+	bool ___IsInitialized_27;
 };
 
 struct FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286_StaticFields
 {
 	// Cognitive3D.FixationRecorder/onFixationRecord Cognitive3D.FixationRecorder::OnFixationRecord
-	onFixationRecord_tFE29F5ACEE2E737123C9F0397DBC3D93B3D04495* ___OnFixationRecord_29;
+	onFixationRecord_tFE29F5ACEE2E737123C9F0397DBC3D93B3D04495* ___OnFixationRecord_28;
 	// Cognitive3D.Cognitive3D_Manager/onSendData Cognitive3D.FixationRecorder::OnFixationSend
-	onSendData_t0282EB454D34C262E5BD2B2B4A5310FEC7A119C5* ___OnFixationSend_30;
+	onSendData_t0282EB454D34C262E5BD2B2B4A5310FEC7A119C5* ___OnFixationSend_29;
 };
 
 // Cognitive3D.ActiveSession.FullscreenDisplay
@@ -3941,15 +3975,6 @@ struct BatteryLevel_t8E079BEEF1C5CEE9D71758391DE919DA2DFB62B6  : public Analytic
 	float ___lastDataTimestamp_4;
 };
 
-// Cognitive3D.Components.BoundaryEvent
-struct BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B  : public AnalyticsComponentBase_tC0E872709406C2695AEBD0430080CBB37CB69673
-{
-	// System.Single Cognitive3D.Components.BoundaryEvent::BoundaryTrackingInterval
-	float ___BoundaryTrackingInterval_4;
-	// System.Single Cognitive3D.Components.BoundaryEvent::currentTime
-	float ___currentTime_5;
-};
-
 // Cognitive3D.Components.ControllerCollisionEvent
 struct ControllerCollisionEvent_t48DC0E9D4243A6B182D39A6E6B3A5AEDAE4BC580  : public AnalyticsComponentBase_tC0E872709406C2695AEBD0430080CBB37CB69673
 {
@@ -4133,6 +4158,10 @@ struct RecenterEvent_t8D8682C3F090C64E30233AE31B5CCC380B5FA183  : public Analyti
 // Cognitive3D.Components.RoomSize
 struct RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A  : public AnalyticsComponentBase_tC0E872709406C2695AEBD0430080CBB37CB69673
 {
+	// System.Single Cognitive3D.Components.RoomSize::currentTime
+	float ___currentTime_4;
+	// UnityEngine.Vector3 Cognitive3D.Components.RoomSize::lastRoomSize
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastRoomSize_5;
 };
 
 // Cognitive3D.Components.TeleportEvent
@@ -4287,39 +4316,6 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB  : public RuntimeArr
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
-
-	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Single[]
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
 {
@@ -4349,6 +4345,39 @@ struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeA
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
 	{
 		m_Items[index] = value;
 	}
@@ -4505,6 +4534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_mDFB3CD7FACAF85AFE5750DED2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mD478BF0F028FCE55A77BAFCEADDBC2C8A4921BCD_gshared_inline (Action_3_tEE655D3032BCB66E9F0763878883BEC850E4C866* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, bool ___arg32, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Vector2>::get_name()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_gshared_inline (InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
@@ -4533,8 +4564,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___match0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.XR.XRNodeState>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m6D3D98B6AD92F8A445ED7484E7B073E7CA45B8E4_gshared (Action_1_t290119641EBA3C1EAC8AF78274C63CE01C3046D8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Single>::Add(T)
@@ -4743,12 +4772,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SystemInfo_get_batteryLevel_m549AF9A6BB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SensorRecorder_RecordDataPoint_mF691A4A66E208A0A97AD32ACC7131C23C30A6F4B (String_t* ___category0, float ___value1, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Components.AnalyticsComponentBase::OnSessionBegin()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsComponentBase_OnSessionBegin_m2EB40E3C4AE1F850239DEE69068C98CD23218EA9 (AnalyticsComponentBase_tC0E872709406C2695AEBD0430080CBB37CB69673* __this, const RuntimeMethod* method) ;
-// System.Void Cognitive3D.Cognitive3D_Manager/onSessionEnd::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onSessionEnd__ctor_m7B4919F721048EC45C9D8F88F9780C099D9358E4 (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void Cognitive3D.Cognitive3D_Manager::remove_OnPreSessionEnd(Cognitive3D.Cognitive3D_Manager/onSessionEnd)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_remove_OnPreSessionEnd_m1478FB77EF3C344C867C0729A69DE99E39A72333 (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___value0, const RuntimeMethod* method) ;
-// System.Void Cognitive3D.Components.BoundaryEvent::Cognitive3D_Manager_OnPreSessionEnd()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager/onTick::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onTick__ctor_m5CBAFF50C09C43EA4BAE4237F6407BA698A1ADB0 (onTick_tD2B098AEA6A137CC3DB22DC8F33FFB894447281E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager::add_OnTick(Cognitive3D.Cognitive3D_Manager/onTick)
@@ -4784,6 +4807,11 @@ inline DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* Component_GetCom
 }
 // System.Void Cognitive3D.Cognitive3D_Manager::SetSessionProperty(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_SetSessionProperty_mDD85CBC260C5F6260F1D66B17A624AD0CC35DD93 (String_t* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,Cognitive3D.ButtonState>::.ctor()
+inline void Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2 (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
 // System.Void Cognitive3D.DynamicObject::GetControllerTypeData(Cognitive3D.DynamicObject/CommonDynamicMesh&,Cognitive3D.DynamicObject/ControllerDisplayType&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicObject_GetControllerTypeData_m462840AA76AD883402B7B7DA2793EEAC65D64AD7 (DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* __this, int32_t* ___mesh0, int32_t* ___display1, const RuntimeMethod* method) ;
 // System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Vector2>::get_name()
@@ -4894,11 +4922,6 @@ inline void List_1__ctor_m7B0DC526B413FE9EDBB2866746AD61E3F4C8D2BE (List_1_tF064
 {
 	((  void (*) (List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
-// System.Void System.Collections.Generic.Dictionary`2<System.String,Cognitive3D.ButtonState>::.ctor()
-inline void Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2 (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* __this, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
-}
 // System.Boolean System.String::op_Equality(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.XR.XRNodeState>::.ctor(System.Object,System.IntPtr)
@@ -4912,6 +4935,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_add_trackingLost_mE5935FB7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onUpdate__ctor_mF7E247EA9870E549E39C66C30E7C6864C7F8BB08 (onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager::add_OnUpdate(Cognitive3D.Cognitive3D_Manager/onUpdate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_add_OnUpdate_m64C9B1C247A612F3F46791578AC0ACF38B422EF8 (onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___value0, const RuntimeMethod* method) ;
+// System.Void Cognitive3D.Cognitive3D_Manager/onSessionEnd::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onSessionEnd__ctor_m7B4919F721048EC45C9D8F88F9780C099D9358E4 (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager::add_OnPreSessionEnd(Cognitive3D.Cognitive3D_Manager/onSessionEnd)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_add_OnPreSessionEnd_mBE03A5BAC8010F24E951B86BF1BC365E507A1807 (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___value0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.XRNodeState::get_tracked()
@@ -4922,6 +4947,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRNodeState_get_nodeType_mFC49286B25F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerTracking_ControllerTrackingIntervalEnd_mD5A440B138B34762D4EF3DB719391190B8C8ECC8 (ControllerTracking_tF922E6D65EF3E8D172FC5B1CBEC962F3E5E64E5D* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.InputTracking::remove_trackingLost(System.Action`1<UnityEngine.XR.XRNodeState>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_remove_trackingLost_m48A73CF7CA715230A1760E473AC30CEB33E16893 (Action_1_t290119641EBA3C1EAC8AF78274C63CE01C3046D8* ___value0, const RuntimeMethod* method) ;
+// System.Void Cognitive3D.Cognitive3D_Manager::remove_OnPreSessionEnd(Cognitive3D.Cognitive3D_Manager/onSessionEnd)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_remove_OnPreSessionEnd_m1478FB77EF3C344C867C0729A69DE99E39A72333 (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___value0, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager::remove_OnUpdate(Cognitive3D.Cognitive3D_Manager/onUpdate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cognitive3D_Manager_remove_OnUpdate_mFB33006B8DD4828AE83D4C0F4282FED13137BD21 (onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_unscaledDeltaTime()
@@ -4992,8 +5019,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HMDOrientation_RecordYaw_mACC27824F7DD14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
-// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion UnityEngine.Transform::get_localRotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Quaternion::get_eulerAngles()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) ;
 // UnityEngine.XR.InputDevice UnityEngine.XR.InputDevices::GetDeviceAtXRNode(UnityEngine.XR.XRNode)
@@ -5002,12 +5029,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HMDPresentEvent_CheckUserPresence_m37C63D8E923F37D48E62CD3DCA63FB67B3DA86AE (HMDPresentEvent_t5562A893DFEC2CCA273627EB62831B4B1F154545* __this, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.CustomEvent::SendCustomEvent(System.String,UnityEngine.Vector3,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomEvent_SendCustomEvent_mFF3F1B7F98A2848FF0568151F8EEADE28741B75A (String_t* ___category0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, String_t* ___dynamicObjectId2, const RuntimeMethod* method) ;
+// System.Void Cognitive3D.Components.RoomSize::CalculateAndRecordRoomsize(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_CalculateAndRecordRoomsize_mCD76F1C01E05ECE68C87BFAA72D65783FC984B3A (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, bool ___recordRoomSizeChangeAsEvent0, const RuntimeMethod* method) ;
 // System.Boolean Cognitive3D.GameplayReferences::GetRoomSize(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameplayReferences_GetRoomSize_m79AEA8B4EBD5B016B312E5C762A7BD77EEA0596D (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___roomSize0, const RuntimeMethod* method) ;
 // System.Globalization.CultureInfo System.Globalization.CultureInfo::get_InvariantCulture()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
 // System.String System.String::Format(System.IFormatProvider,System.String,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m44BF8BF44DC9B67D6CF265A1A2703A6D743F5C56 (RuntimeObject* ___provider0, String_t* ___format1, RuntimeObject* ___arg02, RuntimeObject* ___arg13, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::.ctor()
+inline void Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9 (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(TKey,TValue)
+inline void Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443 (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* __this, String_t* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*, String_t*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+}
+// Cognitive3D.CustomEvent Cognitive3D.CustomEvent::SetProperties(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84* CustomEvent_SetProperties_m50A4662DFB290831D12CAEF6948EB526A2F6C718 (CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84* __this, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___properties0, const RuntimeMethod* method) ;
+// System.Void Cognitive3D.Components.RoomSize::Cognitive3D_Manager_OnPreSessionEnd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874 (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, const RuntimeMethod* method) ;
 // System.Boolean Cognitive3D.GameplayReferences::get_SDKSupportsRoomSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameplayReferences_get_SDKSupportsRoomSize_m5CC90ADFBC0BBD2CEEF947AC4FC66EF274BCF40E (const RuntimeMethod* method) ;
 // System.Void Cognitive3D.Cognitive3D_Manager::add_OnPostSessionEnd(Cognitive3D.Cognitive3D_Manager/onSessionEnd)
@@ -5486,6 +5529,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RenderEyetracking_SignedAngle_mA1B06324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_projectionMatrix_m351820E6903139402FFFF40221B32D0C52B5A094 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___value0, const RuntimeMethod* method) ;
 // System.Void Cognitive3D.ActiveSession.RenderEyetracking::MatchTargetCamera()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEyetracking_MatchTargetCamera_m3F7103396C5794363528372EE10D24FB66D80737 (RenderEyetracking_t5E8CAD4B1A399E035EBBB35D689600C3ECD9482E* __this, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::SetPositionAndRotation(UnityEngine.Vector3,UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Material::SetPass(System.Int32)
@@ -8303,228 +8348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BatteryLevel__ctor_mD2DC015B728E7C735D06
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Cognitive3D.Components.BoundaryEvent::OnSessionBegin()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundaryEvent_OnSessionBegin_mE4D37E23916DB60CA305E17135E4869319CC1520 (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	{
-		// base.OnSessionBegin();
-		AnalyticsComponentBase_OnSessionBegin_m2EB40E3C4AE1F850239DEE69068C98CD23218EA9(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.Boolean Cognitive3D.Components.BoundaryEvent::IsPointInPolygon4(UnityEngine.Vector3[],UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundaryEvent_IsPointInPolygon4_mF30472BA22BC20076BA697A054C31F6D87C8F985 (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___polygon0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___testPoint1, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	{
-		// bool result = false;
-		V_0 = (bool)0;
-		// int j = polygon.Length - 1;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ___polygon0;
-		NullCheck(L_0);
-		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_0)->max_length)), 1));
-		// for (int i = 0; i < polygon.Length; i++)
-		V_2 = 0;
-		goto IL_00c6;
-	}
-
-IL_000f:
-	{
-		// if (polygon[i].z < testPoint.z && polygon[j].z >= testPoint.z || polygon[j].z < testPoint.z && polygon[i].z >= testPoint.z)
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = ___polygon0;
-		int32_t L_2 = V_2;
-		NullCheck(L_1);
-		float L_3 = ((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)))->___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___testPoint1;
-		float L_5 = L_4.___z_4;
-		if ((!(((float)L_3) < ((float)L_5))))
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = ___polygon0;
-		int32_t L_7 = V_1;
-		NullCheck(L_6);
-		float L_8 = ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___testPoint1;
-		float L_10 = L_9.___z_4;
-		if ((((float)L_8) >= ((float)L_10)))
-		{
-			goto IL_005f;
-		}
-	}
-
-IL_0037:
-	{
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = ___polygon0;
-		int32_t L_12 = V_1;
-		NullCheck(L_11);
-		float L_13 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_12)))->___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___testPoint1;
-		float L_15 = L_14.___z_4;
-		if ((!(((float)L_13) < ((float)L_15))))
-		{
-			goto IL_00c0;
-		}
-	}
-	{
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = ___polygon0;
-		int32_t L_17 = V_2;
-		NullCheck(L_16);
-		float L_18 = ((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___testPoint1;
-		float L_20 = L_19.___z_4;
-		if ((!(((float)L_18) >= ((float)L_20))))
-		{
-			goto IL_00c0;
-		}
-	}
-
-IL_005f:
-	{
-		// if (polygon[i].x + (testPoint.z - polygon[i].z) / (polygon[j].z - polygon[i].z) * (polygon[j].x - polygon[i].x) < testPoint.x)
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = ___polygon0;
-		int32_t L_22 = V_2;
-		NullCheck(L_21);
-		float L_23 = ((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22)))->___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___testPoint1;
-		float L_25 = L_24.___z_4;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_26 = ___polygon0;
-		int32_t L_27 = V_2;
-		NullCheck(L_26);
-		float L_28 = ((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27)))->___z_4;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = ___polygon0;
-		int32_t L_30 = V_1;
-		NullCheck(L_29);
-		float L_31 = ((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___z_4;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_32 = ___polygon0;
-		int32_t L_33 = V_2;
-		NullCheck(L_32);
-		float L_34 = ((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->___z_4;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_35 = ___polygon0;
-		int32_t L_36 = V_1;
-		NullCheck(L_35);
-		float L_37 = ((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->___x_2;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_38 = ___polygon0;
-		int32_t L_39 = V_2;
-		NullCheck(L_38);
-		float L_40 = ((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = ___testPoint1;
-		float L_42 = L_41.___x_2;
-		if ((!(((float)((float)il2cpp_codegen_add(L_23, ((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_subtract(L_25, L_28))/((float)il2cpp_codegen_subtract(L_31, L_34)))), ((float)il2cpp_codegen_subtract(L_37, L_40))))))) < ((float)L_42))))
-		{
-			goto IL_00c0;
-		}
-	}
-	{
-		// result = !result;
-		bool L_43 = V_0;
-		V_0 = (bool)((((int32_t)L_43) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_00c0:
-	{
-		// j = i;
-		int32_t L_44 = V_2;
-		V_1 = L_44;
-		// for (int i = 0; i < polygon.Length; i++)
-		int32_t L_45 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_45, 1));
-	}
-
-IL_00c6:
-	{
-		// for (int i = 0; i < polygon.Length; i++)
-		int32_t L_46 = V_2;
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = ___polygon0;
-		NullCheck(L_47);
-		if ((((int32_t)L_46) < ((int32_t)((int32_t)(((RuntimeArray*)L_47)->max_length)))))
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return result;
-		bool L_48 = V_0;
-		return L_48;
-	}
-}
-// System.Void Cognitive3D.Components.BoundaryEvent::Cognitive3D_Manager_OnPreSessionEnd()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Cognitive3D_Manager.OnPreSessionEnd -= Cognitive3D_Manager_OnPreSessionEnd;
-		onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* L_0 = (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B*)il2cpp_codegen_object_new(onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		onSessionEnd__ctor_m7B4919F721048EC45C9D8F88F9780C099D9358E4(L_0, __this, (intptr_t)((void*)BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B_RuntimeMethod_var), NULL);
-		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		Cognitive3D_Manager_remove_OnPreSessionEnd_m1478FB77EF3C344C867C0729A69DE99E39A72333(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Cognitive3D.Components.BoundaryEvent::OnDestroy()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundaryEvent_OnDestroy_m878882108DEFAAAD6F37A8A2FD8571DA540EE36B (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	{
-		// Cognitive3D_Manager_OnPreSessionEnd();
-		BoundaryEvent_Cognitive3D_Manager_OnPreSessionEnd_m612EF7E41FC932B2ED531F7B0773833EA02A237B(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.String Cognitive3D.Components.BoundaryEvent::GetDescription()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BoundaryEvent_GetDescription_m5FAFB4EE05577E9690A8E28CC419D35536669B2F (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8225C96A776826C5A382F15EDD5F94946551E36D);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// return "Current platform does not support this component";
-		return _stringLiteral8225C96A776826C5A382F15EDD5F94946551E36D;
-	}
-}
-// System.Boolean Cognitive3D.Components.BoundaryEvent::GetWarning()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundaryEvent_GetWarning_mE0E7E4E0A50D5EF7762F69EFE82BA958BDCF2A23 (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	{
-		// return true;
-		return (bool)1;
-	}
-}
-// System.Void Cognitive3D.Components.BoundaryEvent::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundaryEvent__ctor_m25F023C95717A21AEA5A5F037EEE77AD7173CB52 (BoundaryEvent_t7E6B43B7B36BD369D797F7EBF6BC289C1001E06B* __this, const RuntimeMethod* method) 
-{
-	{
-		// private readonly float BoundaryTrackingInterval = 1;
-		__this->___BoundaryTrackingInterval_4 = (1.0f);
-		AnalyticsComponentBase__ctor_mCF19690FC165059BACC760017F6D113A2064D2EA(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Cognitive3D.Components.ControllerCollisionEvent::OnSessionBegin()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerCollisionEvent_OnSessionBegin_m8B506CD6A7618233F47D76482127F90ED9EF2C1A (ControllerCollisionEvent_t48DC0E9D4243A6B182D39A6E6B3A5AEDAE4BC580* __this, const RuntimeMethod* method) 
 {
@@ -8853,48 +8676,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputTracker_OnSessionBegin_m2
 	}
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	{
-		// if (!GameplayReferences.GetControllerInfo(true, out device))
+		// if (!GameplayReferences.GetControllerInfo(true, out device) || !GameplayReferences.GetControllerTransform(false,out ignore))
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)1, (&V_0), NULL);
-		if (L_0)
+		if (!L_0)
 		{
-			goto IL_001c;
+			goto IL_0014;
 		}
 	}
 	{
-		// GameplayReferences.OnControllerValidityChange += DelayEnable;
-		onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93* L_1 = (onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93*)il2cpp_codegen_object_new(onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		onDeviceValidityChange__ctor_m8D4016D5A4EDBEEE47E1E0C00A98135071596053(L_1, __this, (intptr_t)((void*)ControllerInputTracker_DelayEnable_m8BB99277EDD1394DE7D29F435A1EA9E5D5007763_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		GameplayReferences_add_OnControllerValidityChange_mF5A5452EBBA922A806599C8CB50E21C806D9DDC7(L_1, NULL);
+		bool L_1;
+		L_1 = GameplayReferences_GetControllerTransform_m2173110225B21D6A08E8D670E1A864DFA355DE72((bool)0, (&V_1), NULL);
+		if (L_1)
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_0014:
+	{
+		// GameplayReferences.OnControllerValidityChange += DelayEnable;
+		onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93* L_2 = (onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93*)il2cpp_codegen_object_new(onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		onDeviceValidityChange__ctor_m8D4016D5A4EDBEEE47E1E0C00A98135071596053(L_2, __this, (intptr_t)((void*)ControllerInputTracker_DelayEnable_m8BB99277EDD1394DE7D29F435A1EA9E5D5007763_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
+		GameplayReferences_add_OnControllerValidityChange_mF5A5452EBBA922A806599C8CB50E21C806D9DDC7(L_2, NULL);
 		return;
 	}
 
-IL_001c:
+IL_0026:
 	{
-		// else if (!GameplayReferences.GetControllerInfo(false, out device))
+		// else if (!GameplayReferences.GetControllerInfo(false, out device) || !GameplayReferences.GetControllerTransform(true, out ignore))
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)0, (&V_0), NULL);
-		if (L_2)
+		bool L_3;
+		L_3 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)0, (&V_0), NULL);
+		if (!L_3)
 		{
-			goto IL_0038;
+			goto IL_003a;
 		}
 	}
 	{
-		// GameplayReferences.OnControllerValidityChange += DelayEnable;
-		onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93* L_3 = (onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93*)il2cpp_codegen_object_new(onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		onDeviceValidityChange__ctor_m8D4016D5A4EDBEEE47E1E0C00A98135071596053(L_3, __this, (intptr_t)((void*)ControllerInputTracker_DelayEnable_m8BB99277EDD1394DE7D29F435A1EA9E5D5007763_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		GameplayReferences_add_OnControllerValidityChange_mF5A5452EBBA922A806599C8CB50E21C806D9DDC7(L_3, NULL);
+		bool L_4;
+		L_4 = GameplayReferences_GetControllerTransform_m2173110225B21D6A08E8D670E1A864DFA355DE72((bool)1, (&V_1), NULL);
+		if (L_4)
+		{
+			goto IL_004c;
+		}
+	}
+
+IL_003a:
+	{
+		// GameplayReferences.OnControllerValidityChange += DelayEnable;
+		onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93* L_5 = (onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93*)il2cpp_codegen_object_new(onDeviceValidityChange_t81F8E9B9B42A1B57A8416A33AFF8965DEFEDBB93_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		onDeviceValidityChange__ctor_m8D4016D5A4EDBEEE47E1E0C00A98135071596053(L_5, __this, (intptr_t)((void*)ControllerInputTracker_DelayEnable_m8BB99277EDD1394DE7D29F435A1EA9E5D5007763_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
+		GameplayReferences_add_OnControllerValidityChange_mF5A5452EBBA922A806599C8CB50E21C806D9DDC7(L_5, NULL);
 		return;
 	}
 
-IL_0038:
+IL_004c:
 	{
 		// Init();
 		ControllerInputTracker_Init_mF9FE97CCEED2549F17C8AE49A83D684368E8D499(__this, NULL);
@@ -8938,6 +8784,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputTracker_Init_mF9FE97CCEED
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisDynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B_m1BA5AE41E86F48942D36AB13CE2D171B8DA7C837_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
@@ -9034,1379 +8882,1283 @@ IL_002c:
 		RuntimeObject* L_7 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_6);
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
 		Cognitive3D_Manager_SetSessionProperty_mDD85CBC260C5F6260F1D66B17A624AD0CC35DD93(_stringLiteral6FC4B503FC0768DFC062DF2DA0E59536D36F3BA0, L_7, NULL);
+		// LeftLastFrameButtonStates = new Dictionary<string, ButtonState>();
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_8 = (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45*)il2cpp_codegen_object_new(Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2(L_8, Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2_RuntimeMethod_var);
+		__this->___LeftLastFrameButtonStates_10 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LeftLastFrameButtonStates_10), (void*)L_8);
+		// RightLastFrameButtonStates = new Dictionary<string, ButtonState>();
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_9 = (Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45*)il2cpp_codegen_object_new(Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2(L_9, Dictionary_2__ctor_m9FF312357A29E26C60D3160061EB372E174813A2_RuntimeMethod_var);
+		__this->___RightLastFrameButtonStates_11 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___RightLastFrameButtonStates_11), (void*)L_9);
 		// if (GameplayReferences.GetControllerInfo(false,out tempDevice))
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		bool L_8;
-		L_8 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)0, (&V_1), NULL);
-		if (!L_8)
+		bool L_10;
+		L_10 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)0, (&V_1), NULL);
+		if (!L_10)
 		{
-			goto IL_0903;
+			goto IL_0817;
 		}
 	}
 	{
 		// LeftHand.GetControllerTypeData(out mesh, out display);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_9 = __this->___LeftHand_6;
-		NullCheck(L_9);
-		DynamicObject_GetControllerTypeData_m462840AA76AD883402B7B7DA2793EEAC65D64AD7(L_9, (&V_2), (&V_3), NULL);
-		int32_t L_10 = V_3;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_10, 1)))
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_11 = __this->___LeftHand_6;
+		NullCheck(L_11);
+		DynamicObject_GetControllerTypeData_m462840AA76AD883402B7B7DA2793EEAC65D64AD7(L_11, (&V_2), (&V_3), NULL);
+		int32_t L_12 = V_3;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_12, 1)))
 		{
 			case 0:
 			{
-				goto IL_00b1;
+				goto IL_00c7;
 			}
 			case 1:
 			{
-				goto IL_08ed;
+				goto IL_0801;
 			}
 			case 2:
 			{
-				goto IL_0331;
+				goto IL_031c;
 			}
 			case 3:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 4:
 			{
-				goto IL_01d2;
+				goto IL_01e8;
 			}
 			case 5:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 6:
 			{
-				goto IL_0490;
+				goto IL_0450;
 			}
 			case 7:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 8:
 			{
-				goto IL_0632;
+				goto IL_059c;
 			}
 			case 9:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 10:
 			{
-				goto IL_0791;
+				goto IL_06d0;
 			}
 			case 11:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 12:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 13:
 			{
-				goto IL_01d2;
+				goto IL_01e8;
 			}
 			case 14:
 			{
-				goto IL_0791;
+				goto IL_06d0;
 			}
 			case 15:
 			{
-				goto IL_0903;
+				goto IL_0817;
 			}
 			case 16:
 			{
-				goto IL_08ed;
+				goto IL_0801;
 			}
 			case 17:
 			{
-				goto IL_08ed;
+				goto IL_0801;
 			}
 			case 18:
 			{
-				goto IL_01d2;
+				goto IL_01e8;
 			}
 		}
 	}
 	{
-		goto IL_08ed;
+		goto IL_0801;
 	}
 
-IL_00b1:
+IL_00c7:
 	{
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_11 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_13 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_12;
-		L_12 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_13 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_15 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_15, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
 		NullCheck(L_13);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_13, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_11);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_11, L_12, L_13, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_13, L_14, L_15, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_14 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_15;
-		L_15 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_16 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_16 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_17;
+		L_17 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_18 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_18);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_18, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
 		NullCheck(L_16);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_16, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_14);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_14, L_15, L_16, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_16, L_17, L_18, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_17 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_18;
-		L_18 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_19 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_19 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_20;
+		L_20 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_21 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_21, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
 		NullCheck(L_19);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_19, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_17);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_17, L_18, L_19, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_19, L_20, L_21, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("vive_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_20 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_21;
-		L_21 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_22 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_22 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_23;
+		L_23 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_24 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_24, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
 		NullCheck(L_22);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_22, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
-		NullCheck(L_20);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_20, L_21, L_22, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_22, L_23, L_24, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("vive_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_23 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_24;
-		L_24 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_25 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_25 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_26;
+		L_26 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_27 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_27);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_27, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
 		NullCheck(L_25);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_25, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
-		NullCheck(L_23);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_23, L_24, L_25, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_25, L_26, L_27, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("vive_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_26 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_27;
-		L_27 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_28 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_28 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_29;
+		L_29 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_30 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_30);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_30, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
 		NullCheck(L_28);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_28, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
-		NullCheck(L_26);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_26, L_27, L_28, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_28, L_29, L_30, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("vive_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_29 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_30;
-		L_30 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_31 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_31 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_32;
+		L_32 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_33 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_33);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_33, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
 		NullCheck(L_31);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_31, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
-		NullCheck(L_29);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_29, L_30, L_31, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_31, L_32, L_33, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("vive_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_32 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_33;
-		L_33 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_34 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_34 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_35;
+		L_35 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_36 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_36);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_36, _stringLiteral82748CFC35E89C0024CF906674E3CAB181D824EF, NULL);
 		NullCheck(L_34);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_34, _stringLiteral82748CFC35E89C0024CF906674E3CAB181D824EF, NULL);
-		NullCheck(L_32);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_32, L_33, L_34, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_34, L_35, L_36, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
-		goto IL_0903;
+		goto IL_0817;
 	}
 
-IL_01d2:
+IL_01e8:
 	{
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_35 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_37 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_36;
-		L_36 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_37 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		String_t* L_38;
+		L_38 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_39 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_39);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_39, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
 		NullCheck(L_37);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_37, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_35);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_35, L_36, L_37, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_37, L_38, L_39, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_38 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_39;
-		L_39 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_40 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_40 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_41;
+		L_41 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_42 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_42);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_42, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
 		NullCheck(L_40);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_40, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_38);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_38, L_39, L_40, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_41 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_42;
-		L_42 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_43 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_43);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_43, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_41);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_41, L_42, L_43, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_40, L_41, L_42, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_44 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_45;
-		L_45 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_46 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_46);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_46, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
-		NullCheck(L_44);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_44, L_45, L_46, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_43 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_44;
+		L_44 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_45 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_45);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_45, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
+		NullCheck(L_43);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_43, L_44, L_45, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_47 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_48;
-		L_48 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_49 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_49);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_49, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
-		NullCheck(L_47);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_47, L_48, L_49, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_46 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_47;
+		L_47 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_48 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_48);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_48, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
+		NullCheck(L_46);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_46, L_47, L_48, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_50 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_51;
-		L_51 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_52 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_52);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_52, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
-		NullCheck(L_50);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_50, L_51, L_52, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_49 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_50;
+		L_50 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_51 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_51);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_51, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
+		NullCheck(L_49);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_49, L_50, L_51, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_53 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_54;
-		L_54 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_55 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_55);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_55, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
-		NullCheck(L_53);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_53, L_54, L_55, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_52 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_53;
+		L_53 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_54 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_54, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
+		NullCheck(L_52);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_52, L_53, L_54, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("menu"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_56 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_57;
-		L_57 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_58 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_58);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_58, _stringLiteral0B5ECFF84CE073C4971D637741C560F910E4D128, NULL);
-		NullCheck(L_56);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_56, L_57, L_58, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_55 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_56;
+		L_56 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_57 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_57);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_57, _stringLiteral0B5ECFF84CE073C4971D637741C560F910E4D128, NULL);
+		NullCheck(L_55);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_55, L_56, L_57, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_59 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_60;
-		L_60 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_61 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_61);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_61, _stringLiteral7D0E3AA8E1FB14366AD4D51BF4EDED0F61C4C13D, NULL);
-		NullCheck(L_59);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_59, L_60, L_61, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_58 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_59;
+		L_59 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_60 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_60);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_60, _stringLiteral7D0E3AA8E1FB14366AD4D51BF4EDED0F61C4C13D, NULL);
+		NullCheck(L_58);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_58, L_59, L_60, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_62 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_63;
-		L_63 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_64 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_64);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_64, _stringLiteral9A531637D04E92098939A4971DF0210D760315C9, NULL);
-		NullCheck(L_62);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_62, L_63, L_64, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_61 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_62;
+		L_62 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_63 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_63);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_63, _stringLiteral9A531637D04E92098939A4971DF0210D760315C9, NULL);
+		NullCheck(L_61);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_61, L_62, L_63, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
-		goto IL_0903;
+		goto IL_0817;
 	}
 
-IL_0331:
+IL_031c:
 	{
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_65 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_64 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_66;
-		L_66 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_67 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_67);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_67, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_65);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_65, L_66, L_67, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_65;
+		L_65 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_66 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_66);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_66, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_64);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_64, L_65, L_66, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_68 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_69;
-		L_69 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_70 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_70);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_70, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_68);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_68, L_69, L_70, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_71 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_72;
-		L_72 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_73 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_73);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_73, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_71);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_71, L_72, L_73, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_67 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_68;
+		L_68 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_69 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_69, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_67);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_67, L_68, L_69, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("rift_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_74 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_75;
-		L_75 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_76 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_76);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_76, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
-		NullCheck(L_74);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_74, L_75, L_76, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_70 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_71;
+		L_71 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_72 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_72);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_72, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
+		NullCheck(L_70);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_70, L_71, L_72, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("rift_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_77 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_78;
-		L_78 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_79 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_79);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_79, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
-		NullCheck(L_77);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_77, L_78, L_79, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_73 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_74;
+		L_74 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_75 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_75);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_75, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
+		NullCheck(L_73);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_73, L_74, L_75, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("rift_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_80 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_81;
-		L_81 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_82 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_82);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_82, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
-		NullCheck(L_80);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_80, L_81, L_82, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_76 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_77;
+		L_77 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_78 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_78);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_78, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
+		NullCheck(L_76);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_76, L_77, L_78, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("rift_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_83 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_84;
-		L_84 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_85 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_85);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_85, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
-		NullCheck(L_83);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_83, L_84, L_85, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_79 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_80;
+		L_80 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_81 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_81);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_81, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
+		NullCheck(L_79);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_79, L_80, L_81, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("rift_start"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_86 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_87;
-		L_87 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_88 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_88);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_88, _stringLiteral440AD3783303CFD24ABA10DFE8B27DD7FF63CE14, NULL);
-		NullCheck(L_86);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_86, L_87, L_88, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_82 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_83;
+		L_83 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_84 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_84, _stringLiteral440AD3783303CFD24ABA10DFE8B27DD7FF63CE14, NULL);
+		NullCheck(L_82);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_82, L_83, L_84, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("rift_xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_89 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_90;
-		L_90 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_91 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_91);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_91, _stringLiteral2E7D8A9AB86138244C32816A35D692DEAA1C22F0, NULL);
-		NullCheck(L_89);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_89, L_90, L_91, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_85 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_86;
+		L_86 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_87 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_87);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_87, _stringLiteral2E7D8A9AB86138244C32816A35D692DEAA1C22F0, NULL);
+		NullCheck(L_85);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_85, L_86, L_87, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("rift_ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_92 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_93;
-		L_93 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_94 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_94);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_94, _stringLiteralC73F347CAA4E7CB931AFEED990B19D6055328ACC, NULL);
-		NullCheck(L_92);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_92, L_93, L_94, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_88 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_89;
+		L_89 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_90 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_90);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_90, _stringLiteralC73F347CAA4E7CB931AFEED990B19D6055328ACC, NULL);
+		NullCheck(L_88);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_88, L_89, L_90, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
-		goto IL_0903;
+		goto IL_0817;
 	}
 
-IL_0490:
+IL_0450:
 	{
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_95 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_91 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_96;
-		L_96 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_97 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_97);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_97, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_95);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_95, L_96, L_97, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_92;
+		L_92 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_93 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_93);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_93, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_91);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_91, L_92, L_93, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_98 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_99;
-		L_99 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_100 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_100);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_100, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_98);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_98, L_99, L_100, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_101 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_102;
-		L_102 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_103 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_103);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_103, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_101);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_101, L_102, L_103, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_94 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_95;
+		L_95 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_96 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_96);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_96, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_94);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_94, L_95, L_96, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondary2DAxis.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_104 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_105;
-		L_105 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_106 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_106);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_106, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_104);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_104, L_105, L_106, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_97 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_98;
+		L_98 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_99 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_99);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_99, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_97);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_97, L_98, L_99, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondary2DAxisClick.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_107 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_108;
-		L_108 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_109 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_109);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_109, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_107);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_107, L_108, L_109, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.secondary2DAxisTouch.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_110 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_111;
-		L_111 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_112 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_112);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_112, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_110);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_110, L_111, L_112, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_100 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_101;
+		L_101 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_102 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_102);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_102, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_100);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_100, L_101, L_102, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("wmr_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_113 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_114;
-		L_114 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_115 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_115);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_115, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
-		NullCheck(L_113);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_113, L_114, L_115, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_103 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_104;
+		L_104 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_105 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_105);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_105, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
+		NullCheck(L_103);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_103, L_104, L_105, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("wmr_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_116 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_117;
-		L_117 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_118 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_118);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_118, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
-		NullCheck(L_116);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_116, L_117, L_118, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_106 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_107;
+		L_107 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_108 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_108);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_108, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
+		NullCheck(L_106);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_106, L_107, L_108, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("wmr_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_119 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_120;
-		L_120 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_121 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_121);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_121, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
-		NullCheck(L_119);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_119, L_120, L_121, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_109 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_110;
+		L_110 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_111 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_111);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_111, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
+		NullCheck(L_109);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_109, L_110, L_111, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("wmr_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_122 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_123;
-		L_123 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_124 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_124);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_124, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
-		NullCheck(L_122);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_122, L_123, L_124, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_112 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_113;
+		L_113 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_114 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_114);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_114, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
+		NullCheck(L_112);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_112, L_113, L_114, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("wmr_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_125 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_126;
-		L_126 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_127 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_115 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_116;
+		L_116 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_117 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_117);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_117, _stringLiteralCF05F213C17E997AE87A8F200FF08130BA5DB500, NULL);
+		NullCheck(L_115);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_115, L_116, L_117, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		// break;
+		goto IL_0817;
+	}
+
+IL_059c:
+	{
+		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("pico_joystick", 0, 0, 0, true));
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_118 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_119;
+		L_119 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_120 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_120);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_120, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_118);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_118, L_119, L_120, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("pico_joystick", 0, 0, 0, true));
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_121 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_122;
+		L_122 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_123 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_123);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_123, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_121);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_121, L_122, L_123, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("pico_trigger"));
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_124 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_125;
+		L_125 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_126 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_126);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_126, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_124);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_124, L_125, L_126, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("pico_trigger"));
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_127 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_128;
+		L_128 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_129 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_129);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_129, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
 		NullCheck(L_127);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_127, _stringLiteralCF05F213C17E997AE87A8F200FF08130BA5DB500, NULL);
-		NullCheck(L_125);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_125, L_126, L_127, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// break;
-		goto IL_0903;
-	}
-
-IL_0632:
-	{
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_128 = __this->___LeftLastFrameButtonStates_10;
-		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_129;
-		L_129 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_130 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_127, L_128, L_129, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("pico_grip"));
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_130 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_131;
+		L_131 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_132 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_132);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_132, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
 		NullCheck(L_130);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_130, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_128);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_128, L_129, L_130, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_131 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_132;
-		L_132 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_133 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_133);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_133, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_131);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_131, L_132, L_133, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_134 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_135;
-		L_135 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_136 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_136);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_136, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_134);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_134, L_135, L_136, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_137 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_138;
-		L_138 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_139 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_139);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_139, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_137);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_137, L_138, L_139, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_140 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_141;
-		L_141 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_142 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_142);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_142, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_140);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_140, L_141, L_142, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_143 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_144;
-		L_144 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_145 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_145);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_145, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_143);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_143, L_144, L_145, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_130, L_131, L_132, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_146 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_147;
-		L_147 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_148 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_148);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_148, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_146);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_146, L_147, L_148, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_133 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_134;
+		L_134 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_135 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_135);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_135, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_133);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_133, L_134, L_135, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("pico_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_149 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_150;
-		L_150 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_151 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_151);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_151, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
-		NullCheck(L_149);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_149, L_150, L_151, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_136 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_137;
+		L_137 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_138 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_138);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_138, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
+		NullCheck(L_136);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_136, L_137, L_138, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("pico_xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_152 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_153;
-		L_153 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_154 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_154);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_154, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
-		NullCheck(L_152);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_152, L_153, L_154, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_139 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_140;
+		L_140 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_141 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_141);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_141, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
+		NullCheck(L_139);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_139, L_140, L_141, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("pico_ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_155 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_156;
-		L_156 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_157 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_157);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_157, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
-		NullCheck(L_155);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_155, L_156, L_157, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_142 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_143;
+		L_143 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_144 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_144);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_144, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
+		NullCheck(L_142);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_142, L_143, L_144, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
-		goto IL_0903;
+		goto IL_0817;
 	}
 
-IL_0791:
+IL_06d0:
 	{
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_158 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_145 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_159;
-		L_159 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_160 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_160);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_160, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_158);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_158, L_159, L_160, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_146;
+		L_146 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_147 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_147);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_147, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_145);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_145, L_146, L_147, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_161 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_162;
-		L_162 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_163 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_163);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_163, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_161);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_161, L_162, L_163, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// LeftLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_164 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_165;
-		L_165 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_166 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_166);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_166, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_164);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_164, L_165, L_166, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_148 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_149;
+		L_149 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_150 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_150);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_150, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_148);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_148, L_149, L_150, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_167 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_168;
-		L_168 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_169 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_169);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_169, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_167);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_167, L_168, L_169, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_151 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_152;
+		L_152 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_153 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_153);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_153, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_151);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_151, L_152, L_153, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_170 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_171;
-		L_171 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_172 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_172);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_172, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_170);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_170, L_171, L_172, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_154 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_155;
+		L_155 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_156 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_156);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_156, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_154);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_154, L_155, L_156, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_173 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_174;
-		L_174 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_175 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_175);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_175, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_173);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_173, L_174, L_175, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_157 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_158;
+		L_158 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_159 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_159);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_159, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_157);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_157, L_158, L_159, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_176 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_177;
-		L_177 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_178 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_178);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_178, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_176);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_176, L_177, L_178, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_160 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_161;
+		L_161 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_162 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_162);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_162, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_160);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_160, L_161, L_162, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("pico_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_179 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_180;
-		L_180 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_181 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_181);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_181, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
-		NullCheck(L_179);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_179, L_180, L_181, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_163 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_164;
+		L_164 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_165 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_165);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_165, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
+		NullCheck(L_163);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_163, L_164, L_165, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("pico_xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_182 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_183;
-		L_183 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_184 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_184);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_184, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
-		NullCheck(L_182);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_182, L_183, L_184, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_166 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_167;
+		L_167 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_168 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_168);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_168, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
+		NullCheck(L_166);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_166, L_167, L_168, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// LeftLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("pico_ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_185 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_186;
-		L_186 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_187 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_187);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_187, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
-		NullCheck(L_185);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_185, L_186, L_187, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_169 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_170;
+		L_170 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_171 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_171);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_171, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
+		NullCheck(L_169);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_169, L_170, L_171, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
-		goto IL_0903;
+		goto IL_0817;
 	}
 
-IL_08ed:
+IL_0801:
 	{
 		// Util.logDebug("Unknown Left Controller Type: " + tempDevice.name);break;
-		String_t* L_188;
-		L_188 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&V_1), NULL);
-		String_t* L_189;
-		L_189 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral433F60DF3E77886C321DD45BE7011683783D6D6B, L_188, NULL);
+		String_t* L_172;
+		L_172 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&V_1), NULL);
+		String_t* L_173;
+		L_173 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral433F60DF3E77886C321DD45BE7011683783D6D6B, L_172, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Util_t259290BAA45FFFAA649363691D004694F0E9CF92_il2cpp_TypeInfo_var);
-		Util_logDebug_m5880242C18A6E75AA0E03E8B52EA451B82FEEA88(L_189, NULL);
+		Util_logDebug_m5880242C18A6E75AA0E03E8B52EA451B82FEEA88(L_173, NULL);
 	}
 
-IL_0903:
+IL_0817:
 	{
 		// if (GameplayReferences.GetControllerInfo(true, out tempDevice))
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		bool L_190;
-		L_190 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)1, (&V_1), NULL);
-		if (!L_190)
+		bool L_174;
+		L_174 = GameplayReferences_GetControllerInfo_mA08D48086742973ECB61837EA30CB9A2A99C3FD3((bool)1, (&V_1), NULL);
+		if (!L_174)
 		{
-			goto IL_11ba;
+			goto IL_0fcc;
 		}
 	}
 	{
 		// RightHand.GetControllerTypeData(out mesh, out display);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_191 = __this->___RightHand_7;
-		NullCheck(L_191);
-		DynamicObject_GetControllerTypeData_m462840AA76AD883402B7B7DA2793EEAC65D64AD7(L_191, (&V_4), (&V_5), NULL);
-		int32_t L_192 = V_5;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_192, 1)))
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_175 = __this->___RightHand_7;
+		NullCheck(L_175);
+		DynamicObject_GetControllerTypeData_m462840AA76AD883402B7B7DA2793EEAC65D64AD7(L_175, (&V_4), (&V_5), NULL);
+		int32_t L_176 = V_5;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_176, 1)))
 		{
 			case 0:
 			{
-				goto IL_097d;
+				goto IL_0891;
 			}
 			case 1:
 			{
-				goto IL_0a9a;
+				goto IL_09ae;
 			}
 			case 2:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 3:
 			{
-				goto IL_0bf5;
+				goto IL_0ade;
 			}
 			case 4:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 5:
 			{
-				goto IL_0a9a;
+				goto IL_09ae;
 			}
 			case 6:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 7:
 			{
-				goto IL_0d50;
+				goto IL_0c0e;
 			}
 			case 8:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 9:
 			{
-				goto IL_0eee;
+				goto IL_0d56;
 			}
 			case 10:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 11:
 			{
-				goto IL_1049;
+				goto IL_0e86;
 			}
 			case 12:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 13:
 			{
-				goto IL_11a4;
+				goto IL_0fb6;
 			}
 			case 14:
 			{
-				goto IL_11ba;
+				goto IL_0fcc;
 			}
 			case 15:
 			{
-				goto IL_1049;
+				goto IL_0e86;
 			}
 			case 16:
 			{
-				goto IL_11a4;
+				goto IL_0fb6;
 			}
 			case 17:
 			{
-				goto IL_11a4;
+				goto IL_0fb6;
 			}
 			case 18:
 			{
-				goto IL_11a4;
+				goto IL_0fb6;
 			}
 			case 19:
 			{
-				goto IL_0a9a;
+				goto IL_09ae;
 			}
 		}
 	}
 	{
-		goto IL_11a4;
+		goto IL_0fb6;
 	}
 
-IL_097d:
+IL_0891:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_193 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_177 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_194;
-		L_194 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_195 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_195);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_195, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_193);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_193, L_194, L_195, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_178;
+		L_178 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_179 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_179);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_179, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_177);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_177, L_178, L_179, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_196 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_197;
-		L_197 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_198 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_198);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_198, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_196);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_196, L_197, L_198, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_180 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_181;
+		L_181 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_182 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_182);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_182, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_180);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_180, L_181, L_182, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("vive_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_199 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_200;
-		L_200 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_201 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_201);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_201, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_199);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_199, L_200, L_201, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_183 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_184;
+		L_184 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_185 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_185);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_185, _stringLiteralE89C1215F0B6F71C7315F8BEFCAE44E9EFA27A82, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_183);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_183, L_184, L_185, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("vive_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_202 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_203;
-		L_203 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_204 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_204);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_204, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
-		NullCheck(L_202);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_202, L_203, L_204, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_186 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_187;
+		L_187 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_188 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_188);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_188, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
+		NullCheck(L_186);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_186, L_187, L_188, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("vive_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_205 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_206;
-		L_206 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_207 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_207);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_207, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
-		NullCheck(L_205);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_205, L_206, L_207, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_189 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_190;
+		L_190 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_191 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_191);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_191, _stringLiteral815A720DB15EB4894B9A875C5ABB25057F1CB095, NULL);
+		NullCheck(L_189);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_189, L_190, L_191, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("vive_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_208 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_209;
-		L_209 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_210 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_210);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_210, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
-		NullCheck(L_208);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_208, L_209, L_210, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_192 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_193;
+		L_193 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_194 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_194);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_194, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
+		NullCheck(L_192);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_192, L_193, L_194, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("vive_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_211 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_212;
-		L_212 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_213 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_213);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_213, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
-		NullCheck(L_211);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_211, L_212, L_213, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_195 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_196;
+		L_196 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_197 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_197);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_197, _stringLiteral4A404125522771CDCC60DE1D46E0FF5F7C9FB63D, NULL);
+		NullCheck(L_195);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_195, L_196, L_197, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("vive_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_214 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_215;
-		L_215 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_216 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_216);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_216, _stringLiteral82748CFC35E89C0024CF906674E3CAB181D824EF, NULL);
-		NullCheck(L_214);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_214, L_215, L_216, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_198 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_199;
+		L_199 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_200 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_200);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_200, _stringLiteral82748CFC35E89C0024CF906674E3CAB181D824EF, NULL);
+		NullCheck(L_198);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_198, L_199, L_200, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0a9a:
+IL_09ae:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_217 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_201 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_218;
-		L_218 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_219 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_219);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_219, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_217);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_217, L_218, L_219, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_202;
+		L_202 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_203 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_203);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_203, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_201);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_201, L_202, L_203, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_220 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_221;
-		L_221 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_222 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_222);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_222, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_220);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_220, L_221, L_222, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_223 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_224;
-		L_224 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_225 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_225);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_225, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_223);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_223, L_224, L_225, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_204 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_205;
+		L_205 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_206 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_206);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_206, _stringLiteral8AF7B9D6121033ED1DE80EFA3688A7998521AB1F, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_204);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_204, L_205, L_206, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_226 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_227;
-		L_227 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_228 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_228);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_228, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
-		NullCheck(L_226);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_226, L_227, L_228, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_207 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_208;
+		L_208 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_209 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_209);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_209, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
+		NullCheck(L_207);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_207, L_208, L_209, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_229 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_230;
-		L_230 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_231 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_231);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_231, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
-		NullCheck(L_229);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_229, L_230, L_231, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_210 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_211;
+		L_211 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_212 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_212);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_212, _stringLiteral9FE5967523CA0E49A247084021DB0C0C2C996FDF, NULL);
+		NullCheck(L_210);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_210, L_211, L_212, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_232 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_233;
-		L_233 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_234 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_234);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_234, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
-		NullCheck(L_232);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_232, L_233, L_234, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_213 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_214;
+		L_214 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_215 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_215);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_215, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
+		NullCheck(L_213);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_213, L_214, L_215, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_235 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_236;
-		L_236 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_237 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_237);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_237, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
-		NullCheck(L_235);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_235, L_236, L_237, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_216 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_217;
+		L_217 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_218 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_218);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_218, _stringLiteral4FAF1332EAA22ED62546993B44D1AE07024AA9C9, NULL);
+		NullCheck(L_216);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_216, L_217, L_218, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("menu"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_238 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_239;
-		L_239 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_240 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_240);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_240, _stringLiteral0B5ECFF84CE073C4971D637741C560F910E4D128, NULL);
-		NullCheck(L_238);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_238, L_239, L_240, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_219 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_220;
+		L_220 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_221 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_221);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_221, _stringLiteral0B5ECFF84CE073C4971D637741C560F910E4D128, NULL);
+		NullCheck(L_219);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_219, L_220, L_221, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("abtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_241 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_242;
-		L_242 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_243 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_243);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_243, _stringLiteralF8E30A32CE92793ED6449AE03206B3AE29FE8F83, NULL);
-		NullCheck(L_241);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_241, L_242, L_243, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_222 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_223;
+		L_223 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_224 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_224);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_224, _stringLiteralF8E30A32CE92793ED6449AE03206B3AE29FE8F83, NULL);
+		NullCheck(L_222);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_222, L_223, L_224, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("bbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_244 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_245;
-		L_245 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_246 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_246);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_246, _stringLiteral00C12D1F9F2D7F81C54033AE80B54806DCEC68E1, NULL);
-		NullCheck(L_244);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_244, L_245, L_246, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_225 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_226;
+		L_226 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_227 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_227);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_227, _stringLiteral00C12D1F9F2D7F81C54033AE80B54806DCEC68E1, NULL);
+		NullCheck(L_225);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_225, L_226, L_227, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0bf5:
+IL_0ade:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_247 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_228 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_248;
-		L_248 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_249 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_249);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_249, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_247);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_247, L_248, L_249, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_229;
+		L_229 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_230 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_230);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_230, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_228);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_228, L_229, L_230, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_250 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_251;
-		L_251 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_252 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_252);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_252, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_250);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_250, L_251, L_252, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("rift_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_253 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_254;
-		L_254 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_255 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_255);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_255, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_253);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_253, L_254, L_255, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_231 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_232;
+		L_232 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_233 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_233);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_233, _stringLiteralE918E22B69BE0DD18CC6D3A75FE7D399F43254B1, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_231);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_231, L_232, L_233, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("rift_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_256 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_257;
-		L_257 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_258 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_258);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_258, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
-		NullCheck(L_256);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_256, L_257, L_258, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_234 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_235;
+		L_235 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_236 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_236);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_236, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
+		NullCheck(L_234);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_234, L_235, L_236, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("rift_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_259 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_260;
-		L_260 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_261 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_261);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_261, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
-		NullCheck(L_259);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_259, L_260, L_261, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_237 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_238;
+		L_238 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_239 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_239);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_239, _stringLiteralA99B82BFCE3F70F13A27CB0A82D44747DB0E2EE8, NULL);
+		NullCheck(L_237);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_237, L_238, L_239, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("rift_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_262 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_263;
-		L_263 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_264 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_264);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_264, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
-		NullCheck(L_262);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_262, L_263, L_264, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_240 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_241;
+		L_241 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_242 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_242);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_242, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
+		NullCheck(L_240);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_240, L_241, L_242, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("rift_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_265 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_266;
-		L_266 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_267 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_267);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_267, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
-		NullCheck(L_265);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_265, L_266, L_267, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_243 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_244;
+		L_244 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_245 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_245);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_245, _stringLiteral40F1CFB1855F127793BA46EA6F7A934A99F0F1F1, NULL);
+		NullCheck(L_243);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_243, L_244, L_245, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("rift_start"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_268 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_269;
-		L_269 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_270 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_270);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_270, _stringLiteral440AD3783303CFD24ABA10DFE8B27DD7FF63CE14, NULL);
-		NullCheck(L_268);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_268, L_269, L_270, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_246 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_247;
+		L_247 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_248 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_248);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_248, _stringLiteral440AD3783303CFD24ABA10DFE8B27DD7FF63CE14, NULL);
+		NullCheck(L_246);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_246, L_247, L_248, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("rift_xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_271 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_272;
-		L_272 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_273 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_273);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_273, _stringLiteral2E7D8A9AB86138244C32816A35D692DEAA1C22F0, NULL);
-		NullCheck(L_271);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_271, L_272, L_273, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_249 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_250;
+		L_250 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_251 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_251);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_251, _stringLiteral2E7D8A9AB86138244C32816A35D692DEAA1C22F0, NULL);
+		NullCheck(L_249);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_249, L_250, L_251, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("rift_ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_274 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_275;
-		L_275 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_276 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_276);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_276, _stringLiteralC73F347CAA4E7CB931AFEED990B19D6055328ACC, NULL);
-		NullCheck(L_274);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_274, L_275, L_276, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_252 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_253;
+		L_253 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_254 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_254);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_254, _stringLiteralC73F347CAA4E7CB931AFEED990B19D6055328ACC, NULL);
+		NullCheck(L_252);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_252, L_253, L_254, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0d50:
+IL_0c0e:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_277 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_255 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_278;
-		L_278 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_279 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_279);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_279, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_277);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_277, L_278, L_279, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_256;
+		L_256 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_257 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_257);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_257, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_255);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_255, L_256, L_257, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_280 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_281;
-		L_281 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_282 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_282);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_282, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_280);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_280, L_281, L_282, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("wmr_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_283 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_284;
-		L_284 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_285 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_285);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_285, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_283);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_283, L_284, L_285, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_258 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_259;
+		L_259 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_260 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_260);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_260, _stringLiteralB5F60B75874A187B70A3C7E48853294315B1F7C4, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_258);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_258, L_259, L_260, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondary2DAxis.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_286 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_287;
-		L_287 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_288 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_288);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_288, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_286);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_286, L_287, L_288, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_261 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_262;
+		L_262 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_263 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_263);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_263, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_261);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_261, L_262, L_263, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondary2DAxisClick.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_289 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_290;
-		L_290 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_291 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_291);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_291, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_289);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_289, L_290, L_291, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.secondary2DAxisTouch.name, new ButtonState("wmr_touchpad", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_292 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_293;
-		L_293 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_294 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_294);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_294, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_292);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_292, L_293, L_294, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_264 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_265;
+		L_265 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_266 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_266);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_266, _stringLiteral628120DA4AF3EC1FC282A297E762F9067DC61A18, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_264);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_264, L_265, L_266, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("wmr_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_295 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_296;
-		L_296 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_297 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_297);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_297, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
-		NullCheck(L_295);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_295, L_296, L_297, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_267 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_268;
+		L_268 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_269 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_269);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_269, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
+		NullCheck(L_267);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_267, L_268, L_269, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("wmr_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_298 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_299;
-		L_299 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_300 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_300);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_300, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
-		NullCheck(L_298);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_298, L_299, L_300, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_270 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_271;
+		L_271 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_272 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_272);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_272, _stringLiteralDAF45AF6AF093900E16D34BEB8158B2704392457, NULL);
+		NullCheck(L_270);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_270, L_271, L_272, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("wmr_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_301 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_302;
-		L_302 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_303 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_303);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_303, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
-		NullCheck(L_301);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_301, L_302, L_303, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_273 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_274;
+		L_274 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_275 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_275);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_275, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
+		NullCheck(L_273);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_273, L_274, L_275, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("wmr_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_304 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_305;
-		L_305 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_306 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_306);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_306, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
-		NullCheck(L_304);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_304, L_305, L_306, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_276 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_277;
+		L_277 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_278 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_278);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_278, _stringLiteral42E9619AAD4B76AC43E31984D82747D7824C8CC9, NULL);
+		NullCheck(L_276);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_276, L_277, L_278, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("wmr_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_307 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_308;
-		L_308 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_309 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_309);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_309, _stringLiteralCF05F213C17E997AE87A8F200FF08130BA5DB500, NULL);
-		NullCheck(L_307);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_307, L_308, L_309, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_279 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_280;
+		L_280 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_281 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_281);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_281, _stringLiteralCF05F213C17E997AE87A8F200FF08130BA5DB500, NULL);
+		NullCheck(L_279);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_279, L_280, L_281, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0eee:
+IL_0d56:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_310 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_282 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_311;
-		L_311 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_312 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_312);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_312, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_310);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_310, L_311, L_312, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_283;
+		L_283 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_284 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_284);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_284, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_282);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_282, L_283, L_284, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_313 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_314;
-		L_314 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_315 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_315);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_315, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_313);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_313, L_314, L_315, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_316 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_317;
-		L_317 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_318 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_318);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_318, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_316);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_316, L_317, L_318, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_285 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_286;
+		L_286 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_287 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_287);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_287, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_285);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_285, L_286, L_287, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_319 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_320;
-		L_320 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_321 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_321);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_321, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_319);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_319, L_320, L_321, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_288 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_289;
+		L_289 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_290 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_290);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_290, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_288);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_288, L_289, L_290, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_322 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_323;
-		L_323 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_324 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_324);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_324, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_322);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_322, L_323, L_324, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_291 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_292;
+		L_292 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_293 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_293);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_293, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_291);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_291, L_292, L_293, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_325 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_326;
-		L_326 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_327 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_327);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_327, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_325);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_325, L_326, L_327, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_294 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_295;
+		L_295 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_296 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_296);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_296, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_294);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_294, L_295, L_296, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_328 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_329;
-		L_329 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_330 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_330);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_330, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_328);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_328, L_329, L_330, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_297 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_298;
+		L_298 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_299 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_299);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_299, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_297);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_297, L_298, L_299, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("pico_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_331 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_332;
-		L_332 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_333 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_333);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_333, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
-		NullCheck(L_331);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_331, L_332, L_333, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_300 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_301;
+		L_301 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_302 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_302);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_302, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
+		NullCheck(L_300);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_300, L_301, L_302, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("pico_xbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_334 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_335;
-		L_335 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_336 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_336);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_336, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
-		NullCheck(L_334);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_334, L_335, L_336, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_303 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_304;
+		L_304 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_305 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_305);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_305, _stringLiteral88C681409865C8C02AFD5083287A32672BF5E5E6, NULL);
+		NullCheck(L_303);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_303, L_304, L_305, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("pico_ybtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_337 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_338;
-		L_338 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_339 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_339);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_339, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
-		NullCheck(L_337);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_337, L_338, L_339, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_306 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_307;
+		L_307 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_308 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_308);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_308, _stringLiteralD855087A84E1990083A71A3A7A0A21EBBD75A95A, NULL);
+		NullCheck(L_306);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_306, L_307, L_308, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_1049:
+IL_0e86:
 	{
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxis.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_340 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_309 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_341;
-		L_341 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_342 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_342);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_342, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_340);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_340, L_341, L_342, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		String_t* L_310;
+		L_310 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_311 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_311);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_311, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_309);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_309, L_310, L_311, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisClick.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_343 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_344;
-		L_344 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_345 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_345);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_345, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_343);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_343, L_344, L_345, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
-		// RightLastFrameButtonStates.Add(CommonUsages.primary2DAxisTouch.name, new ButtonState("pico_joystick", 0, 0, 0, true));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_346 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_347;
-		L_347 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_348 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_348);
-		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_348, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
-		NullCheck(L_346);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_346, L_347, L_348, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_312 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_313;
+		L_313 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_314 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_314);
+		ButtonState__ctor_mEC8D71BEC77644B65DFF1F50CA32CC636E742A03(L_314, _stringLiteralBA631FE41907ED7B9C380BA35AF9B83E29FBD730, 0, (0.0f), (0.0f), (bool)1, NULL);
+		NullCheck(L_312);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_312, L_313, L_314, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.trigger.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_349 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_350;
-		L_350 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_351 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_351);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_351, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_349);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_349, L_350, L_351, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_315 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_316;
+		L_316 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_317 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_317);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_317, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_315);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_315, L_316, L_317, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.triggerButton.name, new ButtonState("pico_trigger"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_352 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_353;
-		L_353 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_354 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_354);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_354, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
-		NullCheck(L_352);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_352, L_353, L_354, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_318 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_319;
+		L_319 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton_6), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_320 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_320);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_320, _stringLiteral4E180B5B035961CB47B14A4A23B2F02392551EDA, NULL);
+		NullCheck(L_318);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_318, L_319, L_320, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.grip.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_355 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_356;
-		L_356 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_357 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_357);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_357, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_355);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_355, L_356, L_357, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_321 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_322;
+		L_322 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_323 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_323);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_323, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_321);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_321, L_322, L_323, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.gripButton.name, new ButtonState("pico_grip"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_358 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_359;
-		L_359 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_360 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_360);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_360, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
-		NullCheck(L_358);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_358, L_359, L_360, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_324 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_325;
+		L_325 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton_5), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_326 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_326);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_326, _stringLiteral6B75C831A8A0403CD1000F1E21D28BDCE44A0D82, NULL);
+		NullCheck(L_324);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_324, L_325, L_326, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.menuButton.name, new ButtonState("pico_menubtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_361 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_362;
-		L_362 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_363 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_363);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_363, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
-		NullCheck(L_361);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_361, L_362, L_363, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_327 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_328;
+		L_328 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton_7), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_329 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_329);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_329, _stringLiteralEBBB8BFB5D1474D641322D2753A42D6E01354162, NULL);
+		NullCheck(L_327);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_327, L_328, L_329, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.primaryButton.name, new ButtonState("pico_abtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_364 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_365;
-		L_365 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_366 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_366);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_366, _stringLiteralB0EE5C205AE9683AF14A2EC594E2F74200DEBDA1, NULL);
-		NullCheck(L_364);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_364, L_365, L_366, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_330 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_331;
+		L_331 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton_1), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_332 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_332);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_332, _stringLiteralB0EE5C205AE9683AF14A2EC594E2F74200DEBDA1, NULL);
+		NullCheck(L_330);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_330, L_331, L_332, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// RightLastFrameButtonStates.Add(CommonUsages.secondaryButton.name, new ButtonState("pico_bbtn"));
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_367 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_368;
-		L_368 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_369 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
-		NullCheck(L_369);
-		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_369, _stringLiteral1316ABB31E307D05B04A5D1CDB2F5EE1DEE6BA3F, NULL);
-		NullCheck(L_367);
-		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_367, L_368, L_369, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_333 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_334;
+		L_334 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton_3), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_335 = (ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554*)il2cpp_codegen_object_new(ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554_il2cpp_TypeInfo_var);
+		NullCheck(L_335);
+		ButtonState__ctor_m3B99F0487944E2A8259E7600BA1FB106F7E0FBE4(L_335, _stringLiteral1316ABB31E307D05B04A5D1CDB2F5EE1DEE6BA3F, NULL);
+		NullCheck(L_333);
+		Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D(L_333, L_334, L_335, Dictionary_2_Add_m42EEAF5F2D5C5329113071E59391720ECBD5CE9D_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_11a4:
+IL_0fb6:
 	{
 		// Util.logDebug("Unknown Right Controller Type: " + tempDevice.name); break;
-		String_t* L_370;
-		L_370 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&V_1), NULL);
-		String_t* L_371;
-		L_371 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91D54E16383F298251BCEFEADBE6996184149815, L_370, NULL);
+		String_t* L_336;
+		L_336 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&V_1), NULL);
+		String_t* L_337;
+		L_337 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91D54E16383F298251BCEFEADBE6996184149815, L_336, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Util_t259290BAA45FFFAA649363691D004694F0E9CF92_il2cpp_TypeInfo_var);
-		Util_logDebug_m5880242C18A6E75AA0E03E8B52EA451B82FEEA88(L_371, NULL);
+		Util_logDebug_m5880242C18A6E75AA0E03E8B52EA451B82FEEA88(L_337, NULL);
 	}
 
-IL_11ba:
+IL_0fcc:
 	{
 		// }
 		return;
@@ -13191,7 +12943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputTracker_RecordAnalogInput
 		L_2 = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948((&V_0), NULL);
 		if (!L_2)
 		{
-			goto IL_03e9;
+			goto IL_03ff;
 		}
 	}
 	{
@@ -13202,7 +12954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputTracker_RecordAnalogInput
 		L_4 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_0), L_3, (&V_2), NULL);
 		if (!L_4)
 		{
-			goto IL_015d;
+			goto IL_0192;
 		}
 	}
 	{
@@ -13215,822 +12967,870 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputTracker_RecordAnalogInput
 		L_7 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_5, L_6, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
 		if (!L_7)
 		{
-			goto IL_015d;
+			goto IL_0192;
 		}
 	}
 	{
-		// int axisPower = Mathf.Max(LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonPercent, LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent);
+		// if (LeftLastFrameButtonStates.ContainsKey(CommonUsages.primary2DAxisTouch.name))
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_8 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_9;
 		L_9 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_8);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_10;
-		L_10 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_8, L_9, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_10);
-		int32_t L_11 = L_10->___ButtonPercent_1;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_12 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_13;
-		L_13 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_12);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_14;
-		L_14 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_12, L_13, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_14);
-		int32_t L_15 = L_14->___ButtonPercent_1;
-		int32_t L_16;
-		L_16 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_11, L_15, NULL);
-		V_5 = L_16;
-		// var x = leftJoystickVector.x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_2;
-		float L_18 = L_17.___x_0;
-		V_6 = L_18;
-		// var y = leftJoystickVector.y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_2;
-		float L_20 = L_19.___y_1;
-		V_7 = L_20;
-		// Vector3 currentVector = new Vector3(x, y, axisPower);
-		float L_21 = V_6;
-		float L_22 = V_7;
-		int32_t L_23 = V_5;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_8), L_21, L_22, ((float)L_23), NULL);
-		// if (Vector3.Magnitude(LeftJoystickVector - currentVector) > minMagnitude)
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->___LeftJoystickVector_12;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_8;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
-		L_26 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_24, L_25, NULL);
-		float L_27;
-		L_27 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_26, NULL);
-		float L_28 = __this->___minMagnitude_16;
-		if ((!(((float)L_27) > ((float)L_28))))
+		bool L_10;
+		L_10 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_8, L_9, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_10)
 		{
-			goto IL_015d;
+			goto IL_009f;
 		}
 	}
 	{
-		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName; });
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_29 = __this->___CurrentLeftButtonStates_8;
-		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_30 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
-		NullCheck(L_30);
-		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_30, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_0_mA3B82C78AF222307984E18610102A72156DBBE99_RuntimeMethod_var), NULL);
-		NullCheck(L_29);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_31;
-		L_31 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_29, L_30, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
-		V_9 = L_31;
-		// if (joystick != null)
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_32 = V_9;
-		if (!L_32)
+		// axisPower = Mathf.Max(LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonPercent, LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_11 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_12;
+		L_12 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_11);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_13;
+		L_13 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_11, L_12, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_13);
+		int32_t L_14 = L_13->___ButtonPercent_1;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_15 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_16;
+		L_16 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_15);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_17;
+		L_17 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_15, L_16, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_17);
+		int32_t L_18 = L_17->___ButtonPercent_1;
+		int32_t L_19;
+		L_19 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_14, L_18, NULL);
+		V_5 = L_19;
+		goto IL_00bb;
+	}
+
+IL_009f:
+	{
+		// axisPower = LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_20 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_21;
+		L_21 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_20);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_22;
+		L_22 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_20, L_21, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_22);
+		int32_t L_23 = L_22->___ButtonPercent_1;
+		V_5 = L_23;
+	}
+
+IL_00bb:
+	{
+		// var x = leftJoystickVector.x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = V_2;
+		float L_25 = L_24.___x_0;
+		V_6 = L_25;
+		// var y = leftJoystickVector.y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = V_2;
+		float L_27 = L_26.___y_1;
+		V_7 = L_27;
+		// Vector3 currentVector = new Vector3(x, y, axisPower);
+		float L_28 = V_6;
+		float L_29 = V_7;
+		int32_t L_30 = V_5;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_8), L_28, L_29, ((float)L_30), NULL);
+		// if (Vector3.Magnitude(LeftJoystickVector - currentVector) > minMagnitude)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___LeftJoystickVector_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_31, L_32, NULL);
+		float L_34;
+		L_34 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_33, NULL);
+		float L_35 = __this->___minMagnitude_16;
+		if ((!(((float)L_34) > ((float)L_35))))
 		{
-			goto IL_00f2;
+			goto IL_0192;
+		}
+	}
+	{
+		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName; });
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_36 = __this->___CurrentLeftButtonStates_8;
+		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_37 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
+		NullCheck(L_37);
+		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_37, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_0_mA3B82C78AF222307984E18610102A72156DBBE99_RuntimeMethod_var), NULL);
+		NullCheck(L_36);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_38;
+		L_38 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_36, L_37, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
+		V_9 = L_38;
+		// if (joystick != null)
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_39 = V_9;
+		if (!L_39)
+		{
+			goto IL_0127;
 		}
 	}
 	{
 		// joystick.X = x;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_33 = V_9;
-		float L_34 = V_6;
-		NullCheck(L_33);
-		L_33->___X_2 = L_34;
-		// joystick.Y = y;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_35 = V_9;
-		float L_36 = V_7;
-		NullCheck(L_35);
-		L_35->___Y_3 = L_36;
-		goto IL_0122;
-	}
-
-IL_00f2:
-	{
-		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName, axisPower, leftJoystickVector, CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_37 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_38 = __this->___LeftLastFrameButtonStates_10;
-		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_39;
-		L_39 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_38);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_40;
-		L_40 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_38, L_39, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_40 = V_9;
+		float L_41 = V_6;
 		NullCheck(L_40);
-		String_t* L_41 = L_40->___ButtonName_0;
-		int32_t L_42 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43 = V_2;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_44 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_37, (bool)0, L_41, L_42, L_43, L_44, NULL);
+		L_40->___X_2 = L_41;
+		// joystick.Y = y;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_42 = V_9;
+		float L_43 = V_7;
+		NullCheck(L_42);
+		L_42->___Y_3 = L_43;
+		goto IL_0157;
 	}
 
-IL_0122:
+IL_0127:
 	{
-		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName, axisPower, x, y, CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_45 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_46 = __this->___LeftLastFrameButtonStates_10;
+		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName, axisPower, leftJoystickVector, CurrentLeftButtonStates);
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_44 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_45 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_47;
-		L_47 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_46);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_48;
-		L_48 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_46, L_47, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_48);
-		String_t* L_49 = L_48->___ButtonName_0;
-		int32_t L_50 = V_5;
-		float L_51 = V_6;
-		float L_52 = V_7;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_53 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnVectorChanged_mB7CDB52182E185B13C4A13580BD1931583C53AF4(__this, L_45, (bool)0, L_49, L_50, L_51, L_52, L_53, NULL);
-		// LeftJoystickVector = currentVector;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_8;
-		__this->___LeftJoystickVector_12 = L_54;
+		String_t* L_46;
+		L_46 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_45);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_47;
+		L_47 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_45, L_46, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_47);
+		String_t* L_48 = L_47->___ButtonName_0;
+		int32_t L_49 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50 = V_2;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_51 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_44, (bool)0, L_48, L_49, L_50, L_51, NULL);
 	}
 
-IL_015d:
+IL_0157:
+	{
+		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName, axisPower, x, y, CurrentLeftButtonStates);;
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_52 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_53 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_54;
+		L_54 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_53);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_55;
+		L_55 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_53, L_54, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_55);
+		String_t* L_56 = L_55->___ButtonName_0;
+		int32_t L_57 = V_5;
+		float L_58 = V_6;
+		float L_59 = V_7;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_60 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnVectorChanged_mB7CDB52182E185B13C4A13580BD1931583C53AF4(__this, L_52, (bool)0, L_56, L_57, L_58, L_59, L_60, NULL);
+		// LeftJoystickVector = currentVector;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_8;
+		__this->___LeftJoystickVector_12 = L_61;
+	}
+
+IL_0192:
 	{
 		// if (leftHandDevice.TryGetFeatureValue(CommonUsages.secondary2DAxis, out leftJoystickVector) && LeftLastFrameButtonStates.ContainsKey(CommonUsages.secondary2DAxis.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_55 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18;
-		bool L_56;
-		L_56 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_0), L_55, (&V_2), NULL);
-		if (!L_56)
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_62 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18;
+		bool L_63;
+		L_63 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_0), L_62, (&V_2), NULL);
+		if (!L_63)
 		{
-			goto IL_029c;
+			goto IL_02b2;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_57 = __this->___LeftLastFrameButtonStates_10;
-		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_58;
-		L_58 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		NullCheck(L_57);
-		bool L_59;
-		L_59 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_57, L_58, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_59)
-		{
-			goto IL_029c;
-		}
-	}
-	{
-		// int axisPower = Mathf.Max(LeftLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonPercent, LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonPercent);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_60 = __this->___LeftLastFrameButtonStates_10;
-		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_61;
-		L_61 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_60);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_62;
-		L_62 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_60, L_61, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_62);
-		int32_t L_63 = L_62->___ButtonPercent_1;
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_64 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_65;
-		L_65 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		L_65 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
 		NullCheck(L_64);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_66;
-		L_66 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_64, L_65, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_66);
-		int32_t L_67 = L_66->___ButtonPercent_1;
-		int32_t L_68;
-		L_68 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_63, L_67, NULL);
-		V_10 = L_68;
-		// var x = leftJoystickVector.x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = V_2;
-		float L_70 = L_69.___x_0;
-		V_11 = L_70;
-		// var y = leftJoystickVector.y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71 = V_2;
-		float L_72 = L_71.___y_1;
-		V_12 = L_72;
-		// Vector3 currentVector = new Vector3(x, y, axisPower);
-		float L_73 = V_11;
-		float L_74 = V_12;
-		int32_t L_75 = V_10;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_13), L_73, L_74, ((float)L_75), NULL);
-		// if (Vector3.Magnitude(LeftTouchpadVector - currentVector) > minMagnitude)
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = __this->___LeftTouchpadVector_14;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = V_13;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78;
-		L_78 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_76, L_77, NULL);
-		float L_79;
-		L_79 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_78, NULL);
-		float L_80 = __this->___minMagnitude_16;
-		if ((!(((float)L_79) > ((float)L_80))))
+		bool L_66;
+		L_66 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_64, L_65, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_66)
 		{
-			goto IL_029c;
+			goto IL_02b2;
 		}
 	}
 	{
-		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName; });
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_81 = __this->___CurrentLeftButtonStates_8;
-		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_82 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
-		NullCheck(L_82);
-		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_82, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_1_m138A0C7F15D17C0337B446675DF770489CA11FC1_RuntimeMethod_var), NULL);
-		NullCheck(L_81);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_83;
-		L_83 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_81, L_82, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
-		V_14 = L_83;
-		// if (joystick != null)
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_84 = V_14;
-		if (!L_84)
+		// int axisPower = LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonPercent;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_67 = __this->___LeftLastFrameButtonStates_10;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_68;
+		L_68 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_67);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_69;
+		L_69 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_67, L_68, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_69);
+		int32_t L_70 = L_69->___ButtonPercent_1;
+		V_10 = L_70;
+		// var x = leftJoystickVector.x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71 = V_2;
+		float L_72 = L_71.___x_0;
+		V_11 = L_72;
+		// var y = leftJoystickVector.y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_73 = V_2;
+		float L_74 = L_73.___y_1;
+		V_12 = L_74;
+		// Vector3 currentVector = new Vector3(x, y, axisPower);
+		float L_75 = V_11;
+		float L_76 = V_12;
+		int32_t L_77 = V_10;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_13), L_75, L_76, ((float)L_77), NULL);
+		// if (Vector3.Magnitude(LeftTouchpadVector - currentVector) > minMagnitude)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = __this->___LeftTouchpadVector_14;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79 = V_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
+		L_80 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_78, L_79, NULL);
+		float L_81;
+		L_81 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_80, NULL);
+		float L_82 = __this->___minMagnitude_16;
+		if ((!(((float)L_81) > ((float)L_82))))
 		{
-			goto IL_0231;
+			goto IL_02b2;
+		}
+	}
+	{
+		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName; });
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_83 = __this->___CurrentLeftButtonStates_8;
+		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_84 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_84, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_1_m138A0C7F15D17C0337B446675DF770489CA11FC1_RuntimeMethod_var), NULL);
+		NullCheck(L_83);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_85;
+		L_85 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_83, L_84, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
+		V_14 = L_85;
+		// if (joystick != null)
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_86 = V_14;
+		if (!L_86)
+		{
+			goto IL_0247;
 		}
 	}
 	{
 		// joystick.X = x;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_85 = V_14;
-		float L_86 = V_11;
-		NullCheck(L_85);
-		L_85->___X_2 = L_86;
-		// joystick.Y = y;
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_87 = V_14;
-		float L_88 = V_12;
+		float L_88 = V_11;
 		NullCheck(L_87);
-		L_87->___Y_3 = L_88;
-		goto IL_0261;
+		L_87->___X_2 = L_88;
+		// joystick.Y = y;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_89 = V_14;
+		float L_90 = V_12;
+		NullCheck(L_89);
+		L_89->___Y_3 = L_90;
+		goto IL_0277;
 	}
 
-IL_0231:
+IL_0247:
 	{
-		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName, axisPower, leftJoystickVector, CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_89 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_90 = __this->___LeftLastFrameButtonStates_10;
+		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName, axisPower, leftJoystickVector, CurrentLeftButtonStates);
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_91 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_92 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_91;
-		L_91 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_90);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_92;
-		L_92 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_90, L_91, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_93;
+		L_93 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_92);
-		String_t* L_93 = L_92->___ButtonName_0;
-		int32_t L_94 = V_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95 = V_2;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_96 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_89, (bool)0, L_93, L_94, L_95, L_96, NULL);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_94;
+		L_94 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_92, L_93, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_94);
+		String_t* L_95 = L_94->___ButtonName_0;
+		int32_t L_96 = V_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97 = V_2;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_98 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_91, (bool)0, L_95, L_96, L_97, L_98, NULL);
 	}
 
-IL_0261:
+IL_0277:
 	{
-		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName, axisPower, x, y, CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_97 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_98 = __this->___LeftLastFrameButtonStates_10;
+		// OnVectorChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName, axisPower, x, y, CurrentLeftButtonStates);
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_99 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_100 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_99;
-		L_99 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_98);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_100;
-		L_100 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_98, L_99, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_101;
+		L_101 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_100);
-		String_t* L_101 = L_100->___ButtonName_0;
-		int32_t L_102 = V_10;
-		float L_103 = V_11;
-		float L_104 = V_12;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_105 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnVectorChanged_mB7CDB52182E185B13C4A13580BD1931583C53AF4(__this, L_97, (bool)0, L_101, L_102, L_103, L_104, L_105, NULL);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_102;
+		L_102 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_100, L_101, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_102);
+		String_t* L_103 = L_102->___ButtonName_0;
+		int32_t L_104 = V_10;
+		float L_105 = V_11;
+		float L_106 = V_12;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_107 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnVectorChanged_mB7CDB52182E185B13C4A13580BD1931583C53AF4(__this, L_99, (bool)0, L_103, L_104, L_105, L_106, L_107, NULL);
 		// LeftTouchpadVector = currentVector;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_106 = V_13;
-		__this->___LeftTouchpadVector_14 = L_106;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108 = V_13;
+		__this->___LeftTouchpadVector_14 = L_108;
 	}
 
-IL_029c:
+IL_02b2:
 	{
 		// if (leftHandDevice.TryGetFeatureValue(CommonUsages.grip, out grip) && LeftLastFrameButtonStates.ContainsKey(CommonUsages.grip.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_107 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16;
-		bool L_108;
-		L_108 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_0), L_107, (&V_3), NULL);
-		if (!L_108)
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_109 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16;
+		bool L_110;
+		L_110 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_0), L_109, (&V_3), NULL);
+		if (!L_110)
 		{
-			goto IL_0341;
+			goto IL_0357;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_109 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_111 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_110;
-		L_110 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_109);
-		bool L_111;
-		L_111 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_109, L_110, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_111)
+		String_t* L_112;
+		L_112 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_111);
+		bool L_113;
+		L_113 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_111, L_112, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_113)
 		{
-			goto IL_0341;
+			goto IL_0357;
 		}
 	}
 	{
 		// if (LeftLastFrameButtonStates[CommonUsages.grip.name].ButtonPercent != (int)(grip * 100))
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_112 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_114 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_113;
-		L_113 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_112);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_114;
-		L_114 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_112, L_113, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_115;
+		L_115 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_114);
-		int32_t L_115 = L_114->___ButtonPercent_1;
-		float L_116 = V_3;
-		if ((((int32_t)L_115) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_116, (100.0f)))))))
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_116;
+		L_116 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_114, L_115, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_116);
+		int32_t L_117 = L_116->___ButtonPercent_1;
+		float L_118 = V_3;
+		if ((((int32_t)L_117) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_118, (100.0f)))))))
 		{
-			goto IL_0341;
+			goto IL_0357;
 		}
 	}
 	{
 		// OnSingleChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.grip.name].ButtonName, (int)(grip * 100), CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_117 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_118 = __this->___LeftLastFrameButtonStates_10;
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_119 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_120 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_119;
-		L_119 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_118);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_120;
-		L_120 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_118, L_119, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_121;
+		L_121 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_120);
-		String_t* L_121 = L_120->___ButtonName_0;
-		float L_122 = V_3;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_123 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_117, (bool)0, L_121, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_122, (100.0f)))), L_123, NULL);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_122;
+		L_122 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_120, L_121, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_122);
+		String_t* L_123 = L_122->___ButtonName_0;
+		float L_124 = V_3;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_125 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_119, (bool)0, L_123, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_124, (100.0f)))), L_125, NULL);
 		// LeftLastFrameButtonStates[CommonUsages.grip.name].ButtonPercent = (int)(grip * 100);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_124 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_125;
-		L_125 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_124);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_126;
-		L_126 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_124, L_125, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		float L_127 = V_3;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_126 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_127;
+		L_127 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_126);
-		L_126->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_127, (100.0f))));
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_128;
+		L_128 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_126, L_127, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		float L_129 = V_3;
+		NullCheck(L_128);
+		L_128->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_129, (100.0f))));
 	}
 
-IL_0341:
+IL_0357:
 	{
 		// if (leftHandDevice.TryGetFeatureValue(CommonUsages.trigger, out trigger) && LeftLastFrameButtonStates.ContainsKey(CommonUsages.trigger.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_128 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15;
-		bool L_129;
-		L_129 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_0), L_128, (&V_4), NULL);
-		if (!L_129)
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_130 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15;
+		bool L_131;
+		L_131 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_0), L_130, (&V_4), NULL);
+		if (!L_131)
 		{
-			goto IL_03e9;
+			goto IL_03ff;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_130 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_132 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_131;
-		L_131 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_130);
-		bool L_132;
-		L_132 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_130, L_131, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_132)
+		String_t* L_133;
+		L_133 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_132);
+		bool L_134;
+		L_134 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_132, L_133, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_134)
 		{
-			goto IL_03e9;
+			goto IL_03ff;
 		}
 	}
 	{
 		// if (LeftLastFrameButtonStates[CommonUsages.trigger.name].ButtonPercent != (int)(trigger * 100))
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_133 = __this->___LeftLastFrameButtonStates_10;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_135 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_134;
-		L_134 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_133);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_135;
-		L_135 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_133, L_134, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_136;
+		L_136 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_135);
-		int32_t L_136 = L_135->___ButtonPercent_1;
-		float L_137 = V_4;
-		if ((((int32_t)L_136) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_137, (100.0f)))))))
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_137;
+		L_137 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_135, L_136, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_137);
+		int32_t L_138 = L_137->___ButtonPercent_1;
+		float L_139 = V_4;
+		if ((((int32_t)L_138) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_139, (100.0f)))))))
 		{
-			goto IL_03e9;
+			goto IL_03ff;
 		}
 	}
 	{
 		// OnSingleChanged(LeftHand, false, LeftLastFrameButtonStates[CommonUsages.trigger.name].ButtonName, (int)(trigger * 100), CurrentLeftButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_138 = __this->___LeftHand_6;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_139 = __this->___LeftLastFrameButtonStates_10;
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_140 = __this->___LeftHand_6;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_141 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_140;
-		L_140 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_139);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_141;
-		L_141 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_139, L_140, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_142;
+		L_142 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_141);
-		String_t* L_142 = L_141->___ButtonName_0;
-		float L_143 = V_4;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_144 = __this->___CurrentLeftButtonStates_8;
-		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_138, (bool)0, L_142, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_143, (100.0f)))), L_144, NULL);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_143;
+		L_143 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_141, L_142, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_143);
+		String_t* L_144 = L_143->___ButtonName_0;
+		float L_145 = V_4;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_146 = __this->___CurrentLeftButtonStates_8;
+		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_140, (bool)0, L_144, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_145, (100.0f)))), L_146, NULL);
 		// LeftLastFrameButtonStates[CommonUsages.trigger.name].ButtonPercent = (int)(trigger * 100);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_145 = __this->___LeftLastFrameButtonStates_10;
-		String_t* L_146;
-		L_146 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_145);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_147;
-		L_147 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_145, L_146, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		float L_148 = V_4;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_147 = __this->___LeftLastFrameButtonStates_10;
+		String_t* L_148;
+		L_148 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
 		NullCheck(L_147);
-		L_147->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_148, (100.0f))));
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_149;
+		L_149 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_147, L_148, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		float L_150 = V_4;
+		NullCheck(L_149);
+		L_149->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_150, (100.0f))));
 	}
 
-IL_03e9:
+IL_03ff:
 	{
 		// if (rightHandDevice.isValid)
-		bool L_149;
-		L_149 = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948((&V_1), NULL);
-		if (!L_149)
+		bool L_151;
+		L_151 = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948((&V_1), NULL);
+		if (!L_151)
 		{
-			goto IL_075d;
+			goto IL_0789;
 		}
 	}
 	{
 		// if (rightHandDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightJoystickVector) && RightLastFrameButtonStates.ContainsKey(CommonUsages.primary2DAxis.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_150 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17;
-		bool L_151;
-		L_151 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_1), L_150, (&V_15), NULL);
-		if (!L_151)
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_152 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17;
+		bool L_153;
+		L_153 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_1), L_152, (&V_15), NULL);
+		if (!L_153)
 		{
-			goto IL_0501;
+			goto IL_054c;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_152 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_154 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_153;
-		L_153 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		NullCheck(L_152);
-		bool L_154;
-		L_154 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_152, L_153, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_154)
+		String_t* L_155;
+		L_155 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		NullCheck(L_154);
+		bool L_156;
+		L_156 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_154, L_155, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_156)
 		{
-			goto IL_0501;
+			goto IL_054c;
 		}
 	}
 	{
-		// int axisPower = Mathf.Max(RightLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonPercent, RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_155 = __this->___RightLastFrameButtonStates_11;
+		// if (RightLastFrameButtonStates.ContainsKey(CommonUsages.primary2DAxisTouch.name))
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_157 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_156;
-		L_156 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_155);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_157;
-		L_157 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_155, L_156, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_158;
+		L_158 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_157);
-		int32_t L_158 = L_157->___ButtonPercent_1;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_159 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_160;
-		L_160 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_159);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_161;
-		L_161 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_159, L_160, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_161);
-		int32_t L_162 = L_161->___ButtonPercent_1;
-		int32_t L_163;
-		L_163 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_158, L_162, NULL);
-		V_18 = L_163;
-		// var x = rightJoystickVector.x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_164 = V_15;
-		float L_165 = L_164.___x_0;
-		V_19 = L_165;
-		// var y = rightJoystickVector.y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_166 = V_15;
-		float L_167 = L_166.___y_1;
-		V_20 = L_167;
-		// Vector3 currentVector = new Vector3(x, y, axisPower);
-		float L_168 = V_19;
-		float L_169 = V_20;
-		int32_t L_170 = V_18;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_21), L_168, L_169, ((float)L_170), NULL);
-		// if (Vector3.Magnitude(RightJoystickVector - currentVector) > minMagnitude)
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_171 = __this->___RightJoystickVector_13;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_172 = V_21;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_173;
-		L_173 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_171, L_172, NULL);
-		float L_174;
-		L_174 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_173, NULL);
-		float L_175 = __this->___minMagnitude_16;
-		if ((!(((float)L_174) > ((float)L_175))))
+		bool L_159;
+		L_159 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_157, L_158, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_159)
 		{
-			goto IL_0501;
+			goto IL_048c;
 		}
 	}
 	{
-		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName; });
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_176 = __this->___CurrentRightButtonStates_9;
-		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_177 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
-		NullCheck(L_177);
-		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_177, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_2_mB2F7F76BD320DBCFE56DCFAD75CD87EA3B94A3D4_RuntimeMethod_var), NULL);
-		NullCheck(L_176);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_178;
-		L_178 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_176, L_177, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
-		V_22 = L_178;
-		// if (joystick != null)
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_179 = V_22;
-		if (!L_179)
+		// axisPower = Mathf.Max(RightLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonPercent, RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_160 = __this->___RightLastFrameButtonStates_11;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_161;
+		L_161 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_160);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_162;
+		L_162 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_160, L_161, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_162);
+		int32_t L_163 = L_162->___ButtonPercent_1;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_164 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_165;
+		L_165 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_164);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_166;
+		L_166 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_164, L_165, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_166);
+		int32_t L_167 = L_166->___ButtonPercent_1;
+		int32_t L_168;
+		L_168 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_163, L_167, NULL);
+		V_18 = L_168;
+		goto IL_04a8;
+	}
+
+IL_048c:
+	{
+		// axisPower = RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonPercent;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_169 = __this->___RightLastFrameButtonStates_11;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_170;
+		L_170 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_169);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_171;
+		L_171 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_169, L_170, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_171);
+		int32_t L_172 = L_171->___ButtonPercent_1;
+		V_18 = L_172;
+	}
+
+IL_04a8:
+	{
+		// var x = rightJoystickVector.x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_173 = V_15;
+		float L_174 = L_173.___x_0;
+		V_19 = L_174;
+		// var y = rightJoystickVector.y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_175 = V_15;
+		float L_176 = L_175.___y_1;
+		V_20 = L_176;
+		// Vector3 currentVector = new Vector3(x, y, axisPower);
+		float L_177 = V_19;
+		float L_178 = V_20;
+		int32_t L_179 = V_18;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_21), L_177, L_178, ((float)L_179), NULL);
+		// if (Vector3.Magnitude(RightJoystickVector - currentVector) > minMagnitude)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_180 = __this->___RightJoystickVector_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_181 = V_21;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_182;
+		L_182 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_180, L_181, NULL);
+		float L_183;
+		L_183 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_182, NULL);
+		float L_184 = __this->___minMagnitude_16;
+		if ((!(((float)L_183) > ((float)L_184))))
 		{
-			goto IL_04c8;
+			goto IL_054c;
+		}
+	}
+	{
+		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName; });
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_185 = __this->___CurrentRightButtonStates_9;
+		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_186 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
+		NullCheck(L_186);
+		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_186, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_2_mB2F7F76BD320DBCFE56DCFAD75CD87EA3B94A3D4_RuntimeMethod_var), NULL);
+		NullCheck(L_185);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_187;
+		L_187 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_185, L_186, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
+		V_22 = L_187;
+		// if (joystick != null)
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_188 = V_22;
+		if (!L_188)
+		{
+			goto IL_0513;
 		}
 	}
 	{
 		// joystick.X = x;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_180 = V_22;
-		float L_181 = V_19;
-		NullCheck(L_180);
-		L_180->___X_2 = L_181;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_189 = V_22;
+		float L_190 = V_19;
+		NullCheck(L_189);
+		L_189->___X_2 = L_190;
 		// joystick.Y = y;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_182 = V_22;
-		float L_183 = V_20;
-		NullCheck(L_182);
-		L_182->___Y_3 = L_183;
-		goto IL_04f9;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_191 = V_22;
+		float L_192 = V_20;
+		NullCheck(L_191);
+		L_191->___Y_3 = L_192;
+		goto IL_0544;
 	}
 
-IL_04c8:
+IL_0513:
 	{
-		// OnVectorChanged(RightHand, true, RightLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName, axisPower, rightJoystickVector, CurrentRightButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_184 = __this->___RightHand_7;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_185 = __this->___RightLastFrameButtonStates_11;
+		// OnVectorChanged(RightHand, true, RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName, axisPower, rightJoystickVector, CurrentRightButtonStates);
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_193 = __this->___RightHand_7;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_194 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_186;
-		L_186 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_185);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_187;
-		L_187 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_185, L_186, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_187);
-		String_t* L_188 = L_187->___ButtonName_0;
-		int32_t L_189 = V_18;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_190 = V_15;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_191 = __this->___CurrentRightButtonStates_9;
-		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_184, (bool)1, L_188, L_189, L_190, L_191, NULL);
+		String_t* L_195;
+		L_195 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_194);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_196;
+		L_196 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_194, L_195, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_196);
+		String_t* L_197 = L_196->___ButtonName_0;
+		int32_t L_198 = V_18;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_199 = V_15;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_200 = __this->___CurrentRightButtonStates_9;
+		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_193, (bool)1, L_197, L_198, L_199, L_200, NULL);
 	}
 
-IL_04f9:
+IL_0544:
 	{
 		// RightJoystickVector = currentVector;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_192 = V_21;
-		__this->___RightJoystickVector_13 = L_192;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_201 = V_21;
+		__this->___RightJoystickVector_13 = L_201;
 	}
 
-IL_0501:
+IL_054c:
 	{
 		// if (rightHandDevice.TryGetFeatureValue(CommonUsages.secondary2DAxis, out rightJoystickVector) && RightLastFrameButtonStates.ContainsKey(CommonUsages.secondary2DAxis.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_193 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18;
-		bool L_194;
-		L_194 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_1), L_193, (&V_15), NULL);
-		if (!L_194)
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_202 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18;
+		bool L_203;
+		L_203 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA((&V_1), L_202, (&V_15), NULL);
+		if (!L_203)
 		{
-			goto IL_060d;
+			goto IL_0639;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_195 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_204 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_196;
-		L_196 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		NullCheck(L_195);
-		bool L_197;
-		L_197 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_195, L_196, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_197)
-		{
-			goto IL_060d;
-		}
-	}
-	{
-		// int axisPower = Mathf.Max(RightLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonPercent, RightLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonPercent);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_198 = __this->___RightLastFrameButtonStates_11;
-		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_199;
-		L_199 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_198);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_200;
-		L_200 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_198, L_199, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_200);
-		int32_t L_201 = L_200->___ButtonPercent_1;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_202 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_203;
-		L_203 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_202);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_204;
-		L_204 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_202, L_203, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		String_t* L_205;
+		L_205 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis_18), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
 		NullCheck(L_204);
-		int32_t L_205 = L_204->___ButtonPercent_1;
-		int32_t L_206;
-		L_206 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_201, L_205, NULL);
-		V_23 = L_206;
-		// var x = rightJoystickVector.x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_207 = V_15;
-		float L_208 = L_207.___x_0;
-		V_24 = L_208;
-		// var y = rightJoystickVector.y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_209 = V_15;
-		float L_210 = L_209.___y_1;
-		V_25 = L_210;
-		// Vector3 currentVector = new Vector3(x, y, axisPower);
-		float L_211 = V_24;
-		float L_212 = V_25;
-		int32_t L_213 = V_23;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_26), L_211, L_212, ((float)L_213), NULL);
-		// if (Vector3.Magnitude(RightTouchpadVector - currentVector) > minMagnitude)
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_214 = __this->___RightTouchpadVector_15;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_215 = V_26;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_216;
-		L_216 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_214, L_215, NULL);
-		float L_217;
-		L_217 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_216, NULL);
-		float L_218 = __this->___minMagnitude_16;
-		if ((!(((float)L_217) > ((float)L_218))))
+		bool L_206;
+		L_206 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_204, L_205, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_206)
 		{
-			goto IL_060d;
+			goto IL_0639;
 		}
 	}
 	{
-		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName; });
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_219 = __this->___CurrentRightButtonStates_9;
-		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_220 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
-		NullCheck(L_220);
-		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_220, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_3_mFB2F23F85DFD2AEC95A12FF79D1473FD67ABA008_RuntimeMethod_var), NULL);
-		NullCheck(L_219);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_221;
-		L_221 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_219, L_220, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
-		V_27 = L_221;
-		// if (joystick != null)
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_222 = V_27;
-		if (!L_222)
+		// int axisPower = RightLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonPercent;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_207 = __this->___RightLastFrameButtonStates_11;
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		String_t* L_208;
+		L_208 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_207);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_209;
+		L_209 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_207, L_208, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_209);
+		int32_t L_210 = L_209->___ButtonPercent_1;
+		V_23 = L_210;
+		// var x = rightJoystickVector.x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_211 = V_15;
+		float L_212 = L_211.___x_0;
+		V_24 = L_212;
+		// var y = rightJoystickVector.y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_213 = V_15;
+		float L_214 = L_213.___y_1;
+		V_25 = L_214;
+		// Vector3 currentVector = new Vector3(x, y, axisPower);
+		float L_215 = V_24;
+		float L_216 = V_25;
+		int32_t L_217 = V_23;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_26), L_215, L_216, ((float)L_217), NULL);
+		// if (Vector3.Magnitude(RightTouchpadVector - currentVector) > minMagnitude)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_218 = __this->___RightTouchpadVector_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_219 = V_26;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_220;
+		L_220 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_218, L_219, NULL);
+		float L_221;
+		L_221 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_220, NULL);
+		float L_222 = __this->___minMagnitude_16;
+		if ((!(((float)L_221) > ((float)L_222))))
 		{
-			goto IL_05d4;
+			goto IL_0639;
+		}
+	}
+	{
+		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName; });
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_223 = __this->___CurrentRightButtonStates_9;
+		Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034* L_224 = (Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034*)il2cpp_codegen_object_new(Predicate_1_t878E90CE3AF5E7873A332D704F56C3C6D2A75034_il2cpp_TypeInfo_var);
+		NullCheck(L_224);
+		Predicate_1__ctor_mB7A3AB69183318D301EB8AD14BC1C0A96F08513A(L_224, __this, (intptr_t)((void*)ControllerInputTracker_U3CRecordAnalogInputsU3Eb__17_3_mFB2F23F85DFD2AEC95A12FF79D1473FD67ABA008_RuntimeMethod_var), NULL);
+		NullCheck(L_223);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_225;
+		L_225 = List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6(L_223, L_224, List_1_Find_m69406D248B54F5C13E306AB95BC3E7758E5610C6_RuntimeMethod_var);
+		V_27 = L_225;
+		// if (joystick != null)
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_226 = V_27;
+		if (!L_226)
+		{
+			goto IL_0600;
 		}
 	}
 	{
 		// joystick.X = x;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_223 = V_27;
-		float L_224 = V_24;
-		NullCheck(L_223);
-		L_223->___X_2 = L_224;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_227 = V_27;
+		float L_228 = V_24;
+		NullCheck(L_227);
+		L_227->___X_2 = L_228;
 		// joystick.Y = y;
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_225 = V_27;
-		float L_226 = V_25;
-		NullCheck(L_225);
-		L_225->___Y_3 = L_226;
-		goto IL_0605;
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_229 = V_27;
+		float L_230 = V_25;
+		NullCheck(L_229);
+		L_229->___Y_3 = L_230;
+		goto IL_0631;
 	}
 
-IL_05d4:
+IL_0600:
 	{
-		// OnVectorChanged(RightHand, true, RightLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName, axisPower, rightJoystickVector, CurrentRightButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_227 = __this->___RightHand_7;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_228 = __this->___RightLastFrameButtonStates_11;
+		// OnVectorChanged(RightHand, true, RightLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName, axisPower, rightJoystickVector, CurrentRightButtonStates);
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_231 = __this->___RightHand_7;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_232 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_229;
-		L_229 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
-		NullCheck(L_228);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_230;
-		L_230 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_228, L_229, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_230);
-		String_t* L_231 = L_230->___ButtonName_0;
-		int32_t L_232 = V_23;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_233 = V_15;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_234 = __this->___CurrentRightButtonStates_9;
-		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_227, (bool)1, L_231, L_232, L_233, L_234, NULL);
+		String_t* L_233;
+		L_233 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		NullCheck(L_232);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_234;
+		L_234 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_232, L_233, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_234);
+		String_t* L_235 = L_234->___ButtonName_0;
+		int32_t L_236 = V_23;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_237 = V_15;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_238 = __this->___CurrentRightButtonStates_9;
+		ControllerInputTracker_OnVectorChanged_m54F806871B89CA44BBCF5BE65CA121E113E837EE(__this, L_231, (bool)1, L_235, L_236, L_237, L_238, NULL);
 	}
 
-IL_0605:
+IL_0631:
 	{
 		// RightTouchpadVector = currentVector;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_235 = V_26;
-		__this->___RightTouchpadVector_15 = L_235;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_239 = V_26;
+		__this->___RightTouchpadVector_15 = L_239;
 	}
 
-IL_060d:
+IL_0639:
 	{
 		// if (rightHandDevice.TryGetFeatureValue(CommonUsages.grip, out grip) && RightLastFrameButtonStates.ContainsKey(CommonUsages.primary2DAxis.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_236 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16;
-		bool L_237;
-		L_237 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_1), L_236, (&V_16), NULL);
-		if (!L_237)
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_240 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16;
+		bool L_241;
+		L_241 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_1), L_240, (&V_16), NULL);
+		if (!L_241)
 		{
-			goto IL_06b5;
+			goto IL_06e1;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_238 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_242 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_239;
-		L_239 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
-		NullCheck(L_238);
-		bool L_240;
-		L_240 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_238, L_239, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_240)
+		String_t* L_243;
+		L_243 = InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis_17), InputFeatureUsage_1_get_name_mC56C726995711932766450754FB382B2DA52E105_RuntimeMethod_var);
+		NullCheck(L_242);
+		bool L_244;
+		L_244 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_242, L_243, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_244)
 		{
-			goto IL_06b5;
+			goto IL_06e1;
 		}
 	}
 	{
 		// if (RightLastFrameButtonStates[CommonUsages.grip.name].ButtonPercent != (int)(grip * 100))
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_241 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_245 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_242;
-		L_242 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_241);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_243;
-		L_243 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_241, L_242, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_243);
-		int32_t L_244 = L_243->___ButtonPercent_1;
-		float L_245 = V_16;
-		if ((((int32_t)L_244) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_245, (100.0f)))))))
+		String_t* L_246;
+		L_246 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_245);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_247;
+		L_247 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_245, L_246, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_247);
+		int32_t L_248 = L_247->___ButtonPercent_1;
+		float L_249 = V_16;
+		if ((((int32_t)L_248) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_249, (100.0f)))))))
 		{
-			goto IL_06b5;
+			goto IL_06e1;
 		}
 	}
 	{
 		// OnSingleChanged(RightHand, false, RightLastFrameButtonStates[CommonUsages.grip.name].ButtonName, (int)(grip * 100), CurrentRightButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_246 = __this->___RightHand_7;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_247 = __this->___RightLastFrameButtonStates_11;
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_250 = __this->___RightHand_7;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_251 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_248;
-		L_248 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_247);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_249;
-		L_249 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_247, L_248, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_249);
-		String_t* L_250 = L_249->___ButtonName_0;
-		float L_251 = V_16;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_252 = __this->___CurrentRightButtonStates_9;
-		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_246, (bool)0, L_250, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_251, (100.0f)))), L_252, NULL);
-		// RightLastFrameButtonStates[CommonUsages.grip.name].ButtonPercent = (int)(grip * 100);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_253 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_254;
-		L_254 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		String_t* L_252;
+		L_252 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_251);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_253;
+		L_253 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_251, L_252, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
 		NullCheck(L_253);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_255;
-		L_255 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_253, L_254, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		float L_256 = V_16;
-		NullCheck(L_255);
-		L_255->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_256, (100.0f))));
+		String_t* L_254 = L_253->___ButtonName_0;
+		float L_255 = V_16;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_256 = __this->___CurrentRightButtonStates_9;
+		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_250, (bool)0, L_254, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_255, (100.0f)))), L_256, NULL);
+		// RightLastFrameButtonStates[CommonUsages.grip.name].ButtonPercent = (int)(grip * 100);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_257 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_258;
+		L_258 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip_16), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_257);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_259;
+		L_259 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_257, L_258, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		float L_260 = V_16;
+		NullCheck(L_259);
+		L_259->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_260, (100.0f))));
 	}
 
-IL_06b5:
+IL_06e1:
 	{
 		// if (rightHandDevice.TryGetFeatureValue(CommonUsages.trigger, out trigger) && RightLastFrameButtonStates.ContainsKey(CommonUsages.trigger.name))
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_257 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15;
-		bool L_258;
-		L_258 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_1), L_257, (&V_17), NULL);
-		if (!L_258)
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_261 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15;
+		bool L_262;
+		L_262 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081((&V_1), L_261, (&V_17), NULL);
+		if (!L_262)
 		{
-			goto IL_075d;
+			goto IL_0789;
 		}
 	}
 	{
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_259 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_263 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_260;
-		L_260 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_259);
-		bool L_261;
-		L_261 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_259, L_260, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
-		if (!L_261)
+		String_t* L_264;
+		L_264 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_263);
+		bool L_265;
+		L_265 = Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA(L_263, L_264, Dictionary_2_ContainsKey_m24841F25D8B37FE026A77BCDC09D6EA070E84BDA_RuntimeMethod_var);
+		if (!L_265)
 		{
-			goto IL_075d;
+			goto IL_0789;
 		}
 	}
 	{
 		// if (RightLastFrameButtonStates[CommonUsages.trigger.name].ButtonPercent != (int)(trigger * 100))
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_262 = __this->___RightLastFrameButtonStates_11;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_266 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_263;
-		L_263 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_262);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_264;
-		L_264 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_262, L_263, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_264);
-		int32_t L_265 = L_264->___ButtonPercent_1;
-		float L_266 = V_17;
-		if ((((int32_t)L_265) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_266, (100.0f)))))))
+		String_t* L_267;
+		L_267 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_266);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_268;
+		L_268 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_266, L_267, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		NullCheck(L_268);
+		int32_t L_269 = L_268->___ButtonPercent_1;
+		float L_270 = V_17;
+		if ((((int32_t)L_269) == ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_270, (100.0f)))))))
 		{
-			goto IL_075d;
+			goto IL_0789;
 		}
 	}
 	{
 		// OnSingleChanged(RightHand, false, RightLastFrameButtonStates[CommonUsages.trigger.name].ButtonName, (int)(trigger * 100), CurrentRightButtonStates);
-		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_267 = __this->___RightHand_7;
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_268 = __this->___RightLastFrameButtonStates_11;
+		DynamicObject_t051304C08539839F5DF2BD2FA6E56F6346E0A79B* L_271 = __this->___RightHand_7;
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_272 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
-		String_t* L_269;
-		L_269 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
-		NullCheck(L_268);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_270;
-		L_270 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_268, L_269, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		NullCheck(L_270);
-		String_t* L_271 = L_270->___ButtonName_0;
-		float L_272 = V_17;
-		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_273 = __this->___CurrentRightButtonStates_9;
-		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_267, (bool)0, L_271, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_272, (100.0f)))), L_273, NULL);
-		// RightLastFrameButtonStates[CommonUsages.trigger.name].ButtonPercent = (int)(trigger * 100);
-		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_274 = __this->___RightLastFrameButtonStates_11;
-		String_t* L_275;
-		L_275 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		String_t* L_273;
+		L_273 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_272);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_274;
+		L_274 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_272, L_273, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
 		NullCheck(L_274);
-		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_276;
-		L_276 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_274, L_275, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
-		float L_277 = V_17;
-		NullCheck(L_276);
-		L_276->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_277, (100.0f))));
+		String_t* L_275 = L_274->___ButtonName_0;
+		float L_276 = V_17;
+		List_1_tF064F6A2DAB210D6A5366D4CF82CDCAAD2350D2B* L_277 = __this->___CurrentRightButtonStates_9;
+		ControllerInputTracker_OnSingleChanged_m88CAD75BDE7FB79C74A15F48EE0E769ADB2186FC(__this, L_271, (bool)0, L_275, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_276, (100.0f)))), L_277, NULL);
+		// RightLastFrameButtonStates[CommonUsages.trigger.name].ButtonPercent = (int)(trigger * 100);
+		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_278 = __this->___RightLastFrameButtonStates_11;
+		String_t* L_279;
+		L_279 = InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger_15), InputFeatureUsage_1_get_name_m2B2C882E3DBE25BF025C498BF14E9FFA7F91540E_RuntimeMethod_var);
+		NullCheck(L_278);
+		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_280;
+		L_280 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_278, L_279, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
+		float L_281 = V_17;
+		NullCheck(L_280);
+		L_280->___ButtonPercent_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_281, (100.0f))));
 	}
 
-IL_075d:
+IL_0789:
 	{
 		// }
 		return;
@@ -14239,14 +14039,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputTracker_U3CRecordAnalogIn
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName; });
+		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName; });
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_0 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___ButtonName_0;
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_2 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_2);
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_4;
 		L_4 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_2, L_3, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
@@ -14269,14 +14069,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputTracker_U3CRecordAnalogIn
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName; });
+		// var joystick = CurrentLeftButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == LeftLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName; });
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_0 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___ButtonName_0;
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_2 = __this->___LeftLastFrameButtonStates_10;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_2);
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_4;
 		L_4 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_2, L_3, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
@@ -14299,14 +14099,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputTracker_U3CRecordAnalogIn
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.primary2DAxisTouch.name].ButtonName; });
+		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.primary2DAxisClick.name].ButtonName; });
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_0 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___ButtonName_0;
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_2 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch_9), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick_8), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_2);
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_4;
 		L_4 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_2, L_3, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
@@ -14329,14 +14129,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputTracker_U3CRecordAnalogIn
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.secondary2DAxisTouch.name].ButtonName; });
+		// var joystick = CurrentRightButtonStates.Find(delegate (ButtonState obj) { return obj.ButtonName == RightLastFrameButtonStates[CommonUsages.secondary2DAxisClick.name].ButtonName; });
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_0 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___ButtonName_0;
 		Dictionary_2_t4762DAFBE8215CBBC030AA2695992984EC1B9A45* L_2 = __this->___RightLastFrameButtonStates_11;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch_11), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
+		L_3 = InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_inline((&((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick_10), InputFeatureUsage_1_get_name_mAD647CEB75F404E53F3A175DA334818A35738080_RuntimeMethod_var);
 		NullCheck(L_2);
 		ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* L_4;
 		L_4 = Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4(L_2, L_3, Dictionary_2_get_Item_m280520ACF98580FF1F5DD94A225CA7A68E9DA3B4_RuntimeMethod_var);
@@ -15698,11 +15498,11 @@ IL_000e:
 		float L_11 = L_10.___y_3;
 		// float hypotenuse = 1f;
 		V_1 = (1.0f);
-		// float pitch = Mathf.Asin(opposite / hypotenuse) * Mathf.Rad2Deg;
+		// float pitch = -Mathf.Asin(opposite / hypotenuse) * Mathf.Rad2Deg;
 		float L_12 = V_1;
 		float L_13;
 		L_13 = asinf(((float)(((float)il2cpp_codegen_subtract(L_9, L_11))/L_12)));
-		V_2 = ((float)il2cpp_codegen_multiply(L_13, (57.2957802f)));
+		V_2 = ((float)il2cpp_codegen_multiply(((-L_13)), (57.2957802f)));
 		// SensorRecorder.RecordDataPoint("c3d.hmd.pitch", pitch);
 		float L_14 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(SensorRecorder_tBBE095AE48E1AD3448041FA8ED542ED771E677CE_il2cpp_TypeInfo_var);
@@ -15746,13 +15546,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HMDOrientation_RecordYaw_mACC27824F7DD14
 
 IL_000e:
 	{
-		// float yaw = GameplayReferences.HMD.rotation.eulerAngles.y;
+		// float yaw = GameplayReferences.HMD.localRotation.eulerAngles.y;
 		il2cpp_codegen_runtime_class_init_inline(GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = GameplayReferences_get_HMD_m7ED7C3384A0A6E842BF96BD1EED65668BE990B3A(NULL);
 		NullCheck(L_2);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
-		L_3 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_2, NULL);
+		L_3 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_2, NULL);
 		V_1 = L_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline((&V_1), NULL);
@@ -16221,24 +16021,183 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecenterEvent__ctor_m42B2AD45AC966BB4E2E
 // System.Void Cognitive3D.Components.RoomSize::OnSessionBegin()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_OnSessionBegin_mBE96CA7A8BFBF09B098093B42B745A6ECE0C5077 (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, const RuntimeMethod* method) 
 {
+	{
+		// base.OnSessionBegin();
+		AnalyticsComponentBase_OnSessionBegin_m2EB40E3C4AE1F850239DEE69068C98CD23218EA9(__this, NULL);
+		// CalculateAndRecordRoomsize(false);
+		RoomSize_CalculateAndRecordRoomsize_mCD76F1C01E05ECE68C87BFAA72D65783FC984B3A(__this, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean Cognitive3D.Components.RoomSize::IsPointInPolygon4(UnityEngine.Vector3[],UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RoomSize_IsPointInPolygon4_m88BAFDE6B76EA793633E5FB9A3AFFC81E1362940 (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___polygon0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___testPoint1, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		// bool result = false;
+		V_0 = (bool)0;
+		// int j = polygon.Length - 1;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ___polygon0;
+		NullCheck(L_0);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_0)->max_length)), 1));
+		// for (int i = 0; i < polygon.Length; i++)
+		V_2 = 0;
+		goto IL_00c6;
+	}
+
+IL_000f:
+	{
+		// if (polygon[i].z < testPoint.z && polygon[j].z >= testPoint.z || polygon[j].z < testPoint.z && polygon[i].z >= testPoint.z)
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = ___polygon0;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		float L_3 = ((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)))->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___testPoint1;
+		float L_5 = L_4.___z_4;
+		if ((!(((float)L_3) < ((float)L_5))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = ___polygon0;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		float L_8 = ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___testPoint1;
+		float L_10 = L_9.___z_4;
+		if ((((float)L_8) >= ((float)L_10)))
+		{
+			goto IL_005f;
+		}
+	}
+
+IL_0037:
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = ___polygon0;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		float L_13 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_12)))->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___testPoint1;
+		float L_15 = L_14.___z_4;
+		if ((!(((float)L_13) < ((float)L_15))))
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = ___polygon0;
+		int32_t L_17 = V_2;
+		NullCheck(L_16);
+		float L_18 = ((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___testPoint1;
+		float L_20 = L_19.___z_4;
+		if ((!(((float)L_18) >= ((float)L_20))))
+		{
+			goto IL_00c0;
+		}
+	}
+
+IL_005f:
+	{
+		// if (polygon[i].x + (testPoint.z - polygon[i].z) / (polygon[j].z - polygon[i].z) * (polygon[j].x - polygon[i].x) < testPoint.x)
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = ___polygon0;
+		int32_t L_22 = V_2;
+		NullCheck(L_21);
+		float L_23 = ((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22)))->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___testPoint1;
+		float L_25 = L_24.___z_4;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_26 = ___polygon0;
+		int32_t L_27 = V_2;
+		NullCheck(L_26);
+		float L_28 = ((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27)))->___z_4;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = ___polygon0;
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		float L_31 = ((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___z_4;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_32 = ___polygon0;
+		int32_t L_33 = V_2;
+		NullCheck(L_32);
+		float L_34 = ((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->___z_4;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_35 = ___polygon0;
+		int32_t L_36 = V_1;
+		NullCheck(L_35);
+		float L_37 = ((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->___x_2;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_38 = ___polygon0;
+		int32_t L_39 = V_2;
+		NullCheck(L_38);
+		float L_40 = ((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = ___testPoint1;
+		float L_42 = L_41.___x_2;
+		if ((!(((float)((float)il2cpp_codegen_add(L_23, ((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_subtract(L_25, L_28))/((float)il2cpp_codegen_subtract(L_31, L_34)))), ((float)il2cpp_codegen_subtract(L_37, L_40))))))) < ((float)L_42))))
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		// result = !result;
+		bool L_43 = V_0;
+		V_0 = (bool)((((int32_t)L_43) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_00c0:
+	{
+		// j = i;
+		int32_t L_44 = V_2;
+		V_1 = L_44;
+		// for (int i = 0; i < polygon.Length; i++)
+		int32_t L_45 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+	}
+
+IL_00c6:
+	{
+		// for (int i = 0; i < polygon.Length; i++)
+		int32_t L_46 = V_2;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = ___polygon0;
+		NullCheck(L_47);
+		if ((((int32_t)L_46) < ((int32_t)((int32_t)(((RuntimeArray*)L_47)->max_length)))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return result;
+		bool L_48 = V_0;
+		return L_48;
+	}
+}
+// System.Void Cognitive3D.Components.RoomSize::CalculateAndRecordRoomsize(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_CalculateAndRecordRoomsize_mCD76F1C01E05ECE68C87BFAA72D65783FC984B3A (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, bool ___recordRoomSizeChangeAsEvent0, const RuntimeMethod* method) 
+{
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SensorRecorder_tBBE095AE48E1AD3448041FA8ED542ED771E677CE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D0A639AB34759EB210CF8DFE6B27543EC616A1D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D5CF742CC30C3646D38DD021EA8B0711B3BBB00);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4F650B20E4F5F48195B60515822E0E95872A0F97);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6C9FCB6C95636EB8C0CD868E6A13052F3F153A9C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6DD798540816CF95355537E350E0B22DB63ACF5E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8C17FE1D84F9B60CEC6C7E6A5E0CA9ACAF0AD6A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9079F94154A0A23B192ED4B4072C5627CB0AE26);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6F4F98E09A01AFC300C2D176F358692D3D5434C);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// base.OnSessionBegin();
-		AnalyticsComponentBase_OnSessionBegin_m2EB40E3C4AE1F850239DEE69068C98CD23218EA9(__this, NULL);
 		// Vector3 roomsize = new Vector3();
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		// if (GameplayReferences.GetRoomSize(ref roomsize))
@@ -16247,7 +16206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_OnSessionBegin_mBE96CA7A8BFBF09
 		L_0 = GameplayReferences_GetRoomSize_m79AEA8B4EBD5B016B312E5C762A7BD77EEA0596D((&V_0), NULL);
 		if (!L_0)
 		{
-			goto IL_0063;
+			goto IL_00de;
 		}
 	}
 	{
@@ -16275,14 +16234,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_OnSessionBegin_mBE96CA7A8BFBF09
 		String_t* L_16;
 		L_16 = String_Format_m44BF8BF44DC9B67D6CF265A1A2703A6D743F5C56(L_7, _stringLiteral3D0A639AB34759EB210CF8DFE6B27543EC616A1D, L_11, L_15, NULL);
 		Cognitive3D_Manager_SetSessionProperty_mDD85CBC260C5F6260F1D66B17A624AD0CC35DD93(_stringLiteralE8C17FE1D84F9B60CEC6C7E6A5E0CA9ACAF0AD6A, L_16, NULL);
+		// SensorRecorder.RecordDataPoint("RoomSize", roomsize.x * roomsize.z);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
+		float L_18 = L_17.___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
+		float L_20 = L_19.___z_4;
+		il2cpp_codegen_runtime_class_init_inline(SensorRecorder_tBBE095AE48E1AD3448041FA8ED542ED771E677CE_il2cpp_TypeInfo_var);
+		SensorRecorder_RecordDataPoint_mF691A4A66E208A0A97AD32ACC7131C23C30A6F4B(_stringLiteral6C9FCB6C95636EB8C0CD868E6A13052F3F153A9C, ((float)il2cpp_codegen_multiply(L_18, L_20)), NULL);
+		// if (recordRoomSizeChangeAsEvent)
+		bool L_21 = ___recordRoomSizeChangeAsEvent0;
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		// new CustomEvent("c3d.User changed boundary").SetProperties(new Dictionary<string, object>
+		// {
+		//     {  "Previous Room Size" , lastRoomSize.x * lastRoomSize.z },
+		//     {   "New Room Size" , roomsize.x * roomsize.z }
+		// }).Send();
+		CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84* L_22 = (CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84*)il2cpp_codegen_object_new(CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84_il2cpp_TypeInfo_var);
+		NullCheck(L_22);
+		CustomEvent__ctor_m659A24DBBCCD6C9B1B59836943AE444C373CD609(L_22, _stringLiteral4F650B20E4F5F48195B60515822E0E95872A0F97, NULL);
+		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_23 = (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)il2cpp_codegen_object_new(Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var);
+		NullCheck(L_23);
+		Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9(L_23, Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var);
+		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_24 = L_23;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_25 = (&__this->___lastRoomSize_5);
+		float L_26 = L_25->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_27 = (&__this->___lastRoomSize_5);
+		float L_28 = L_27->___z_4;
+		float L_29 = ((float)il2cpp_codegen_multiply(L_26, L_28));
+		RuntimeObject* L_30 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_29);
+		NullCheck(L_24);
+		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_24, _stringLiteralF6F4F98E09A01AFC300C2D176F358692D3D5434C, L_30, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
+		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_31 = L_24;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_0;
+		float L_33 = L_32.___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_0;
+		float L_35 = L_34.___z_4;
+		float L_36 = ((float)il2cpp_codegen_multiply(L_33, L_35));
+		RuntimeObject* L_37 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_36);
+		NullCheck(L_31);
+		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_31, _stringLiteral3D5CF742CC30C3646D38DD021EA8B0711B3BBB00, L_37, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
+		NullCheck(L_22);
+		CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84* L_38;
+		L_38 = CustomEvent_SetProperties_m50A4662DFB290831D12CAEF6948EB526A2F6C718(L_22, L_31, NULL);
+		NullCheck(L_38);
+		CustomEvent_Send_mB73FAC7E47FA447986106455D31C00B034C3F6F9(L_38, NULL);
+	}
+
+IL_00d6:
+	{
+		// lastRoomSize = roomsize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_0;
+		__this->___lastRoomSize_5 = L_39;
 		return;
 	}
 
-IL_0063:
+IL_00de:
 	{
 		// Cognitive3D_Manager.SetSessionProperty("c3d.roomsizeDescriptionMeters", "Invalid");
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
 		Cognitive3D_Manager_SetSessionProperty_mDD85CBC260C5F6260F1D66B17A624AD0CC35DD93(_stringLiteralE8C17FE1D84F9B60CEC6C7E6A5E0CA9ACAF0AD6A, _stringLiteral6DD798540816CF95355537E350E0B22DB63ACF5E, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Cognitive3D.Components.RoomSize::Cognitive3D_Manager_OnPreSessionEnd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874 (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Cognitive3D_Manager.OnPreSessionEnd -= Cognitive3D_Manager_OnPreSessionEnd;
+		onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* L_0 = (onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B*)il2cpp_codegen_object_new(onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		onSessionEnd__ctor_m7B4919F721048EC45C9D8F88F9780C099D9358E4(L_0, __this, (intptr_t)((void*)RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
+		Cognitive3D_Manager_remove_OnPreSessionEnd_m1478FB77EF3C344C867C0729A69DE99E39A72333(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Cognitive3D.Components.RoomSize::OnDestroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomSize_OnDestroy_mE13A5F1A98C36D8830FCF11898D0BB6C7C1F4F72 (RoomSize_tC4BFBD8ECC865AB4B8C6EC7E70F3CA26738C7D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		// Cognitive3D_Manager_OnPreSessionEnd();
+		RoomSize_Cognitive3D_Manager_OnPreSessionEnd_mA040277128172FCBFC3495B634027F7EC06C9874(__this, NULL);
 		// }
 		return;
 	}
@@ -16311,7 +16358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RoomSize_GetDescription_m88D892B287
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameplayReferences_t1FEC59DA930AFD482663FA631F90A24CC664B234_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral71EFF37E13BE6A638D4B72AE72B471B242A55BB9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral09E72604F3A8F9D323C4EA1732C3B82897638D96);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8225C96A776826C5A382F15EDD5F94946551E36D);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -16326,8 +16373,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RoomSize_GetDescription_m88D892B287
 		}
 	}
 	{
-		// return "Include Room Size as a Session Properties";
-		return _stringLiteral71EFF37E13BE6A638D4B72AE72B471B242A55BB9;
+		// return "Calculates properties and handles events related to player boundary";
+		return _stringLiteral09E72604F3A8F9D323C4EA1732C3B82897638D96;
 	}
 
 IL_000d:
@@ -21057,7 +21104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FullscreenDisplay_Core_InitEvent_m753E1F
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_0;
 		L_0 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_0);
-		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_1 = L_0->___fixationRecorder_14;
+		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_1 = L_0->___fixationRecorder_13;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -21072,7 +21119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FullscreenDisplay_Core_InitEvent_m753E1F
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_3;
 		L_3 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_3);
-		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_4 = L_3->___fixationRecorder_14;
+		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_4 = L_3->___fixationRecorder_13;
 		__this->___fixationRecorder_5 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fixationRecorder_5), (void*)L_4);
 		// quadPositions = new Vector3[FixationRecorder.DisplayGazePointCount * 4];
@@ -21724,7 +21771,7 @@ IL_001f:
 		// if (fixationRecorder.DisplayGazePoints[prevIndex] != null)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_8 = __this->___fixationRecorder_5;
 		NullCheck(L_8);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_9 = L_8->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_9 = L_8->___DisplayGazePoints_25;
 		int32_t L_10 = V_5;
 		NullCheck(L_9);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_11;
@@ -21738,7 +21785,7 @@ IL_001f:
 		// if (fixationRecorder.DisplayGazePoints[prevIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_12 = __this->___fixationRecorder_5;
 		NullCheck(L_12);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_13 = L_12->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_13 = L_12->___DisplayGazePoints_25;
 		int32_t L_14 = V_5;
 		NullCheck(L_13);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_15;
@@ -21754,7 +21801,7 @@ IL_001f:
 		// previousPoint = fixationRecorder.DisplayGazePoints[prevIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[prevIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_17 = __this->___fixationRecorder_5;
 		NullCheck(L_17);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_18 = L_17->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_18 = L_17->___DisplayGazePoints_25;
 		int32_t L_19 = V_5;
 		NullCheck(L_18);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_20;
@@ -21763,7 +21810,7 @@ IL_001f:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_21 = (&L_20->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_22 = __this->___fixationRecorder_5;
 		NullCheck(L_22);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_23 = L_22->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_23 = L_22->___DisplayGazePoints_25;
 		int32_t L_24 = V_5;
 		NullCheck(L_23);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_25;
@@ -21781,7 +21828,7 @@ IL_0096:
 		// previousPoint = fixationRecorder.DisplayGazePoints[prevIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_28 = __this->___fixationRecorder_5;
 		NullCheck(L_28);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_29 = L_28->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_29 = L_28->___DisplayGazePoints_25;
 		int32_t L_30 = V_5;
 		NullCheck(L_29);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_31;
@@ -21797,7 +21844,7 @@ IL_00b1:
 		// previousPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint + Vector3.down * 0.01f;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_33 = __this->___fixationRecorder_5;
 		NullCheck(L_33);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_34 = L_33->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_34 = L_33->___DisplayGazePoints_25;
 		int32_t L_35 = V_6;
 		NullCheck(L_34);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_36;
@@ -21821,7 +21868,7 @@ IL_00de:
 		// if (fixationRecorder.DisplayGazePoints[currentIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_42 = __this->___fixationRecorder_5;
 		NullCheck(L_42);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_43 = L_42->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_43 = L_42->___DisplayGazePoints_25;
 		int32_t L_44 = V_6;
 		NullCheck(L_43);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_45;
@@ -21837,7 +21884,7 @@ IL_00de:
 		// currentPoint = fixationRecorder.DisplayGazePoints[currentIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[currentIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_47 = __this->___fixationRecorder_5;
 		NullCheck(L_47);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_48 = L_47->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_48 = L_47->___DisplayGazePoints_25;
 		int32_t L_49 = V_6;
 		NullCheck(L_48);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_50;
@@ -21846,7 +21893,7 @@ IL_00de:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_51 = (&L_50->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_52 = __this->___fixationRecorder_5;
 		NullCheck(L_52);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_53 = L_52->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_53 = L_52->___DisplayGazePoints_25;
 		int32_t L_54 = V_6;
 		NullCheck(L_53);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_55;
@@ -21864,7 +21911,7 @@ IL_0131:
 		// currentPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_58 = __this->___fixationRecorder_5;
 		NullCheck(L_58);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_59 = L_58->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_59 = L_58->___DisplayGazePoints_25;
 		int32_t L_60 = V_6;
 		NullCheck(L_59);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_61;
@@ -21882,7 +21929,7 @@ IL_014a:
 		// if (fixationRecorder.DisplayGazePoints[nextIndex] != null)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_64 = __this->___fixationRecorder_5;
 		NullCheck(L_64);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_65 = L_64->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_65 = L_64->___DisplayGazePoints_25;
 		int32_t L_66 = V_7;
 		NullCheck(L_65);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_67;
@@ -21896,7 +21943,7 @@ IL_014a:
 		// if (fixationRecorder.DisplayGazePoints[nextIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_68 = __this->___fixationRecorder_5;
 		NullCheck(L_68);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_69 = L_68->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_69 = L_68->___DisplayGazePoints_25;
 		int32_t L_70 = V_7;
 		NullCheck(L_69);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_71;
@@ -21912,7 +21959,7 @@ IL_014a:
 		// nextPoint = fixationRecorder.DisplayGazePoints[nextIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[nextIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_73 = __this->___fixationRecorder_5;
 		NullCheck(L_73);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_74 = L_73->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_74 = L_73->___DisplayGazePoints_25;
 		int32_t L_75 = V_7;
 		NullCheck(L_74);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_76;
@@ -21921,7 +21968,7 @@ IL_014a:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_77 = (&L_76->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_78 = __this->___fixationRecorder_5;
 		NullCheck(L_78);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_79 = L_78->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_79 = L_78->___DisplayGazePoints_25;
 		int32_t L_80 = V_7;
 		NullCheck(L_79);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_81;
@@ -21939,7 +21986,7 @@ IL_01b1:
 		// nextPoint = fixationRecorder.DisplayGazePoints[nextIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_84 = __this->___fixationRecorder_5;
 		NullCheck(L_84);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_85 = L_84->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_85 = L_84->___DisplayGazePoints_25;
 		int32_t L_86 = V_7;
 		NullCheck(L_85);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_87;
@@ -21955,7 +22002,7 @@ IL_01cc:
 		// nextPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint + Vector3.up * 0.01f;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_89 = __this->___fixationRecorder_5;
 		NullCheck(L_89);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_90 = L_89->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_90 = L_89->___DisplayGazePoints_25;
 		int32_t L_91 = V_6;
 		NullCheck(L_90);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_92;
@@ -22007,7 +22054,7 @@ IL_021b:
 		int32_t L_104 = V_4;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_105 = __this->___fixationRecorder_5;
 		NullCheck(L_105);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_106 = L_105->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_106 = L_105->___DisplayGazePoints_25;
 		NullCheck(L_106);
 		int32_t L_107;
 		L_107 = CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_inline(L_106, CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_RuntimeMethod_var);
@@ -22889,14 +22936,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEyetracking_Initialize_m99122B190D
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_4;
 		L_4 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_4);
-		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_5 = L_4->___fixationRecorder_14;
+		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_5 = L_4->___fixationRecorder_13;
 		__this->___fixationRecorder_23 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fixationRecorder_23), (void*)L_5);
 		// gazeBase = Cognitive3D_Manager.Instance.gazeBase;
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_6;
 		L_6 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_6);
-		GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* L_7 = L_6->___gazeBase_13;
+		GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* L_7 = L_6->___gazeBase_12;
 		__this->___gazeBase_24 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gazeBase_24), (void*)L_7);
 		// FixationMaterial.color = FixationColor;
@@ -23027,14 +23074,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEyetracking_Core_InitEvent_mA91E3B
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_1;
 		L_1 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_1);
-		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_2 = L_1->___fixationRecorder_14;
+		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_2 = L_1->___fixationRecorder_13;
 		__this->___fixationRecorder_23 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fixationRecorder_23), (void*)L_2);
 		// gazeBase = Cognitive3D_Manager.Instance.gazeBase;
 		Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* L_3;
 		L_3 = Cognitive3D_Manager_get_Instance_mC4DAD3BDAD60FDF91BC04FC5063A753BA64DEB50(NULL);
 		NullCheck(L_3);
-		GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* L_4 = L_3->___gazeBase_13;
+		GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* L_4 = L_3->___gazeBase_12;
 		__this->___gazeBase_24 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gazeBase_24), (void*)L_4);
 		// if (fixationRecorder != null)
@@ -23470,7 +23517,7 @@ IL_023a:
 		// int count = fixationRecorder.DisplayGazePoints.Count;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_92 = __this->___fixationRecorder_23;
 		NullCheck(L_92);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_93 = L_92->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_93 = L_92->___DisplayGazePoints_25;
 		NullCheck(L_93);
 		int32_t L_94;
 		L_94 = CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_inline(L_93, CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_RuntimeMethod_var);
@@ -23485,7 +23532,7 @@ IL_0257:
 		// ThreadGazePoint temp = fixationRecorder.DisplayGazePoints[i];
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_95 = __this->___fixationRecorder_23;
 		NullCheck(L_95);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_96 = L_95->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_96 = L_95->___DisplayGazePoints_25;
 		int32_t L_97 = V_8;
 		NullCheck(L_96);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_98;
@@ -23726,7 +23773,7 @@ IL_0006:
 		// int fixationHead = fixationRecorder.DisplayGazePoints.HeadIndex;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_1 = __this->___fixationRecorder_23;
 		NullCheck(L_1);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_2 = L_1->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_2 = L_1->___DisplayGazePoints_25;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = CircularBuffer_1_get_HeadIndex_m980EBE78D54A73FAD024AD08EB3AA6F01A9B0CE0_inline(L_2, CircularBuffer_1_get_HeadIndex_m980EBE78D54A73FAD024AD08EB3AA6F01A9B0CE0_RuntimeMethod_var);
@@ -23734,7 +23781,7 @@ IL_0006:
 		// int fixationPointCount = fixationRecorder.DisplayGazePoints.Count;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_4 = __this->___fixationRecorder_23;
 		NullCheck(L_4);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_5 = L_4->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_5 = L_4->___DisplayGazePoints_25;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_inline(L_5, CircularBuffer_1_get_Count_m8A2A5BFCE20AA79AE4A713B898AA4F2EEC902D62_RuntimeMethod_var);
@@ -23842,7 +23889,7 @@ IL_00bb:
 		// if (fixationRecorder.DisplayGazePoints[prevIndex] != null)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_33 = __this->___fixationRecorder_23;
 		NullCheck(L_33);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_34 = L_33->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_34 = L_33->___DisplayGazePoints_25;
 		int32_t L_35 = V_11;
 		NullCheck(L_34);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_36;
@@ -23856,7 +23903,7 @@ IL_00bb:
 		// if (fixationRecorder.DisplayGazePoints[prevIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_37 = __this->___fixationRecorder_23;
 		NullCheck(L_37);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_38 = L_37->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_38 = L_37->___DisplayGazePoints_25;
 		int32_t L_39 = V_11;
 		NullCheck(L_38);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_40;
@@ -23872,7 +23919,7 @@ IL_00bb:
 		// previousPoint = fixationRecorder.DisplayGazePoints[prevIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[prevIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_42 = __this->___fixationRecorder_23;
 		NullCheck(L_42);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_43 = L_42->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_43 = L_42->___DisplayGazePoints_25;
 		int32_t L_44 = V_11;
 		NullCheck(L_43);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_45;
@@ -23881,7 +23928,7 @@ IL_00bb:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_46 = (&L_45->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_47 = __this->___fixationRecorder_23;
 		NullCheck(L_47);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_48 = L_47->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_48 = L_47->___DisplayGazePoints_25;
 		int32_t L_49 = V_11;
 		NullCheck(L_48);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_50;
@@ -23899,7 +23946,7 @@ IL_0138:
 		// previousPoint = fixationRecorder.DisplayGazePoints[prevIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_53 = __this->___fixationRecorder_23;
 		NullCheck(L_53);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_54 = L_53->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_54 = L_53->___DisplayGazePoints_25;
 		int32_t L_55 = V_11;
 		NullCheck(L_54);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_56;
@@ -23915,7 +23962,7 @@ IL_0153:
 		// previousPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint + Vector3.down * 0.01f;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_58 = __this->___fixationRecorder_23;
 		NullCheck(L_58);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_59 = L_58->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_59 = L_58->___DisplayGazePoints_25;
 		int32_t L_60 = V_12;
 		NullCheck(L_59);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_61;
@@ -23939,7 +23986,7 @@ IL_0180:
 		// if (fixationRecorder.DisplayGazePoints[currentIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_67 = __this->___fixationRecorder_23;
 		NullCheck(L_67);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_68 = L_67->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_68 = L_67->___DisplayGazePoints_25;
 		int32_t L_69 = V_12;
 		NullCheck(L_68);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_70;
@@ -23955,7 +24002,7 @@ IL_0180:
 		// currentPoint = fixationRecorder.DisplayGazePoints[currentIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[currentIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_72 = __this->___fixationRecorder_23;
 		NullCheck(L_72);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_73 = L_72->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_73 = L_72->___DisplayGazePoints_25;
 		int32_t L_74 = V_12;
 		NullCheck(L_73);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_75;
@@ -23964,7 +24011,7 @@ IL_0180:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_76 = (&L_75->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_77 = __this->___fixationRecorder_23;
 		NullCheck(L_77);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_78 = L_77->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_78 = L_77->___DisplayGazePoints_25;
 		int32_t L_79 = V_12;
 		NullCheck(L_78);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_80;
@@ -23982,7 +24029,7 @@ IL_01d3:
 		// currentPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_83 = __this->___fixationRecorder_23;
 		NullCheck(L_83);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_84 = L_83->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_84 = L_83->___DisplayGazePoints_25;
 		int32_t L_85 = V_12;
 		NullCheck(L_84);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_86;
@@ -24000,7 +24047,7 @@ IL_01ec:
 		// if (fixationRecorder.DisplayGazePoints[nextIndex] != null)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_89 = __this->___fixationRecorder_23;
 		NullCheck(L_89);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_90 = L_89->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_90 = L_89->___DisplayGazePoints_25;
 		int32_t L_91 = V_13;
 		NullCheck(L_90);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_92;
@@ -24014,7 +24061,7 @@ IL_01ec:
 		// if (fixationRecorder.DisplayGazePoints[nextIndex].IsLocal)
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_93 = __this->___fixationRecorder_23;
 		NullCheck(L_93);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_94 = L_93->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_94 = L_93->___DisplayGazePoints_25;
 		int32_t L_95 = V_13;
 		NullCheck(L_94);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_96;
@@ -24030,7 +24077,7 @@ IL_01ec:
 		// nextPoint = fixationRecorder.DisplayGazePoints[nextIndex].TransformMatrix.MultiplyPoint(fixationRecorder.DisplayGazePoints[nextIndex].LocalPoint);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_98 = __this->___fixationRecorder_23;
 		NullCheck(L_98);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_99 = L_98->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_99 = L_98->___DisplayGazePoints_25;
 		int32_t L_100 = V_13;
 		NullCheck(L_99);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_101;
@@ -24039,7 +24086,7 @@ IL_01ec:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_102 = (&L_101->___TransformMatrix_4);
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_103 = __this->___fixationRecorder_23;
 		NullCheck(L_103);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_104 = L_103->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_104 = L_103->___DisplayGazePoints_25;
 		int32_t L_105 = V_13;
 		NullCheck(L_104);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_106;
@@ -24057,7 +24104,7 @@ IL_0253:
 		// nextPoint = fixationRecorder.DisplayGazePoints[nextIndex].WorldPoint;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_109 = __this->___fixationRecorder_23;
 		NullCheck(L_109);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_110 = L_109->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_110 = L_109->___DisplayGazePoints_25;
 		int32_t L_111 = V_13;
 		NullCheck(L_110);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_112;
@@ -24073,7 +24120,7 @@ IL_026e:
 		// nextPoint = fixationRecorder.DisplayGazePoints[currentIndex].WorldPoint + Vector3.up * 0.01f;
 		FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* L_114 = __this->___fixationRecorder_23;
 		NullCheck(L_114);
-		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_115 = L_114->___DisplayGazePoints_26;
+		CircularBuffer_1_tAE9525AF8B663582EA90B0203C5EBA30D1FACC2D* L_115 = L_114->___DisplayGazePoints_25;
 		int32_t L_116 = V_12;
 		NullCheck(L_115);
 		ThreadGazePoint_t3835CE6D98ACC57633122954E1AFE605508AFAC6* L_117;
@@ -25355,7 +25402,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Cognitive3D_Manager_get_IsIn
 	{
 		// public static bool IsInitialized { get; private set; }
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		bool L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->___U3CIsInitializedU3Ek__BackingField_34;
+		bool L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->___U3CIsInitializedU3Ek__BackingField_33;
 		return L_0;
 	}
 }
@@ -25787,7 +25834,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Cognitive3D_Manager_get_Se
 	{
 		// return _timestamp;
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		double L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____timestamp_29;
+		double L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____timestamp_28;
 		return L_0;
 	}
 }
@@ -26155,7 +26202,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Cognitive3D_Manager_get
 	{
 		// return _sessionId;
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		String_t* L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____sessionId_30;
+		String_t* L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____sessionId_29;
 		return L_0;
 	}
 }

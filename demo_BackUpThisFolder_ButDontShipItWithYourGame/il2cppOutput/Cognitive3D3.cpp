@@ -3002,19 +3002,19 @@ struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE  : public M
 	// UnityEngine.YieldInstruction Cognitive3D.Cognitive3D_Manager::automaticSendInterval
 	YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D* ___automaticSendInterval_7;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::BeginSessionAutomatically
-	bool ___BeginSessionAutomatically_9;
+	bool ___BeginSessionAutomatically_8;
 	// System.Single Cognitive3D.Cognitive3D_Manager::StartupDelayTime
-	float ___StartupDelayTime_10;
+	float ___StartupDelayTime_9;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::SendBatteryLevelOnStartAndEnd
-	bool ___SendBatteryLevelOnStartAndEnd_11;
+	bool ___SendBatteryLevelOnStartAndEnd_10;
 	// System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> Cognitive3D.Cognitive3D_Manager::sceneList
-	List_1_tD2999566789842105DF8EF481E4494088E70E6E8* ___sceneList_12;
+	List_1_tD2999566789842105DF8EF481E4494088E70E6E8* ___sceneList_11;
 	// Cognitive3D.GazeBase Cognitive3D.Cognitive3D_Manager::gazeBase
-	GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* ___gazeBase_13;
+	GazeBase_t0C7DCE2F75161E58229F7CBEE5E01734CE466715* ___gazeBase_12;
 	// Cognitive3D.FixationRecorder Cognitive3D.Cognitive3D_Manager::fixationRecorder
-	FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* ___fixationRecorder_14;
+	FixationRecorder_t963BBF18547A3F299BF5D11A8EB2A44C58E75286* ___fixationRecorder_13;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::hasCanceled
-	bool ___hasCanceled_15;
+	bool ___hasCanceled_14;
 };
 
 struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields
@@ -3023,46 +3023,44 @@ struct Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticField
 	String_t* ___SDK_VERSION_4;
 	// Cognitive3D.Cognitive3D_Manager Cognitive3D.Cognitive3D_Manager::instance
 	Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE* ___instance_5;
-	// System.Boolean Cognitive3D.Cognitive3D_Manager::IsQuitting
-	bool ___IsQuitting_8;
 	// Cognitive3D.Cognitive3D_Manager/onSessionBegin Cognitive3D.Cognitive3D_Manager::OnSessionBegin
-	onSessionBegin_t0646E31062FF4162A5DFC8D80A6BD9F411629D2F* ___OnSessionBegin_16;
+	onSessionBegin_t0646E31062FF4162A5DFC8D80A6BD9F411629D2F* ___OnSessionBegin_15;
 	// Cognitive3D.Cognitive3D_Manager/onSessionEnd Cognitive3D.Cognitive3D_Manager::OnPreSessionEnd
-	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPreSessionEnd_17;
+	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPreSessionEnd_16;
 	// Cognitive3D.Cognitive3D_Manager/onSessionEnd Cognitive3D.Cognitive3D_Manager::OnPostSessionEnd
-	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPostSessionEnd_18;
+	onSessionEnd_t915EA4E6751214614BEA0D15BCDBB7EB08DD3D2B* ___OnPostSessionEnd_17;
 	// Cognitive3D.Cognitive3D_Manager/onUpdate Cognitive3D.Cognitive3D_Manager::OnUpdate
-	onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___OnUpdate_19;
+	onUpdate_t2BD424E898B04A65619C8723008A48001AA22AEB* ___OnUpdate_18;
 	// Cognitive3D.Cognitive3D_Manager/onTick Cognitive3D.Cognitive3D_Manager::OnTick
-	onTick_tD2B098AEA6A137CC3DB22DC8F33FFB894447281E* ___OnTick_20;
+	onTick_tD2B098AEA6A137CC3DB22DC8F33FFB894447281E* ___OnTick_19;
 	// Cognitive3D.Cognitive3D_Manager/onLevelLoaded Cognitive3D.Cognitive3D_Manager::OnLevelLoaded
-	onLevelLoaded_t374AE522FD2900BA1341086269ADAF045CF1FE28* ___OnLevelLoaded_21;
+	onLevelLoaded_t374AE522FD2900BA1341086269ADAF045CF1FE28* ___OnLevelLoaded_20;
 	// Cognitive3D.ILocalExitpoll Cognitive3D.Cognitive3D_Manager::ExitpollHandler
-	RuntimeObject* ___ExitpollHandler_22;
+	RuntimeObject* ___ExitpollHandler_21;
 	// Cognitive3D.ICache Cognitive3D.Cognitive3D_Manager::DataCache
-	RuntimeObject* ___DataCache_23;
+	RuntimeObject* ___DataCache_22;
 	// Cognitive3D.NetworkManager Cognitive3D.Cognitive3D_Manager::NetworkManager
-	NetworkManager_t0C9275F1055DDA110329D3889184ED48B64B58B2* ___NetworkManager_24;
+	NetworkManager_t0C9275F1055DDA110329D3889184ED48B64B58B2* ___NetworkManager_23;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::HasCustomSessionName
-	bool ___HasCustomSessionName_25;
+	bool ___HasCustomSessionName_24;
 	// System.String Cognitive3D.Cognitive3D_Manager::<ParticipantId>k__BackingField
-	String_t* ___U3CParticipantIdU3Ek__BackingField_26;
+	String_t* ___U3CParticipantIdU3Ek__BackingField_25;
 	// System.String Cognitive3D.Cognitive3D_Manager::<ParticipantName>k__BackingField
-	String_t* ___U3CParticipantNameU3Ek__BackingField_27;
+	String_t* ___U3CParticipantNameU3Ek__BackingField_26;
 	// System.String Cognitive3D.Cognitive3D_Manager::_deviceId
-	String_t* ____deviceId_28;
+	String_t* ____deviceId_27;
 	// System.Double Cognitive3D.Cognitive3D_Manager::_timestamp
-	double ____timestamp_29;
+	double ____timestamp_28;
 	// System.String Cognitive3D.Cognitive3D_Manager::_sessionId
-	String_t* ____sessionId_30;
+	String_t* ____sessionId_29;
 	// Cognitive3D.Cognitive3D_Preferences/SceneSettings Cognitive3D.Cognitive3D_Manager::<TrackingScene>k__BackingField
-	SceneSettings_t82090968952A9395A09FA25B89B9BFD7C4B87D0A* ___U3CTrackingSceneU3Ek__BackingField_31;
+	SceneSettings_t82090968952A9395A09FA25B89B9BFD7C4B87D0A* ___U3CTrackingSceneU3Ek__BackingField_30;
 	// System.Single Cognitive3D.Cognitive3D_Manager::SceneStartTime
-	float ___SceneStartTime_32;
+	float ___SceneStartTime_31;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::ForceWriteSessionMetadata
-	bool ___ForceWriteSessionMetadata_33;
+	bool ___ForceWriteSessionMetadata_32;
 	// System.Boolean Cognitive3D.Cognitive3D_Manager::<IsInitialized>k__BackingField
-	bool ___U3CIsInitializedU3Ek__BackingField_34;
+	bool ___U3CIsInitializedU3Ek__BackingField_33;
 };
 
 // Cognitive3D.ReadyRoom.DestinationBounds
@@ -15182,7 +15180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Cognitive3D_Manager_get_Se
 	{
 		// return _timestamp;
 		il2cpp_codegen_runtime_class_init_inline(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var);
-		double L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____timestamp_29;
+		double L_0 = ((Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_StaticFields*)il2cpp_codegen_static_fields_for(Cognitive3D_Manager_tCBFBBCEE73894EB39DFDFD935DA460DFA40B72CE_il2cpp_TypeInfo_var))->____timestamp_28;
 		return L_0;
 	}
 }
