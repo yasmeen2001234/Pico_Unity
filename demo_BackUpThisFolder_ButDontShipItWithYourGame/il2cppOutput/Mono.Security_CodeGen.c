@@ -75,6 +75,7 @@ static Il2CppMethodPointer s_methodPointers[19] =
 static const int32_t s_InvokerIndices[19] = 
 {
 	4531,
+<<<<<<< Updated upstream
 	2091,
 	4631,
 	5741,
@@ -93,6 +94,26 @@ static const int32_t s_InvokerIndices[19] =
 	9493,
 	9504,
 	9508,
+=======
+	2116,
+	4625,
+	5737,
+	5667,
+	5767,
+	4625,
+	4112,
+	5767,
+	1308,
+	440,
+	4106,
+	5767,
+	9633,
+	9523,
+	9637,
+	9622,
+	9633,
+	9637,
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 const Il2CppCodeGenModule g_Mono_Security_CodeGenModule = 

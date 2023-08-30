@@ -53,6 +53,7 @@ static Il2CppMethodPointer s_methodPointers[12] =
 };
 static const int32_t s_InvokerIndices[12] = 
 {
+<<<<<<< Updated upstream
 	9265,
 	7966,
 	9278,
@@ -65,6 +66,20 @@ static const int32_t s_InvokerIndices[12] =
 	5669,
 	5893,
 	10624,
+=======
+	9391,
+	8051,
+	9404,
+	10716,
+	5881,
+	5881,
+	5667,
+	5667,
+	5667,
+	5667,
+	5881,
+	10757,
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_MockHMD_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_MockHMD_CodeGenModule = 

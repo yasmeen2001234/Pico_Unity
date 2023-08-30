@@ -12,8 +12,13 @@ namespace Tobii.XR.Examples
         // Action which will be triggered when the object is released from the controller.
         public UnityAction<GameObject> OnObjectReleased;
 
-       public Mod2_Task1_timer scriptTimerReference;
-        public Mod2_Task2_timer scriptTimerReference2;
+       public Mod2_Task1_timer Mod2_Task1_timer_;
+        public Mod2_Task2_timer Mod2_Task2_timer_;
+
+        bool Timer1 = true;
+        bool Timer2 = true;
+        public Mod4_Task1_timer Mod4_Task1_timer_;
+        public Mod4_Task2_timer Mod4_Task2_timer_;
         public GameObject RightController; 
         public bool IsObjectGrabbing { get; private set; }
 
@@ -64,12 +69,23 @@ namespace Tobii.XR.Examples
                 if (_focusedGameObject != null && ControllerManager.Instance.GetButtonPressDown(TriggerButton))
                 {
                     ChangeObjectState(GrabState.Grabbing);
-                   if(_focusedGameObject.CompareTag("Cube")) {
-                        scriptTimerReference2.StartTimer();
-                    } else
+
+                  
+                    
+                    if(_focusedGameObject.CompareTag("Torus") && Mod2_Task1_timer_ != null && Timer1 )
                     {
-                        scriptTimerReference.StartTimer();
+                        Timer1 = false;
+                        Mod2_Task1_timer_.StartTimer();
                     }
+
+                    if (_focusedGameObject.CompareTag("Cube") && Mod2_Task2_timer_ != null && Timer2)
+                    {
+                        Timer2 = false;
+                        Mod2_Task2_timer_.StartTimer();
+
+                    }
+
+
                 }
             }
 
@@ -140,7 +156,7 @@ namespace Tobii.XR.Examples
                 case GrabState.Idle:
                     IsObjectGrabbing = false;
                     _grabbedObject.ObjectUngrabbed();
-                    _grabbedObjectRigidBody.isKinematic = false;
+                    _grabbedObjectRigidBody.isKinematic = true;
                     break;
                 // When the user starts grabbing the object, save the object and store its animation values.
                 case GrabState.Grabbing:

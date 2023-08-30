@@ -9,26 +9,55 @@ public class Mod1_Task1_timer : MonoBehaviour
     private float elapsedTime = 0f;
     [SerializeField] Text timer1;
 
+    public XRBaseInteractable[] interactables; // References to your interactable objects
 
-    public XRBaseInteractable interactable; // Reference to your interactable object
 
+    bool Timer1 = true;
     private void OnEnable()
     {
-        interactable.selectExited.AddListener(OnSelectExited);
+        foreach (var interactable in interactables)
+        {
+            interactable.selectEntered.AddListener(OnSelectEntered);
+            interactable.selectExited.AddListener(OnSelectExited);
+
+        }
     }
 
     private void OnDisable()
     {
-        interactable.selectExited.RemoveListener(OnSelectExited);
+        foreach (var interactable in interactables)
+        {
+            interactable.selectEntered.RemoveListener(OnSelectEntered);
+            interactable.selectExited.RemoveListener(OnSelectExited);
+        }
     }
+
+
 
     private void OnSelectExited(SelectExitEventArgs args)
     {
         Finish_task1 = true;
-        // This method is called when the user stops interacting with the interactable.
+      
         Debug.Log("Select exited: " + args.interactor.name);
-        // Add your custom logic here.
+
     }
+
+
+    private void OnSelectEntered(SelectEnterEventArgs args)
+    {
+        if (Timer1)
+        {
+            Timer1 = false;
+            StartTimer();
+
+        }
+
+        Finish_task1 = false;
+
+
+    }
+
+
     public void StartTimer()
     {
         if (!timerStarted)
@@ -40,7 +69,7 @@ public class Mod1_Task1_timer : MonoBehaviour
 
     public void StopTimer()
     {
-        timerStarted = false;
+       timerStarted = false;
         elapsedTime = 0f;
     }
 

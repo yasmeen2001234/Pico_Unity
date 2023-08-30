@@ -8,26 +8,57 @@ public class Mod1_Task2_timer : MonoBehaviour
     private float startTime = 0f;
     private float elapsedTime = 0f;
     [SerializeField] Text timer1;
+    bool Timer2 = true;
+  
+    public XRBaseInteractable[] interactables; // References to your interactable objects
+ 
 
-    public XRBaseInteractable interactable; // Reference to your interactable object
 
     private void OnEnable()
     {
-        interactable.selectExited.AddListener(OnSelectExited);
+        foreach (var interactable in interactables)
+        {
+            interactable.selectEntered.AddListener(OnSelectEntered);
+            interactable.selectExited.AddListener(OnSelectExited);
+ 
+        }
     }
 
     private void OnDisable()
     {
-        interactable.selectExited.RemoveListener(OnSelectExited);
+        foreach (var interactable in interactables)
+        {
+            interactable.selectEntered.RemoveListener(OnSelectEntered);
+            interactable.selectExited.RemoveListener(OnSelectExited);
+        }
     }
+
+
 
     private void OnSelectExited(SelectExitEventArgs args)
     {
         Finish_task2 = true;
-        // This method is called when the user stops interacting with the interactable.
+        // This method is called when the user stops interacting with an interactable.
         Debug.Log("Select exited: " + args.interactor.name);
-        // Add your custom logic here.
+        // You can perform your tasks here.
     }
+
+
+    private void OnSelectEntered(SelectEnterEventArgs args)
+    {
+        if(Timer2)
+        {
+            Timer2 = false;
+            StartTimer();
+         
+        }
+      
+        Finish_task2 = false;
+   
+ 
+    }
+
+
     public void StartTimer()
     {
         if (!timerStarted)

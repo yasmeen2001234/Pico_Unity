@@ -63,6 +63,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
         }
 
     }
+<<<<<<< Updated upstream
     private void OnCollisionEnter(Collision collision)
     {
         objCollider.isTrigger = true;
@@ -73,6 +74,14 @@ public class GrabCoinCtrl1 : MonoBehaviour
        // objCollider.isTrigger = true;
         rb.useGravity = false;
         rb.isKinematic = true;
+=======
+   
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+  
+>>>>>>> Stashed changes
         //Coin is waiting to be grabbed
         //Check for fingers entering its trigger area to star the coin grabbed logic logic
         if (other.CompareTag("Index") && !indexFinger)
@@ -112,9 +121,13 @@ public class GrabCoinCtrl1 : MonoBehaviour
     //check for fingers leaving the trigger area
     private void OnTriggerExit(Collider other)
     {
+<<<<<<< Updated upstream
         rb.useGravity = true;
         objCollider.isTrigger = false;
            rb.isKinematic = false;
+=======
+     
+>>>>>>> Stashed changes
         if (currState == ObjGrabState.Waiting)
         {
             if (other.CompareTag("Index") && indexFinger)

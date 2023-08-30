@@ -41,6 +41,7 @@ static Il2CppMethodPointer s_methodPointers[8] =
 };
 static const int32_t s_InvokerIndices[8] = 
 {
+<<<<<<< Updated upstream
 	4040,
 	4631,
 	7446,
@@ -49,6 +50,16 @@ static const int32_t s_InvokerIndices[8] =
 	10624,
 	5893,
 	10624,
+=======
+	4041,
+	4625,
+	7467,
+	8006,
+	10757,
+	10757,
+	5881,
+	10757,
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule = 
