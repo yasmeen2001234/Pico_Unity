@@ -11,7 +11,7 @@ We implemented three methods where user can engage with objects :
 Gaze select :
 
 
-https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/71905aed-5e79-4bf3-91be-5d03681eb257
+https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/1a8e4348-b925-4350-96c0-b2b2cf4b6623
 
 
 
@@ -20,7 +20,7 @@ Hand Tracking :
 
 
 
-https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/61efc47b-341d-488b-ba99-88d98e2069ae
+https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/9a6d8f43-a60c-4851-a57f-4348a08a45aa
 
 
 
@@ -29,5 +29,5 @@ Controllers :
 
 
 
-https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/859188c2-b903-4608-a488-19aa2a974e0f
+https://github.com/yasmeen2001234/Pico_Unity/assets/83319374/11b12ce9-cb72-4091-a968-3ace9b0c52c7
 
