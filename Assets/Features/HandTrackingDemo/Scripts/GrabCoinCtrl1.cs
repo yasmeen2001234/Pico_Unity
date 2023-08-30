@@ -20,7 +20,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
     public float maxDistance = 0f;
     public float releaseMargin = 1.3f;
     public int currCoinValue = 0;
-  
+
 
     private Rigidbody rb;
     private ObjGrabState currState = ObjGrabState.Waiting;
@@ -36,7 +36,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-     //   objCollider = GetComponent<Collider>();
+        //   objCollider = GetComponent<Collider>();
     }
     void Start()
     {
@@ -45,7 +45,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
 
     private void OnEnable()
     {
-       // ArcadeManager.instance.CoinGrabbed = false;
+        // ArcadeManager.instance.CoinGrabbed = false;
         fallTime = 0f;
     }
 
@@ -55,7 +55,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
 
         if (currState == ObjGrabState.Grabbed)
             Follow();
-        if(currState == ObjGrabState.Falling)
+        if (currState == ObjGrabState.Falling)
         {
             //incase the coin falls through the world, give it a timer to reset itself
             fallTime += Time.deltaTime;
@@ -63,53 +63,40 @@ public class GrabCoinCtrl1 : MonoBehaviour
         }
 
     }
-<<<<<<< Updated upstream
-    private void OnCollisionEnter(Collision collision)
-    {
-        objCollider.isTrigger = true;
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-       // objCollider.isTrigger = true;
-        rb.useGravity = false;
-        rb.isKinematic = true;
-=======
-   
 
 
     private void OnTriggerEnter(Collider other)
     {
-  
->>>>>>> Stashed changes
+
         //Coin is waiting to be grabbed
         //Check for fingers entering its trigger area to star the coin grabbed logic logic
         if (other.CompareTag("Index") && !indexFinger)
+        {
+            indexFinger = true;
+            fingers++;
+            indexTransform = other.transform;
+            if (fingers >= 2)
             {
-                indexFinger = true;
-                fingers++;
-                indexTransform = other.transform;
-                if (fingers >= 2)
-                {
-                    GrabLogic();
-                    fingers = 2;
-                }
-                else
+                GrabLogic();
+                fingers = 2;
+            }
+            else
             {
                 Fall();
             }
 
-            }
-            if (other.CompareTag("Thumb") && !thumbFinger)
+        }
+        if (other.CompareTag("Thumb") && !thumbFinger)
+        {
+            thumbFinger = true;
+            fingers++;
+            thumbCtrl = other.GetComponent<FingerTipCtrl>();
+            if (fingers >= 2)
             {
-                thumbFinger = true;
-                fingers++;
-                thumbCtrl = other.GetComponent<FingerTipCtrl>();
-                if (fingers >= 2)
-                {
-                    GrabLogic();
-                    fingers = 2;
-                }
+                GrabLogic();
+                fingers = 2;
+            }
             else
             {
                 Fall();
@@ -121,13 +108,7 @@ public class GrabCoinCtrl1 : MonoBehaviour
     //check for fingers leaving the trigger area
     private void OnTriggerExit(Collider other)
     {
-<<<<<<< Updated upstream
-        rb.useGravity = true;
-        objCollider.isTrigger = false;
-           rb.isKinematic = false;
-=======
-     
->>>>>>> Stashed changes
+
         if (currState == ObjGrabState.Waiting)
         {
             if (other.CompareTag("Index") && indexFinger)
@@ -154,14 +135,14 @@ public class GrabCoinCtrl1 : MonoBehaviour
     //maxDistance determines the exact distance between the finger the initial grabbed occured at so we know how to set up the release distance
     private void GrabLogic()
     {
-        if(fingers >= 2 && currState == ObjGrabState.Waiting)
+        if (fingers >= 2 && currState == ObjGrabState.Waiting)
         {
             currState = ObjGrabState.Grabbed;
             fallTime = 0f;
             maxDistance = Vector3.Distance(indexTransform.position, thumbCtrl.transform.position);
-         //   ArcadeManager.instance.CoinGrabbed = true;
+            //   ArcadeManager.instance.CoinGrabbed = true;
 
-           
+
         }
     }
 
@@ -171,8 +152,8 @@ public class GrabCoinCtrl1 : MonoBehaviour
         currDistance = Vector3.Distance(indexTransform.position, thumbCtrl.transform.position);
 
         if (currDistance > maxDistance * releaseMargin)
-           
-           Fall();
+
+            Fall();
         else
         {
             transform.position = Vector3.Lerp(transform.position, thumbCtrl.objectSetPos.position, Time.deltaTime * lerpSpeed * 2f);
@@ -185,16 +166,16 @@ public class GrabCoinCtrl1 : MonoBehaviour
     {
         //  rb.useGravity = true;
         //   objCollider.isTrigger = false; object is sticked to the finger
-     //    rb.isKinematic = false;
+        //    rb.isKinematic = false;
         currState = ObjGrabState.Falling; // cannot grab object again
-    //    objCollider.isTrigger = false;
+                                          //    objCollider.isTrigger = false;
 
-      //  currState = ObjGrabState.Waiting; object is sticked to the finger
+        //  currState = ObjGrabState.Waiting; object is sticked to the finger
 
         //  currState = ObjGrabState.End; // // cannot grab object again
 
 
 
     }
-   
+
 }
