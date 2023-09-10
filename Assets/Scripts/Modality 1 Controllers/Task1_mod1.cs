@@ -20,18 +20,27 @@ public class Task1_mod1 : MonoBehaviour
 
     public float distanceThreshold = 2.0f;
     public static bool allTorusClose = false; // New boolean variable
+    float blueDistance;
+    float yellowDistance;
+    float redDistance;
+    float greenDistance;
 
+    private void Start()
+    {
+        
+    }
     private void Update()
     {
         CheckDistances();
+        SnapTorus();
     }
 
     void CheckDistances()
     {
-        float blueDistance = Vector3.Distance(blueTorus.transform.position, blue_torus_clone.position);
-        float yellowDistance = Vector3.Distance(yellowTorus.transform.position, yellow_torus_clone.position);
-        float redDistance = Vector3.Distance(redTorus.transform.position, red_torus_clone.position);
-        float greenDistance = Vector3.Distance(greenTorus.transform.position, green_torus_clone.position);
+         blueDistance = Vector3.Distance(blueTorus.transform.position, blue_torus_clone.position);
+         yellowDistance = Vector3.Distance(yellowTorus.transform.position, yellow_torus_clone.position);
+         redDistance = Vector3.Distance(redTorus.transform.position, red_torus_clone.position);
+         greenDistance = Vector3.Distance(greenTorus.transform.position, green_torus_clone.position);
 
         // Check if all distances are within the threshold
         if (blueDistance <= distanceThreshold &&
@@ -46,6 +55,57 @@ public class Task1_mod1 : MonoBehaviour
         else
         {
             allTorusClose = false;
+        }
+    }
+
+    void SnapTorus()
+    {
+        if (blueDistance <= distanceThreshold)
+        {
+            blueTorus.transform.position = blue_torus_clone.position;
+            blueTorus.transform.rotation = blue_torus_clone.rotation;
+        }
+
+        if (redDistance <= distanceThreshold)
+        {
+            redTorus.transform.position = red_torus_clone.position;
+            redTorus.transform.rotation = red_torus_clone.rotation;
+        }
+        if (greenDistance <= distanceThreshold)
+        {
+            greenTorus.transform.position = green_torus_clone.position;
+            greenTorus.transform.rotation = green_torus_clone.rotation;
+        }
+
+        if (yellowDistance <= distanceThreshold)
+        {
+            yellowTorus.transform.position = yellow_torus_clone.position;
+            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
+        }
+
+    }
+    void SnapRed()
+    {
+        if (redDistance <= distanceThreshold)
+        {
+           redTorus.transform.position = red_torus_clone.position;
+            redTorus.transform.rotation = red_torus_clone.rotation;
+        }
+    }
+    void SnapGreen()
+    {
+        if (blueDistance <= distanceThreshold)
+        {
+            greenTorus.transform.position = green_torus_clone.position;
+            greenTorus.transform.rotation = green_torus_clone.rotation;
+        }
+    }
+    void SnapYellow()
+    {
+        if (blueDistance <= distanceThreshold)
+        {
+           yellowTorus.transform.position = yellow_torus_clone.position;
+            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
         }
     }
 }

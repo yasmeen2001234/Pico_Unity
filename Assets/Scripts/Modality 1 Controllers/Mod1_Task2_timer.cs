@@ -78,7 +78,18 @@ public class Mod1_Task2_timer : MonoBehaviour
     {
 
         if (Task2_Mod1.allCubeClose && Finish_task2)
+        {
             StopTimer();
+            foreach (var interactable in interactables)
+            {
+                if (interactable.TryGetComponent<XRGrabInteractable>(out var grabInteractable))
+                {
+                    Destroy(grabInteractable);
+                }
+            }
+
+        }
+
 
         if (timerStarted)
         {

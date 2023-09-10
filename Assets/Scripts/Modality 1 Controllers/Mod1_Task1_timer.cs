@@ -76,8 +76,19 @@ public class Mod1_Task1_timer : MonoBehaviour
     private void Update()
     {
 
-        if (Task1_mod1.allTorusClose && Finish_task1)
+        if (Task1_mod1.allTorusClose && Finish_task1 )
+        {
             StopTimer();
+            foreach (var interactable in interactables)
+            {
+                if (interactable.TryGetComponent<XRGrabInteractable>(out var grabInteractable))
+                {
+                    Destroy(grabInteractable);
+                }
+            }
+
+        }
+      
 
         if (timerStarted)
         {
