@@ -5,13 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hands
-  - Index
   - MoneyTile
-  - Thumb
   - TargetNumber
   - Cube
   - MoneyCoin
   - Torus
+  - Target
+  - ThumbR
+  - IndexR
+  - ThumbL
+  - IndexL
   layers:
   - Default
   - TransparentFX

@@ -20,18 +20,30 @@ public class Task2_Mod3 : MonoBehaviour
 
     public float distanceThreshold = 2.0f;
     public static bool allCubeClose = false; // New boolean variable
-
+    float blueDistance;
+    float yellowDistance;
+    float redDistance;
+    float greenDistance;
+    public GrabbingWithYas grabbingScriptBlue;
+    public GrabbingWithYas grabbingScriptYellow;
+    private void Start()
+    {
+    }
     private void Update()
     {
         CheckDistances();
+        
+            SnapCubes();
+        
     }
 
     void CheckDistances()
     {
-        float blueDistance = Vector3.Distance(blueCube.transform.position, blue_Cube_clone.position);
-        float yellowDistance = Vector3.Distance(yellowCube.transform.position, yellow_Cube_clone.position);
-        float redDistance = Vector3.Distance(redCube.transform.position, red_Cube_clone.position);
-        float greenDistance = Vector3.Distance(greenCube.transform.position, green_Cube_clone.position);
+
+        blueDistance = Vector3.Distance(blueCube.transform.position, blue_Cube_clone.position);
+        yellowDistance = Vector3.Distance(yellowCube.transform.position, yellow_Cube_clone.position);
+        redDistance = Vector3.Distance(redCube.transform.position, red_Cube_clone.position);
+        greenDistance = Vector3.Distance(greenCube.transform.position, green_Cube_clone.position);
 
         // Check if all distances are within the threshold
         if (blueDistance <= distanceThreshold &&
@@ -47,5 +59,28 @@ public class Task2_Mod3 : MonoBehaviour
         {
             allCubeClose = false;
         }
+    }
+
+    void SnapCubes()
+    {
+        if (blueDistance <= distanceThreshold)
+        {
+            blueCube.transform.SetPositionAndRotation(blue_Cube_clone.position, blue_Cube_clone.rotation);
+        }
+
+        if (redDistance <= distanceThreshold)
+        {
+            redCube.transform.SetPositionAndRotation(red_Cube_clone.position, red_Cube_clone.rotation);
+        }
+        if (greenDistance <= distanceThreshold)
+        {
+            greenCube.transform.SetPositionAndRotation(green_Cube_clone.position, green_Cube_clone.rotation);
+        }
+
+        if (yellowDistance <= distanceThreshold)
+        {
+            yellowCube.transform.SetPositionAndRotation(yellow_Cube_clone.position, yellow_Cube_clone.rotation);
+        }
+
     }
 }
