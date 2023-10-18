@@ -1697,8 +1697,8 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.5330188, g: 0.63495976, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 1.0790462
-  m_SpotAngle: 25.3
+  m_Range: 50.65
+  m_SpotAngle: 17.5
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -2387,7 +2387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42753ada84321274687a7645f6f94e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EyeCoordinates: {fileID: 1862205078}
   SpotLight: {fileID: 277583617}
 --- !u!4 &698652613
 Transform:

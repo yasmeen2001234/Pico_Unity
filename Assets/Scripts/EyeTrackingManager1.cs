@@ -59,7 +59,15 @@ public class EyeTrackingManager1 : MonoBehaviour
         combineEyeGazeOriginInWorldSpace = headPoseMatrix.MultiplyPoint(combineEyeGazeOrigin);
         combineEyeGazeVectorInWorldSpace = headPoseMatrix.MultiplyVector(combineEyeGazeVector);
 
-        SpotLight.transform.position = combineEyeGazeOriginInWorldSpace;
+        Vector3 targetPosition = combineEyeGazeOriginInWorldSpace;
+
+        // Define a speed for the smooth movement (you can adjust this value)
+        float moveSpeed = 2.0f;
+
+        // Smoothly interpolate the light's position towards the target
+        SpotLight.transform.position = Vector3.Lerp(SpotLight.transform.position, targetPosition, Time.deltaTime * moveSpeed);
+
+     //   SpotLight.transform.position = combineEyeGazeOriginInWorldSpace;
         SpotLight.transform.rotation = Quaternion.LookRotation(combineEyeGazeVectorInWorldSpace, Vector3.up);
 
 
