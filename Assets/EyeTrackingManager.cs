@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.XR.PXR;
 using Pose = Unity.XR.PXR.Pose;
-
 public class EyeTrackingManager : MonoBehaviour
 {
     public float movementSpeed = 1.0f;
@@ -10,96 +9,76 @@ public class EyeTrackingManager : MonoBehaviour
     public PxrVector3f position;
     public PxrVector4f orientation;
     public PXR_MotionTracking motionTracking;
-
     public Text posText;
-    private void Update()
+    public Text secText;
+    TrackingStateCode trackingState;
+    private void Start()
     {
+        // Want the eye tracking service for the current app
+        trackingState = (TrackingStateCode)PXR_MotionTracking.WantEyeTrackingService();
+
+        // Query if the current device supports eye tracking
         EyeTrackingMode eyeTrackingMode = EyeTrackingMode.PXR_ETM_NONE;
-        TrackingStateCode trackingState;
+        bool supported = false;
+        int supportedModesCount = 0;
+        trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingSupported(ref supported, ref supportedModesCount, ref eyeTrackingMode);
 
-        EyeTrackingStartInfo Startinfo = new EyeTrackingStartInfo();
-        Startinfo.needCalibration = 1;
-        Startinfo.mode = eyeTrackingMode;
-        trackingState = (TrackingStateCode)PXR_MotionTracking.StartEyeTracking(ref Startinfo);
-
-
-    
-        // Get eye tracking data
-       
-        //    EyeTrackingData eyeTrackingData = new EyeTrackingData();
-        //     TrackingStateCode trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingData(ref info, ref eyeTrackingData);
+        // Get the state of eye tracking
+        bool tracking = false;
+        EyeTrackingState eyeTrackingState = new EyeTrackingState();
+        trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingState(ref tracking, ref eyeTrackingState);
+      
+        // Start eye tracking
         EyeTrackingStartInfo info = new EyeTrackingStartInfo();
         info.needCalibration = 1;
         info.mode = eyeTrackingMode;
         trackingState = (TrackingStateCode)PXR_MotionTracking.StartEyeTracking(ref info);
 
-        Pose pose = new Pose();
+    }
+    private void Update()
+    {
+        // Get the state of eye tracking
+        trackingState = (TrackingStateCode)PXR_MotionTracking.WantEyeTrackingService();
 
-        Vector3 eyePosition = new(pose.position.x, pose.position.y, objectToMove.transform.position.z);
+     
+        // Get the state of eye tracking
+        bool tracking = false;
+        EyeTrackingState eyeTrackingState = new EyeTrackingState();
+        trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingState(ref tracking, ref eyeTrackingState);
 
-        // Get the position of the left eye
-        /*
-        Vector3 eyePosition = new Vector3(eyeTrackingData.eyeDatas[(int)PerEyeUsage.LeftEye].pose.position.x,
-                                              eyeTrackingData.eyeDatas[(int)PerEyeUsage.LeftEye].pose.position.y,
-                                              eyeTrackingData.eyeDatas[(int)PerEyeUsage.LeftEye].pose.position.z);
-        */
-        // Move your GameObject based on eye position
+        // Start eye tracking
+        EyeTrackingStartInfo Sinfo = new EyeTrackingStartInfo();
+        Sinfo.needCalibration = 1;
+        Sinfo.mode = eyeTrackingMode;
+        trackingState = (TrackingStateCode)PXR_MotionTracking.StartEyeTracking(ref Sinfo);
+        secText.text = "Mode Code " + supportedModesCount;
+        EyeTrackingDataGetInfo info = new EyeTrackingDataGetInfo();
 
-       // pose.position = new PxrVector3f(1.0f, 2.0f, 3.0); // Replace with your desired values
-       // pose.orientation = new PxrVector4f(0.1f, 0.2f, 0.3f, 0.4f); // Replace with your desired values
-
-
-        EyeTrackingDataGetInfo eyeTrackingDataGetInfo = new EyeTrackingDataGetInfo();
-        eyeTrackingDataGetInfo.displayTime = 0;
-        eyeTrackingDataGetInfo.flags = EyeTrackingDataGetFlags.PXR_EYE_DEFAULT
+        info.displayTime = 0;
+        info.flags = EyeTrackingDataGetFlags.PXR_EYE_DEFAULT
                     | EyeTrackingDataGetFlags.PXR_EYE_POSITION
                     | EyeTrackingDataGetFlags.PXR_EYE_ORIENTATION;
         EyeTrackingData eyeTrackingData = new EyeTrackingData();
-        trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingData(ref eyeTrackingDataGetInfo, ref eyeTrackingData);
+        trackingState = (TrackingStateCode)PXR_MotionTracking.GetEyeTrackingData(ref info, ref eyeTrackingData);
 
-
-
-        EyePupilInfo eyePupilInfo = new EyePupilInfo();
+        EyePupilInfo pInfo = new EyePupilInfo();
+        PXR_MotionTracking.GetEyePupilInfo(ref pInfo);
 
       
-
-
-
-
-
-
-        int EyeNEW =     PXR_MotionTracking.GetEyeTrackingData(ref eyeTrackingDataGetInfo, ref eyeTrackingData);
-        int pupilMo = PXR_MotionTracking.GetEyePupilInfo(ref eyePupilInfo);
-        Debug.Log(eyePosition);
-        Debug.Log(EyeNEW);
-        Debug.Log(pupilMo);
-
-
-        Vector3 leftEyePosition = new Vector3(eyeTrackingData.eyeDatas[0].pose.position.x, eyeTrackingData.eyeDatas[0].pose.position.y, eyeTrackingData.eyeDatas[0].pose.position.z);
-        Vector3 rightEyePosition = new Vector3(eyeTrackingData.eyeDatas[1].pose.position.x, eyeTrackingData.eyeDatas[1].pose.position.y, eyeTrackingData.eyeDatas[1].pose.position.z);
-
-
-        posText.text =  leftEyePosition.ToString();
-
-        /* ALL returned 0 */
-
-        /*
+        Pose leftEyePose = eyeTrackingData.eyeDatas[0].pose;
+       
         unsafe
         {
-            Debug.Log(eyePupilInfo.leftEyePupilPosition[2]);
-            posText.text = eyePupilInfo.leftEyePupilPosition[2].ToString();
-        }
-        */
-        // posText.text = PXR_Plugin.MotionTracking.UPxr_GetEyePupilInfo(ref eyePupilInfo).ToString();
-        //  posText.text = eyePupilInfo.leftEyePupilPosition.ToString();
-        // posText.text = eyePupilInfo.leftEyePupilDiameter  + " pupilMo " + pupilMo + " EyeNEW " + EyeNEW + " eyePosition  " + eyePosition;
-        if (objectToMove != null) 
-            {
-                float speed = movementSpeed * Time.deltaTime;
-                objectToMove.transform.position = eyePosition * speed;
-            }
+            Vector2 leftPupilPos = new Vector2(pInfo.leftEyePupilPosition[0], pInfo.leftEyePupilPosition[1]);
+            Vector2 rightPupilPos = new Vector2(pInfo.rightEyePupilPosition[0], pInfo.rightEyePupilPosition[1]);
+
+
+            Debug.Log("Left Pupil Pos: " + leftPupilPos + "Right Pupil Pos: " + rightPupilPos); // getting ( 0 ,0  ) values 
       
+        }
+
+    
+
     }
 
- 
 }
