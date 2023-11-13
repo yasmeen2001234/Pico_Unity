@@ -25,6 +25,11 @@ public class Task1_mod3 : MonoBehaviour
     float redDistance;
     float greenDistance;
 
+    public GrabbingWithYas grabbingScriptBlue;
+    public GrabbingWithYas grabbingScriptYellow;
+    public GrabbingWithYas grabbingScriptGreen;
+    public GrabbingWithYas grabbingScriptRed;
+
     private void Start()
     {
 
@@ -62,26 +67,39 @@ public class Task1_mod3 : MonoBehaviour
     {
         if (blueDistance <= distanceThreshold)
         {
-            blueTorus.transform.position = blue_torus_clone.position;
-            blueTorus.transform.rotation = blue_torus_clone.rotation;
+            grabbingScriptBlue.enabled = false;
+            blueTorus.transform.SetPositionAndRotation(blue_torus_clone.position, blue_torus_clone.rotation);
         }
+        else grabbingScriptBlue.enabled = true;
+
+
+
 
         if (redDistance <= distanceThreshold)
         {
-            redTorus.transform.position = red_torus_clone.position;
-            redTorus.transform.rotation = red_torus_clone.rotation;
+            grabbingScriptRed.enabled = false;
+            redTorus.transform.SetPositionAndRotation(red_torus_clone.position, red_torus_clone.rotation);
         }
+        else grabbingScriptRed.enabled = true;
+
+
+
         if (greenDistance <= distanceThreshold)
         {
-            greenTorus.transform.position = green_torus_clone.position;
-            greenTorus.transform.rotation = green_torus_clone.rotation;
+            grabbingScriptGreen.enabled = false;
+            greenTorus.transform.SetPositionAndRotation(green_torus_clone.position, green_torus_clone.rotation);
         }
+        else grabbingScriptGreen.enabled = true;
+
+
+
 
         if (yellowDistance <= distanceThreshold)
         {
-            yellowTorus.transform.position = yellow_torus_clone.position;
-            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
+            grabbingScriptYellow.enabled = false;
+            yellowTorus.transform.SetPositionAndRotation(yellow_torus_clone.position, yellow_torus_clone.rotation);
         }
+        else grabbingScriptYellow.enabled = true;
 
     }
     void SnapRed()

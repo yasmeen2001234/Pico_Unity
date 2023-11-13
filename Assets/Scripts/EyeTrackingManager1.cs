@@ -68,7 +68,7 @@ public class EyeTrackingManager1 : MonoBehaviour
         SpotLight.transform.position = Vector3.Lerp(SpotLight.transform.position, targetPosition, Time.deltaTime * moveSpeed);
 
      //   SpotLight.transform.position = combineEyeGazeOriginInWorldSpace;
-        SpotLight.transform.rotation = Quaternion.LookRotation(combineEyeGazeVectorInWorldSpace, Vector3.up);
+    //    SpotLight.transform.rotation = Quaternion.LookRotation(combineEyeGazeVectorInWorldSpace, Vector3.up);
 
 
         GazeTargetControl(combineEyeGazeOriginInWorldSpace, combineEyeGazeVectorInWorldSpace);

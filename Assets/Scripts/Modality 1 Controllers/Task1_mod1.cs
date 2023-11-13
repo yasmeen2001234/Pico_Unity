@@ -62,50 +62,27 @@ public class Task1_mod1 : MonoBehaviour
     {
         if (blueDistance <= distanceThreshold)
         {
-            blueTorus.transform.position = blue_torus_clone.position;
-            blueTorus.transform.rotation = blue_torus_clone.rotation;
+            blueTorus.transform.SetPositionAndRotation(blue_torus_clone.position, blue_torus_clone.rotation);
+            ScriptRemover.DestroyAllScripts(blueTorus);
         }
 
         if (redDistance <= distanceThreshold)
         {
-            redTorus.transform.position = red_torus_clone.position;
-            redTorus.transform.rotation = red_torus_clone.rotation;
+            redTorus.transform.SetPositionAndRotation(red_torus_clone.position, red_torus_clone.rotation);
+            ScriptRemover.DestroyAllScripts(redTorus);
         }
         if (greenDistance <= distanceThreshold)
         {
-            greenTorus.transform.position = green_torus_clone.position;
-            greenTorus.transform.rotation = green_torus_clone.rotation;
+            greenTorus.transform.SetPositionAndRotation(green_torus_clone.position, green_torus_clone.rotation);
+            ScriptRemover.DestroyAllScripts(greenTorus);
         }
 
         if (yellowDistance <= distanceThreshold)
         {
-            yellowTorus.transform.position = yellow_torus_clone.position;
-            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
+            yellowTorus.transform.SetPositionAndRotation(yellow_torus_clone.position, yellow_torus_clone.rotation);
+            ScriptRemover.DestroyAllScripts(yellowTorus);
         }
 
     }
-    void SnapRed()
-    {
-        if (redDistance <= distanceThreshold)
-        {
-           redTorus.transform.position = red_torus_clone.position;
-            redTorus.transform.rotation = red_torus_clone.rotation;
-        }
-    }
-    void SnapGreen()
-    {
-        if (blueDistance <= distanceThreshold)
-        {
-            greenTorus.transform.position = green_torus_clone.position;
-            greenTorus.transform.rotation = green_torus_clone.rotation;
-        }
-    }
-    void SnapYellow()
-    {
-        if (blueDistance <= distanceThreshold)
-        {
-           yellowTorus.transform.position = yellow_torus_clone.position;
-            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
-        }
-    }
+   
 }

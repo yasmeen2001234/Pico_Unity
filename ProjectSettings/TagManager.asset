@@ -15,6 +15,10 @@ TagManager:
   - IndexR
   - ThumbL
   - IndexL
+  - Thumb
+  - Index
+  - Mod4_1
+  - Mod4_2
   layers:
   - Default
   - TransparentFX

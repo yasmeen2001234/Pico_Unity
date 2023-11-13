@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Tobii.XR.Examples;
 using UnityEngine;
 using UnityEngine.UI;
+using Pico;
+using Unity.XR.PXR;
 public class GrabbingWithYas : MonoBehaviour
 {
     [SerializeField] FingerTipCtrl thumbCtrlL;
@@ -31,9 +33,14 @@ public class GrabbingWithYas : MonoBehaviour
     public Mod3_Task1_timer Mod3_Task1_timer_;
     public Mod3_Task2_timer Mod3_Task2_timer_;
     public Mod4_Task1_timer Mod4_Task1_timer_;
+    public Mod4_Task2_timer Mod4_Task2_timer_;
 
     bool Timer1 = true;
     bool Timer2 = true;
+
+
+    bool snapping = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +55,7 @@ public class GrabbingWithYas : MonoBehaviour
 
         distanceR = Vector3.Distance(thumbR.position, indexR.position);
     
-        if (isLeftGrabbed && distancel < 0.09f )
+        if (isLeftGrabbed && distancel < 0.09f)
         {
             isRightGrabbed = false;
             FollowLeftHand();
@@ -80,14 +87,14 @@ public class GrabbingWithYas : MonoBehaviour
         if (other.CompareTag("IndexL") || other.CompareTag("ThumbL"))
         {
             isLeftGrabbed = true;
-          isRightGrabbed = false;
+            isRightGrabbed = false;
         }
 
         if (other.CompareTag("IndexR") || other.CompareTag("ThumbR"))
         {
         
             isRightGrabbed = true;
-        isLeftGrabbed = false;
+            isLeftGrabbed = false;
         }
       
     }
@@ -142,7 +149,10 @@ public class GrabbingWithYas : MonoBehaviour
         }
 
         else if (Mod4_Task1_timer_ != null)
-            Mod3_Task1_timer_.StartTimer();
+            Mod4_Task1_timer_.StartTimer();
+
+        else if (Mod4_Task2_timer_ != null)
+            Mod4_Task2_timer_.StartTimer();
     }
 
 }
