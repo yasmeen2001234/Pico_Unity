@@ -31,7 +31,7 @@ namespace Tobii.XR.Examples
         private void Update()
         {
 
-            if (Task2_Mod2.allCubeClose && GazeGrab.Finishtask1)
+            if (Task2_Mod2.allCubeClose )
                 StopTimer();
 
             if (timerStarted)

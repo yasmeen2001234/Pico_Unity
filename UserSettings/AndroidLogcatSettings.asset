@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "PA8E50PGGC010071A",
         "name": "com.Pico_Demo.Pico_updated",
-        "processId": 22979,
+        "processId": 15319,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,55 +11,61 @@
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 24900,
+            "processId": 31491,
             "exited": true
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 3271,
+            "processId": 4436,
             "exited": true
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 3280,
+            "processId": 4443,
             "exited": true
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 9968,
+            "processId": 10733,
             "exited": true
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 4083,
+            "processId": 10735,
             "exited": false
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 4092,
+            "processId": 15157,
             "exited": false
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 8194,
+            "processId": 4103,
             "exited": false
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 8197,
+            "processId": 6057,
             "exited": false
         },
         {
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
-            "processId": 22979,
+            "processId": 6068,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 15319,
             "exited": false
         },
         {

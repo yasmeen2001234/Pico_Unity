@@ -23,12 +23,12 @@ public class FixedHeight : MonoBehaviour
     {
         if (InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.secondaryButton, out triggerValue) && triggerValue)
         {
-            transform.Translate(Vector3.up * 0.35f * Time.deltaTime);
+            transform.Translate(Vector3.up * 0.5f * Time.deltaTime);
         }
 
         if (InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.primaryButton, out triggerValue) && triggerValue)
         {
-            transform.Translate(Vector3.down * 0.35f * Time.deltaTime);
+            transform.Translate(Vector3.down * 0.5f * Time.deltaTime);
         }
     }
 }

@@ -13,7 +13,8 @@ namespace Tobii.XR.Examples.GettingStarted
         public Color highlightColor = Color.red;
         public float animationTime = 0.1f;
 
-       public Text Gaze_observation;
+        public static bool userIsLooking = false;
+        public Text Gaze_observation;
         private Renderer _renderer;
         private Color _originalColor;
         private Color _targetColor;
@@ -25,11 +26,13 @@ namespace Tobii.XR.Examples.GettingStarted
             if (hasFocus)
             {
                 _targetColor = highlightColor;
+                userIsLooking = true;
                Gaze_observation.text = "you are looking at " + _renderer.name;
             }
             //If this object lost focus, fade the object's color to it's original color
             else
             {
+                
                 _targetColor = _originalColor;
                Gaze_observation.text = "" ;
 

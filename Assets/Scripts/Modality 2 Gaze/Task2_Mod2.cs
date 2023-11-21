@@ -10,9 +10,6 @@ public class Task2_Mod2 : MonoBehaviour
     [SerializeField] Transform yellow_Cube_clone;
     [SerializeField] GameObject yellowCube;
 
-    [Header("Red Cube")]
-    [SerializeField] Transform red_Cube_clone;
-    [SerializeField] GameObject redCube;
 
     [Header("Green Cube")]
     [SerializeField] Transform green_Cube_clone;
@@ -27,7 +24,6 @@ public class Task2_Mod2 : MonoBehaviour
 
     float blueDistance;
     float yellowDistance;
-    float redDistance;
     float greenDistance;
 
     private void Update()
@@ -38,15 +34,15 @@ public class Task2_Mod2 : MonoBehaviour
 
     void CheckDistances()
     {
-         blueDistance = Vector3.Distance(blueCube.transform.position, blue_Cube_clone.position);
-         yellowDistance = Vector3.Distance(yellowCube.transform.position, yellow_Cube_clone.position);
-         redDistance = Vector3.Distance(redCube.transform.position, red_Cube_clone.position);
-         greenDistance = Vector3.Distance(greenCube.transform.position, green_Cube_clone.position);
+      
+
+        blueDistance = Vector3.Distance(new Vector3(blueCube.transform.position.x, blueCube.transform.position.y, 0), new Vector3(blue_Cube_clone.position.x, blue_Cube_clone.position.y, 0));
+        yellowDistance = Vector3.Distance(new Vector3(yellowCube.transform.position.x, yellowCube.transform.position.y, 0), new Vector3(yellow_Cube_clone.position.x, yellow_Cube_clone.position.y, 0));
+        greenDistance = Vector3.Distance(new Vector3(greenCube.transform.position.x, greenCube.transform.position.y, 0), new Vector3(green_Cube_clone.position.x, green_Cube_clone.position.y, 0));
 
         // Check if all distances are within the threshold
         if (blueDistance <= distanceThreshold &&
             yellowDistance <= distanceThreshold &&
-            redDistance <= distanceThreshold &&
             greenDistance <= distanceThreshold)
         {
             allCubeClose = true;
@@ -71,20 +67,23 @@ public class Task2_Mod2 : MonoBehaviour
         if (blueDistance <= distanceThreshold)
         {
             blueCube.transform.SetPositionAndRotation(blue_Cube_clone.position, blue_Cube_clone.rotation);
+            blueCube.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(blueCube);
         }
 
-        if (redDistance <= distanceThreshold)
-        {
-            redCube.transform.SetPositionAndRotation(red_Cube_clone.position, red_Cube_clone.rotation);
-        }
+     
         if (greenDistance <= distanceThreshold)
         {
             greenCube.transform.SetPositionAndRotation(green_Cube_clone.position, green_Cube_clone.rotation);
+            greenCube.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(greenCube);
         }
 
         if (yellowDistance <= distanceThreshold)
         {
             yellowCube.transform.SetPositionAndRotation(yellow_Cube_clone.position, yellow_Cube_clone.rotation);
+            yellowCube.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(yellowCube);
         }
 
     }

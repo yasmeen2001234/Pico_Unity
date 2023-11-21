@@ -19,12 +19,23 @@ public class Task1_mod4 : MonoBehaviour
     [SerializeField] Transform green_torus_clone;
     [SerializeField] GameObject greenTorus;
 
+    [Header("Spotlight")]
+    [SerializeField] Transform spotlight;
+   
+
+
     public float distanceThreshold = 2.0f;
     public static bool allTorusClose = false; // New boolean variable
     float blueDistance;
     float yellowDistance;
     float redDistance;
     float greenDistance;
+
+
+    float blueDistanceGaze;
+    float yellowDistanceGaze;
+    float redDistanceGaze;
+    float greenDistanceGaze;
 
     public List<GameObject> objectsWithGrabInteractable;
     
@@ -34,8 +45,24 @@ public class Task1_mod4 : MonoBehaviour
     }
     private void Update()
     {
+        //  Transform myTransform = spotlight;
         CheckDistances();
-        SnapTorus();
+        // Check if the object has exactly two children
+        if (spotlight.childCount == 2)
+        {
+            Debug.Log("This object has two children.");
+          SnapTorusGaze();
+        }
+        else
+        {
+          
+           SnapTorus();
+            Debug.Log("This object does not have two children.");
+        }
+     //  SnapTorus();
+       
+    //   SnapTorus();
+
     }
 
     void CheckDistances()
@@ -45,7 +72,15 @@ public class Task1_mod4 : MonoBehaviour
         redDistance = Vector3.Distance(redTorus.transform.position, red_torus_clone.position);
         greenDistance = Vector3.Distance(greenTorus.transform.position, green_torus_clone.position);
 
+       
+        blueDistanceGaze = Vector3.Distance(new Vector3(blueTorus.transform.position.x, blueTorus.transform.position.y, 0), new Vector3(blue_torus_clone.position.x, blue_torus_clone.position.y, 0));
+        yellowDistanceGaze = Vector3.Distance(new Vector3(yellowTorus.transform.position.x, yellowTorus.transform.position.y, 0), new Vector3(yellow_torus_clone.position.x, yellow_torus_clone.position.y, 0));
+        redDistanceGaze = Vector3.Distance(new Vector3(redTorus.transform.position.x, redTorus.transform.position.y, 0), new Vector3(red_torus_clone.position.x, red_torus_clone.position.y, 0));
+        greenDistanceGaze = Vector3.Distance(new Vector3(greenTorus.transform.position.x, greenTorus.transform.position.y, 0), new Vector3(green_torus_clone.position.x, green_torus_clone.position.y, 0));
+        
+        
         // Check if all distances are within the threshold
+
         if (blueDistance <= distanceThreshold &&
             yellowDistance <= distanceThreshold &&
             redDistance <= distanceThreshold &&
@@ -60,7 +95,41 @@ public class Task1_mod4 : MonoBehaviour
             allTorusClose = false;
         }
     }
+    void SnapTorusGaze()
+    {
+        if (blueDistanceGaze <= distanceThreshold)
+        {
 
+            blueTorus.transform.SetPositionAndRotation(blue_torus_clone.position, blue_torus_clone.rotation);
+            DestroyingXRGrab(0);
+            blueTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(blueTorus);
+        }
+
+        if (redDistanceGaze <= distanceThreshold)
+        {
+            redTorus.transform.SetPositionAndRotation(red_torus_clone.position, red_torus_clone.rotation);
+            DestroyingXRGrab(1);
+            redTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(redTorus);
+        }
+        if (greenDistanceGaze <= distanceThreshold)
+        {
+            greenTorus.transform.SetPositionAndRotation(green_torus_clone.position, green_torus_clone.rotation);
+            DestroyingXRGrab(2);
+            greenTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(greenTorus);
+        }
+
+        if (yellowDistanceGaze <= distanceThreshold)
+        {
+            yellowTorus.transform.SetPositionAndRotation(yellow_torus_clone.position, yellow_torus_clone.rotation);
+            DestroyingXRGrab(3);
+            yellowTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(yellowTorus);
+        }
+
+    }
     void SnapTorus()
     {
         if (blueDistance <= distanceThreshold)
@@ -68,28 +137,31 @@ public class Task1_mod4 : MonoBehaviour
           
             blueTorus.transform.SetPositionAndRotation(blue_torus_clone.position, blue_torus_clone.rotation);
             DestroyingXRGrab(0);
-
-            ScriptRemover.DestroyAllScripts(blueTorus);
+            blueTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(blueTorus);
         }
 
         if (redDistance <= distanceThreshold)
         {
             redTorus.transform.SetPositionAndRotation(red_torus_clone.position, red_torus_clone.rotation);
             DestroyingXRGrab(1);
-            ScriptRemover.DestroyAllScripts(redTorus);
+            redTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(redTorus);
         }
         if (greenDistance <= distanceThreshold)
         {
             greenTorus.transform.SetPositionAndRotation(green_torus_clone.position, green_torus_clone.rotation);
             DestroyingXRGrab(2);
-            ScriptRemover.DestroyAllScripts(greenTorus);
+            greenTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(greenTorus);
         }
 
         if (yellowDistance <= distanceThreshold)
         {
             yellowTorus.transform.SetPositionAndRotation(yellow_torus_clone.position, yellow_torus_clone.rotation);
             DestroyingXRGrab(3);
-            ScriptRemover.DestroyAllScripts(yellowTorus);
+            yellowTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(yellowTorus);
         }
 
     }

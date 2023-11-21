@@ -19,6 +19,9 @@ TagManager:
   - Index
   - Mod4_1
   - Mod4_2
+  - Mod2_1
+  - Mod2_2
+  - gazeArea
   layers:
   - Default
   - TransparentFX

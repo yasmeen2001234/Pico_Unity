@@ -30,7 +30,7 @@ namespace Tobii.XR.Examples
         private void Update()
         {
 
-            if (Task1_mod2.allTorusClose && GazeGrab.Finishtask1 )
+            if (Task1_mod2.allTorusClose  )
                 StopTimer();
 
             if (timerStarted)

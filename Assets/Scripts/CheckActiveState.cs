@@ -62,13 +62,13 @@ public class CheckActiveState : MonoBehaviour
 
         if(IsControllerConnected(controllerType))
         {
-            Debug.Log("Controller " + (controllerType == Controller.LeftController ? "Left" : "Right") + " is connected.");
+        //    Debug.Log("Controller " + (controllerType == Controller.LeftController ? "Left" : "Right") + " is connected.");
           //  debug_t.text = controllerType == Controller.LeftController ? "Left" : "Right";
         }
 
         if (ActiveInputDevice.ControllerActive.Equals("ControllerActive"))
         {
-            Debug.Log(ActiveInputDevice.ControllerActive);
+      //      Debug.Log(ActiveInputDevice.ControllerActive);
         }
 
 

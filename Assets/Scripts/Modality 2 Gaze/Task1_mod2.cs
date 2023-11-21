@@ -20,6 +20,10 @@ public class Task1_mod2 : MonoBehaviour
 
     [Header("Components")]
     public GameObject[] targetObjects;
+    public ET_Objects blueETObjects;
+    public ET_Objects greenETObjects;
+
+
 
     public float distanceThreshold = 2.0f;
     public static bool allTorusClose = false; // New boolean variable
@@ -30,8 +34,7 @@ public class Task1_mod2 : MonoBehaviour
 
     private void Start()
     {
-      
-        
+
     }
     private void Update()
     {
@@ -41,10 +44,11 @@ public class Task1_mod2 : MonoBehaviour
 
     void CheckDistances()
     {
-        blueDistance = Vector3.Distance(blueTorus.transform.position, blue_torus_clone.position);
-        yellowDistance = Vector3.Distance(yellowTorus.transform.position, yellow_torus_clone.position);
-        redDistance = Vector3.Distance(redTorus.transform.position, red_torus_clone.position);
-        greenDistance = Vector3.Distance(greenTorus.transform.position, green_torus_clone.position);
+        //IGNORE Z-AXIS
+        blueDistance = Vector3.Distance(new Vector3(blueTorus.transform.position.x, blueTorus.transform.position.y, 0), new Vector3(blue_torus_clone.position.x, blue_torus_clone.position.y, 0));
+        yellowDistance = Vector3.Distance(new Vector3(yellowTorus.transform.position.x, yellowTorus.transform.position.y, 0), new Vector3(yellow_torus_clone.position.x, yellow_torus_clone.position.y, 0));
+        redDistance = Vector3.Distance(new Vector3(redTorus.transform.position.x, redTorus.transform.position.y, 0), new Vector3(red_torus_clone.position.x, red_torus_clone.position.y, 0));
+        greenDistance = Vector3.Distance(new Vector3(greenTorus.transform.position.x, greenTorus.transform.position.y, 0), new Vector3(green_torus_clone.position.x, green_torus_clone.position.y, 0));
 
         // Check if all distances are within the threshold
         if (blueDistance <= distanceThreshold &&
@@ -73,25 +77,31 @@ public class Task1_mod2 : MonoBehaviour
     {
         if (blueDistance <= distanceThreshold)
         {
-            blueTorus.transform.position = blue_torus_clone.position;
-            blueTorus.transform.rotation = blue_torus_clone.rotation;
+            blueTorus.transform.SetPositionAndRotation(blue_torus_clone.position, blue_torus_clone.rotation);
+            blueTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(blueTorus);
+            
+           
         }
 
         if (redDistance <= distanceThreshold)
         {
-            redTorus.transform.position = red_torus_clone.position;
-            redTorus.transform.rotation = red_torus_clone.rotation;
+            redTorus.transform.SetPositionAndRotation(red_torus_clone.position, red_torus_clone.rotation);
+            redTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(redTorus);
         }
         if (greenDistance <= distanceThreshold)
         {
-            greenTorus.transform.position = green_torus_clone.position;
-            greenTorus.transform.rotation = green_torus_clone.rotation;
+            greenTorus.transform.SetPositionAndRotation(green_torus_clone.position, green_torus_clone.rotation);
+            greenTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(greenTorus);
         }
 
         if (yellowDistance <= distanceThreshold)
         {
-            yellowTorus.transform.position = yellow_torus_clone.position;
-            yellowTorus.transform.rotation = yellow_torus_clone.rotation;
+            yellowTorus.transform.SetPositionAndRotation(yellow_torus_clone.position, yellow_torus_clone.rotation);
+            yellowTorus.transform.parent = null;
+            ScriptRemover.DestroyAllScriptsAfterDelay(yellowTorus);
         }
 
     }
@@ -109,4 +119,5 @@ public class Task1_mod2 : MonoBehaviour
             }
         }
     }
+
 }

@@ -2,22 +2,24 @@ using UnityEngine;
 
 public class SpotlightFollowCamera : MonoBehaviour
 {
-    public Transform cameraToFollow;
-    public float distanceFromCamera = 5f; // adjust this distance as needed
+    public Transform spotlightTransform;
+    public float speed = 5f;
 
     void Update()
     {
-        if (cameraToFollow != null)
+        if (spotlightTransform != null)
         {
-            // Set the position of the spotlight to be a certain distance behind the camera
-            transform.position = cameraToFollow.position - cameraToFollow.forward * distanceFromCamera;
+            // Calculate the direction to the spotlight
+            Vector3 direction = spotlightTransform.position - transform.position;
 
-            // Make the spotlight look at the camera
-            transform.LookAt(cameraToFollow);
-        }
-        else
-        {
-            Debug.LogWarning("Camera to follow is not assigned!");
+            // Normalize the direction vector to get a unit vector
+            direction.Normalize();
+
+            // Move the object towards the spotlight
+            transform.position += direction * speed * Time.deltaTime;
+
+            // Optionally, make the object look at the spotlight
+      //      transform.LookAt(spotlightTransform);
         }
     }
 }
