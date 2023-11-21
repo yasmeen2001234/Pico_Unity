@@ -8,10 +8,14 @@ public class Move_ZAxis : MonoBehaviour
 {
     bool triggerValue;
     Transform secondChild;
+
+    public GameObject XR_Origin;
+    private Vector3 initialPosition;
     // Start is called before the first frame update
     void Start()
     {
-        
+        initialPosition = transform.position;
+
     }
 
     // Update is called once per frame
@@ -37,24 +41,36 @@ public class Move_ZAxis : MonoBehaviour
           //  Debug.LogWarning("Parent does not have at least two children.");
         }
     }
+    public void ResetObjectPosition()
+    {
+        // Reset the position to the initial position
+        transform.position = initialPosition;
 
+       // XR_Origin.transform.LookAt(transform);
+    }
+
+    public void SpotLightLookAt()
+    {
+        // Reset the position to the initial position
+      //  transform.position = initialPosition;
+        transform.LookAt(XR_Origin.transform);
+    }
     void MoveZAxis()
     {
         if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primaryButton, out triggerValue) && triggerValue)
         {
-            //      secondChild.transform.Translate(0.5f * Time.deltaTime * transform.forward);
-            secondChild.transform.Translate(0.5f * Time.deltaTime * transform.TransformDirection(Vector3.forward));
-            Debug.Log("Current Position: " + secondChild.transform.position);
-            Debug.Log("Current Forward: " + secondChild.transform.forward);
-          //  secondChild.transform.Translate(secondChild.transform.position.x, secondChild.transform.position.y, 0.5f);
+            ResetObjectPosition();
 
-        }  if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.secondaryButton, out triggerValue) && triggerValue)
+
+        } 
+        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.secondaryButton, out triggerValue) && triggerValue)
         {
-           // secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.forward);
-          //  secondChild.transform.Translate(secondChild.transform.position.x, -0.5f, secondChild.transform.position.z);
-            secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.TransformDirection(Vector3.forward));
-
+            // secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.forward);
+            //  secondChild.transform.Translate(secondChild.transform.position.x, -0.5f, secondChild.transform.position.z);
+            //  secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.TransformDirection(Vector3.forward));
+         //   SpotLightLookAt();
         }
+        
       
     }
 }

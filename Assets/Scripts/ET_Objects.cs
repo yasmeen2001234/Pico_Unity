@@ -151,7 +151,7 @@ public class ET_Objects : ETObject , IGazeFocusable
                 if (transform.position != previousPosition)
                 {
                     // The object is moving
-                   parentObject.transform.LookAt(childObject.transform);
+                    parentObject.transform.LookAt(childObject.transform);
                     Debug.Log("Object is moving");
                 }
              //  parentObject.transform.LookAt(childObject.transform);
