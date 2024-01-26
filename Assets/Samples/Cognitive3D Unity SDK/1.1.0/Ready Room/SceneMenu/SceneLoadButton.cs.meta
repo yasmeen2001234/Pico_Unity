@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: a2b963007dfaf8548bb937f4915784dd
 timeCreated: 1582319083
-licenseType: Pro
+licenseType: Store
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/SceneMenu/SceneLoadButton.cs
+  uploadId: 629144

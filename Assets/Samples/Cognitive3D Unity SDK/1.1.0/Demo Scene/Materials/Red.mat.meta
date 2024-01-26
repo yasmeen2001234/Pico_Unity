@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Demo Scene/Materials/Red.mat
+  uploadId: 629144

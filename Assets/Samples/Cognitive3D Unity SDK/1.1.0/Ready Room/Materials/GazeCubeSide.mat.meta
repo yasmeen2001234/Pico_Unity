@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: c8928638bdaecad4fbe4df5402481539
 timeCreated: 1582143882
-licenseType: Pro
+licenseType: Store
 NativeFormatImporter:
   mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/Materials/GazeCubeSide.mat
+  uploadId: 629144

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Windows;
 using UnityEngine.XR;
 
@@ -23,7 +24,7 @@ public class Move_ZAxis : MonoBehaviour
     {
         // Get the parent transform
         Transform parentTransform = transform;
-
+        ResetScene();
         // Check if the parent has at least two children
         if (parentTransform.childCount >= 2)
         {
@@ -57,20 +58,22 @@ public class Move_ZAxis : MonoBehaviour
     }
     void MoveZAxis()
     {
-        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primaryButton, out triggerValue) && triggerValue)
-        {
-            ResetObjectPosition();
-
-
-        } 
-        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.secondaryButton, out triggerValue) && triggerValue)
-        {
-            // secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.forward);
-            //  secondChild.transform.Translate(secondChild.transform.position.x, -0.5f, secondChild.transform.position.z);
-            //  secondChild.transform.Translate(-0.5f * Time.deltaTime * transform.TransformDirection(Vector3.forward));
-         //   SpotLightLookAt();
-        }
+      
         
       
+    }
+
+    void ResetScene()
+    {
+        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primaryButton, out triggerValue) && triggerValue)
+        {
+
+            SceneManager.LoadScene("Pico_modalities 1");
+
+        }
+        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.secondaryButton, out triggerValue) && triggerValue)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

@@ -1,8 +1,15 @@
 fileFormatVersion: 2
 guid: 50bf13f1cd4c7684fabf377a831029bf
 timeCreated: 1582143876
-licenseType: Pro
+licenseType: Store
 DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/ReadyRoom.unity
+  uploadId: 629144

@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: a4db411e8e366454b93c27e2f9c4faba
 timeCreated: 1582155995
-licenseType: Pro
+licenseType: Store
 NativeFormatImporter:
   mainObjectFileID: 100100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/Prefabs/SimpleGrabCube.prefab
+  uploadId: 629144

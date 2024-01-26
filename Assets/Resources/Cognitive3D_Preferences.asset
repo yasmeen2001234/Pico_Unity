@@ -41,8 +41,8 @@ MonoBehaviour:
   LocalStorage: 1
   UploadCacheOnEndPlay: 1
   IncludeDisabledDynamicObjects: 1
-  TextureResize: 1
-  ExportSceneLODLowest: 1
+  TextureResize: 2
+  ExportSceneLODLowest: 0
   sceneSettings:
   - SceneName: PicoScene
     SceneId: f3674c5a-e09f-47ae-b1bd-abdd3f8bc220
@@ -59,6 +59,6 @@ MonoBehaviour:
   - SceneName: Pico_modalities 1
     SceneId: 7fc5e6c9-ee4c-4f4a-bccf-edabfb402984
     ScenePath: Assets/Scenes/Pico_modalities 1.unity
-    LastRevision: 10/17/2023 19:47:18
-    VersionNumber: 1
-    VersionId: 5160
+    LastRevision: 12/16/2023 16:38:54
+    VersionNumber: 4
+    VersionId: 5476

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "PA8E50PGGC010071A",
         "name": "com.Pico_Demo.Pico_updated",
-        "processId": 15319,
+        "processId": 31569,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,36 @@
             "deviceId": "PA8E50PGGC010071A",
             "name": "com.Pico_Demo.Pico_updated",
             "processId": 15319,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 28636,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 4172,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 4176,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 4404,
+            "exited": false
+        },
+        {
+            "deviceId": "PA8E50PGGC010071A",
+            "name": "com.Pico_Demo.Pico_updated",
+            "processId": 31569,
             "exited": false
         },
         {

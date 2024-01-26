@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 2c9b0ffefbd754e409ed99b1fed8bd15
 timeCreated: 1582319885
-licenseType: Pro
+licenseType: Store
 NativeFormatImporter:
   mainObjectFileID: 100100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/Prefabs/SceneButton.prefab
+  uploadId: 629144

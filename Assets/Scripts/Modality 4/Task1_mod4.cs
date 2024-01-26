@@ -50,18 +50,16 @@ public class Task1_mod4 : MonoBehaviour
         // Check if the object has exactly two children
         if (spotlight.childCount == 2)
         {
-            Debug.Log("This object has two children.");
+          //  Debug.Log("This object has two children.");
           SnapTorusGaze();
         }
         else
         {
           
            SnapTorus();
-            Debug.Log("This object does not have two children.");
+          //  Debug.Log("This object does not have two children.");
         }
-     //  SnapTorus();
-       
-    //   SnapTorus();
+    
 
     }
 

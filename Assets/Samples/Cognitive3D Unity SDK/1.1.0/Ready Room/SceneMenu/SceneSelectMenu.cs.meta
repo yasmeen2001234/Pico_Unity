@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 57122e6c22dcacb42a5a4a81b533dda4
 timeCreated: 1582309683
-licenseType: Pro
+licenseType: Store
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240035
+  packageName: Cognitive3D - Spatial Analytics
+  packageVersion: 1.4.0
+  assetPath: Assets/Samples/Cognitive3D Unity SDK/1.1.0/Ready Room/SceneMenu/SceneSelectMenu.cs
+  uploadId: 629144
